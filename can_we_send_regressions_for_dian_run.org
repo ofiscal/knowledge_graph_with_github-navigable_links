@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       c0fc4cb4-6a54-4ce5-b24c-442549a89193
+:END:
+#+title: Can we send regressions for DIAN to run?
+* 2022-10-5, David Suarez said maybe, and that he would check.
+  See Whatsapp. Search for "data governance".

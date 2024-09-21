@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       804931df-c3ad-41fd-9356-124fe6b478ae
+:END:
+#+title: move ofiscal.org to javeriana.edu.co
+* refs
+** I asked Reddit
+   https://www.reddit.com/r/WIX/comments/pp0cfg/can_i_add_some_wix_pages_to_a_nonwix_site/
+* motivation
+  Someone in HR wants to inflate the number of visits registered to javeriana.edu.co.
+* strategies
+  alternatives
+** generate our own traffic to Javeriana
+*** the idea
+    Create a page, javeriana.edu.co/ofiscal,
+    and ping it every time someone visits
+    any page of ofiscal.org.
+*** Daniel knows how
+** move the website to javeriana.edu.co
+   Expensive, hard, slow.
+** redirect from ofiscal to javeriana to ofiscal
+   Would introduce a delay.

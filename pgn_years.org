@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       f34ebb0a-f038-43ae-8c6b-23d91c1ae829
+:END:
+#+title: pgn-years
+git@github.com:ofiscal/pgn-years.git
+* purpose
+  collect PGN data across years
+* TODO
+** incorporate 2023 and 2024 budget data
+** two COP columns: nominal and 2023 COP
+** assign its 2024 sector to each entity regardless of year
+   If the entity disappears, use the last sector it belonged to.

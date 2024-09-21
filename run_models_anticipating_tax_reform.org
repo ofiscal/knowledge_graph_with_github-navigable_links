@@ -1,0 +1,59 @@
+:PROPERTIES:
+:ID:       58d82abc-96d5-4aa9-965e-d406c0f788dd
+:END:
+#+title: run models anticipating tax reform
+* TODO quantiles should be weighted
+* TODO labor income distribution across earners in GEIH
+  https://livejaverianaedu-my.sharepoint.com/:f:/g/personal/juanmartinezb_javeriana_edu_co/Eg7Dlh-fQ9VEjLMjs9k1cRIB-OabYnSibismwH6W3EOeHQ?e=HzxwYP
+  https://livejaverianaedu-my.sharepoint.com/:f:/g/personal/ex-jsmartinez_javeriana_edu_co/EqslmwImGI1AgaVoR_tCceIBIqV9TVTR2MOOwXFTNfX1tQ?e=YGZfpr
+* TODO "income, labor" != "income, labor + cesantias"
+* TODO the fuzz is breaking the nonzero-ness of labor income earners
+* TODO columns to generate
+** salary in minimos (millions COP per month), from 3 to 25
+** current tax bill based solely on labor income
+** BLOCKED future  tax bill based solely on labor income, under scenario:
+*** BLOCKED on Oliver
+** the difference between those two bills
+** the quantile of that salary
+* TODO Bugfix: email attachments depend on user strategy, but strategy is being loaded from the default config file.
+** verify that the process completes, and emails to me
+** undo subsample change on AWS
+** commit changes in tax.co on AWS
+* DONE make new groups
+** one option: 9 deciles, next 9 percentiles, top 10 milliles
+*** 0-10, 10-20, .. 80-90
+*** 90, 91..99
+*** 99.0,99.1..99.9
+** another: 9 deciles, one near-decile, one near-percentile, and the top millile
+*** 0-10, 10-20, .. 80-90
+*** 90-99	(as one group)
+*** 99.0 - 99.9 (as one group)
+*** top millile
+* DONE add rows
+  all kinds of income
+  all kinds of taxes
+* DONE new groups: top ten miltiles
+  in people_4 and households_1, search for "income-perc"
+** DONE generate the income-millile column
+** DONE use the top ten income milliles in the report
+* DONE new stats
+  income, average & total
+  income taxes paid, average & total
+  average tax rate, i.e. average of ( taxes paid / income )
+  aggregate taxes / aggregate income
+* graph change in after-tax income
+* BLOCKED one where there's only one marginal income tax schedule
+  So what's the specific formula? Don't exempt any of the other stuff?
+* BLOCKED other inputs pending
+** one where marginal tax rates on "most" change
+** one where ganacias ocasionales changes
+** BLOCKED one where deductions are absolute rather than proportional
+   What's the deduction limit?
+** one with every change
+* Ponder: Which tax does an increase in revenue/taxes paid come from?
+* DONE ? Can we look within the top 1%
+  See program
+    python/exemplar/zoom_top_quantile.py
+  which outputs to
+    zoom-in-on-rich/
+* actividad economica X formal/informal

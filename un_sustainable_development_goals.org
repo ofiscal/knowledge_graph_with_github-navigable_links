@@ -1,0 +1,77 @@
+:PROPERTIES:
+:ID:       377aa850-0fc7-4d55-834f-7f346c4f3a7c
+:END:
+#+title: UN Sustainable Development Goals
+* things they care about
+** water
+** energy
+** climate
+** oceans
+** urbanization
+** transport
+** science and technology
+** the Global Sustainable Development Report (GSDR)
+** partnerships
+** Small Island Developing States
+* the goals (a list)
+**  1 no poverty
+**  2 no hunger
+*** appears to be rising in South America
+*** some measures
+**** underweight children
+**** quantity of food
+**** quality  of food
+*** Good for it
+**** economic growth
+**** agricultural output.
+*** Supposedly good for it
+**** sustainable agriculture
+**** supporting small-scale farmers
+**** equal access to land, technology and markets
+*** Bad for it
+**** environmental degradation
+**** drought
+**** biodiversity loss
+**  3 health and well-being
+*** obvious ways to measure
+*** sub-goals
+**** universal health coverage
+*** gender matters
+**  4 education
+*** Subgoal: universal access.
+*** Big inequalities: urban-rural, gender, income.
+*** Bad: Armed conflict, poverty, other emergencies.
+**  5 gender equality
+*** "Empowering women and girls helps economic growth and development."
+*** components
+**** Sexual violence and exploitation
+**** the unequal division of unpaid care and domestic work
+**** discrimination in public office
+**** extra bad for females: climate change, disasters, conflict, migration
+**  6 clean water and sanitation
+*** ways to get there
+**** infrastructure, inc. sanitation facilities
+**** hygiene education
+**  7 energy: affordable and clean
+**  8 decent work and economic growth
+**  9 industry, innovation and infrastructuree
+*** ofiscal promotes this by promoting less distortionary business taxes
+** 10 reduced inequalities
+** 11 sustainable cities and communities
+*** sub-goals
+**** creating career and business opportunities
+**** safe and affordable housing
+**** DONE (mushy) building resilient societies and economies
+**** investment in public transport
+**** creating green public spaces
+**** improving urban planning and management
+**** in participatory and inclusive ways
+** 12 responsible consumption and production
+*** example: water
+**** polluting it less
+**** using it more efficiently
+** 13 climate action
+** 14 life below water
+** 15 life on land
+** 16 peace, justice, and strong institutions
+** 17 partnerships for the goals
