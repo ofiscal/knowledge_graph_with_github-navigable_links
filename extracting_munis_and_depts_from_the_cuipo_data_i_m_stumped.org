@@ -2,7 +2,7 @@
 :ID:       9e455949-ed3a-4690-a85a-1f75988fbd9a
 :END:
 #+title: extracting munis and depts from the CUIPO data (I'm stumped)
-* [[https://github.com/JeffreyBenjaminBrown/secret-org/blob/master/juan-camilos-response-re-isolating-munis-and-depts-in-cuipo.org][Juan Camilo's response]]
+* [[https://github.com/JeffreyBenjaminBrown/secret_org_with_github-navigable_links/blob/master/juan-camilos-response-re-isolating-munis-and-depts-in-cuipo.org][Juan Camilo's response]]
 * Daniel's translation of it into Spanish
 ** the message, formatted for Whatsapp
 ```

@@ -36,4 +36,4 @@
 ** weird: fiscal policy can be equalizing and simultaneously poverty-increasing
 *** example: a progressive tax that vanishes, benefitting nobody
 *** better: make the poor net beneficiaries
-* used by the [[https://github.com/JeffreyBenjaminBrown/public-notes-in-org-roam-format/blob/master/agence_francaise_de_developpement.org][Agence Française de Développement]]
+* used by the [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/agence_francaise_de_developpement.org][Agence Française de Développement]]

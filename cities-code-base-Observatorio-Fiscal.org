@@ -15,15 +15,15 @@
 * refs
 ** https://github.com/ofiscal/cities
 ** https://github.com/ofiscal/cities-output
-** [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/history_of_municipal_finance_in_colombia_meeting_2023_05_24_wed_with_jaime_from_banco_de_la_republica.org][history of municipal finance in Colombia : meeting <2023-05-24 Wed> with Jaime from Banco de la República]]
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/history_of_municipal_finance_in_colombia_meeting_2023_05_24_wed_with_jaime_from_banco_de_la_republica.org][history of municipal finance in Colombia : meeting <2023-05-24 Wed> with Jaime from Banco de la República]]
 * TODO Rename "TOTAL DE LA DEUDA" in the CUIPO gastos key
   to "Pago de la deuda"
 * TODO BUG: Where did muni code = -2 go?
   It is created, supposedly, in
     Code/build/budget_6p7_avg_muni.py
   but I don't see it in the data.
-* [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/chip_gov_co.org][chip.gov.co (website)]] *seems* to have what I need
-* TODO [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/ask_whether_codes_are_comparable_from_sisfut_to_cuipo_ofisca_cities.org][ask whether codes are comparable from SISFUT to CUIPO \\ ofisca./cities]]
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/chip_gov_co.org][chip.gov.co (website)]] *seems* to have what I need
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/ask_whether_codes_are_comparable_from_sisfut_to_cuipo_ofisca_cities.org][ask whether codes are comparable from SISFUT to CUIPO \\ ofisca./cities]]
 * TODO incorporate this change
   raw_series now comments out the line
     #  , ("Código Concepto", "Concepto" )
@@ -36,7 +36,7 @@
   That means that downstream from "budget_0_collect.py"
   I should drop that "concepto" column.
 * TODO is vintage-dependent-admin-timespan done?
-* TODO understand and use [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/cuipo_data.org][CUIPO data]]
+* TODO understand and use [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/cuipo_data.org][CUIPO data]]
 * BLOCKED on other people
 ** TODO can we get new [2023, updated from 2019] regalias data?
    See these files:
@@ -107,7 +107,7 @@
    available from SISFUT
    The new methodology might not be available for recent years.
 ** DONE
-*** [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/split_the_data_flow_by_2019_2023_ofiscal_cities.org][Split the data flow by 2019 | 2023 \\ ofiscal / cities]]
+*** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/split_the_data_flow_by_2019_2023_ofiscal_cities.org][Split the data flow by 2019 | 2023 \\ ofiscal / cities]]
 *** Makefile problems
 **** Why is sample_tables running?
 **** Why are some paths being read as files at /?

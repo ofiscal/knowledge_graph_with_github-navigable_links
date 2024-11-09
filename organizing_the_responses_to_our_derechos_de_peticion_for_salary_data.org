@@ -29,7 +29,7 @@ https://drive.google.com/drive/folders/1JlcRgcPDsjhJx7oP5g_A64wZkKYwH2rp?usp=sha
   ├── reconnaissance.py
   ├── temp.py
   └── types.py           # understood
-* TODO [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/u_meeting_notes_2023_09_12_tue.org][u, meeting notes <2023-09-12 Tue>: legal structure of the budget]]
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/u_meeting_notes_2023_09_12_tue.org][u, meeting notes <2023-09-12 Tue>: legal structure of the budget]]
 * TODO understand what Angelica sent
   when I asked if responses were complete
   https://mail.google.com/mail/u/0/#inbox/KtbxLvHHktvmmttNdMhLjQKGlNdNHvhPnB

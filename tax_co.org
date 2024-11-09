@@ -4,51 +4,51 @@
 #+title: tax.co
 * TODO try touching a file that makes Haskell run again
   or add Haskell files to the Makefile
-* TODO [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/add_ss_taxes_to_sim_output_2023_11_17_fri_tax_co.org][add SS taxes to sim output <2023-11-17 Fri> \ tax.cco]]
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/add_ss_taxes_to_sim_output_2023_11_17_fri_tax_co.org][add SS taxes to sim output <2023-11-17 Fri> \ tax.cco]]
 * TODO ? Pension income should mostly be exempt from income tax.
 :PROPERTIES:
 :ID:       c0c23f3f-4e53-4634-83cc-12c94d921f71
 :END:
   Is something subtracted from it at some point?
-* TODO [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/make_microsimulation_if_possible_match_dane_s_and_gabriel_s_income_stats.org][make microsimulation (if possible) match DANE's and Gabriel's income stats]]
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/make_microsimulation_if_possible_match_dane_s_and_gabriel_s_income_stats.org][make microsimulation (if possible) match DANE's and Gabriel's income stats]]
 * TODO ? quantiles are computed without weights.
   This might be the best way to do it:
   https://stackoverflow.com/questions/21844024/weighted-percentile-using-numpy/63440143#63440143
   Oliver believes Gabriel already did this.
-* SEE ALSO [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/tax_co_web.org][tax.co.web]]
+* SEE ALSO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co_web.org][tax.co.web]]
 * refs
 ** github
    https://github.com/ofiscal/tax.co
    git clone git@github.com:ofiscal/tax.co.git
-** [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/tax_co_the_paper_about.org][tax.co, the paper about]]
-** [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/tricks.org][tricks - how to do some things]]
-** [[https://github.com/JeffreyBenjaminBrown/public-notes-in-org-roam-format/blob/master/multi_sample_estimation_econometrics.org][Multi-Sample Estimation (econometrics)]]
-** [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/how_to_onboard_someone_to_the_tax_co_repositories.org][how to onboard someone to the tax.co* repositories]]
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co_the_paper_about.org][tax.co, the paper about]]
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tricks.org][tricks - how to do some things]]
+** [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/multi_sample_estimation_econometrics.org][Multi-Sample Estimation (econometrics)]]
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/how_to_onboard_someone_to_the_tax_co_repositories.org][how to onboard someone to the tax.co* repositories]]
 * reasons our total income measure might not match DANE's
 ** reasons, via Juan Miguel Villa
 *** Value of house
 *** Autoconsumo (e.g. farming)
 ** Daniel says he thinks we considered these
    and had good reason not to include them.
-* TODO [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/un_hardcode_those_zero_income_tests_tax_co.org][un-hardcode those zero-income tests \ tax.co]]
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/un_hardcode_those_zero_income_tests_tax_co.org][un-hardcode those zero-income tests \ tax.co]]
 * TODO ? I restored all the data sets that were disabled in var_summaries_by_group, but have not updated the Makefile accordingly.
   and it's not clear that I should.
   Maybe I should just put one of them as a representative.
 * TODO BUG: Why did compare.py get stuck for a day?
    When I killed it, make completed, with a "terminated by user" error in the stderr file but otherwise the stdout file looked normal.
    Does the sim not like negative tax rates? That's the only difference I see between the run that got stuck (had negative rates) and the one that merely ran compare.py three times.
-* TODO | PITFALL: [[https://github.com/JeffreyBenjaminBrown/public-notes-in-org-roam-format/blob/master/do_not_exceed_daily_automatic_gmail_send_limit.org][Do not exceed daily automatic Gmail send limit.]]
-* TODO long-term: use [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/geih.org][geih]] to supplement the [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/enph.org][enph]]
+* TODO | PITFALL: [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/do_not_exceed_daily_automatic_gmail_send_limit.org][Do not exceed daily automatic Gmail send limit.]]
+* TODO long-term: use [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/geih.org][geih]] to supplement the [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/enph.org][enph]]
 ** some people Oliver thinks could help
-   [[https://github.com/JeffreyBenjaminBrown/secret-org/blob/master/jairo_nunez.org][Jairo Nuñez]] + David Guerrero (Externado) + someone junior (ask him)
+   [[https://github.com/JeffreyBenjaminBrown/secret_org_with_github-navigable_links/blob/master/jairo_nunez.org][Jairo Nuñez]] + David Guerrero (Externado) + someone junior (ask him)
 ** TODO separate growth rates: labor, capital, pension, maybe dividend
-** [[https://github.com/JeffreyBenjaminBrown/public-notes-in-org-roam-format/blob/master/multi_sample_estimation_econometrics.org][Multi-Sample Estimation (econometrics)]]
+** [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/multi_sample_estimation_econometrics.org][Multi-Sample Estimation (econometrics)]]
 ** goal: maximally up-to-date income, expenditure data
 ** GEIH has no consumption data
 ** the "Medicion de Pobreza ..."
 ask Daniel about it
 is a good measure of income distribution
-* TODO use [[https://github.com/JeffreyBenjaminBrown/public-notes-in-org-roam-format/blob/master/pyright.org][Pyright]]
+* TODO use [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/pyright.org][Pyright]]
 * TODO Would be cool if there were a field for a user-provided name.
 * include interpreting-the-output.md in attachments
 modified   python/requests/main.py
@@ -69,8 +69,8 @@ modified   python/requests/main.py
 * TODO ? draw a poverty line
 * verify we don't use retencion en la fuente
   P1652S2 & P1652S2A1
-* [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/extending_tax_co_with_quantile_data_from_dian.org][extending tax.co with quantile data from DIAN]]
-* TODO [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/gender_split_data_sets_might_have_bad_quantile_definitions.org][gender-split data sets might have bad quantile definitions]]
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/extending_tax_co_with_quantile_data_from_dian.org][extending tax.co with quantile data from DIAN]]
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/gender_split_data_sets_might_have_bad_quantile_definitions.org][gender-split data sets might have bad quantile definitions]]
 * TODO Solve / Internalize : If the strategy changes but a user already has data generated from the other one, the makefile gets confused.
   A dumb solution is to nuke the user's data folder
   each time its strategy changes.
@@ -88,7 +88,7 @@ per_column_spec = {
 for k,v in per_cell_spec.items():
   assert v . test( out[k] )
 * TODO It's confusing that the baseline gets emailed too.
-* TODO ? [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/rewrite_algorithm_to_compute_cedula_gravable_general.org][rewrite algorithm to compute cedula gravable general]]
+* TODO ? [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/rewrite_algorithm_to_compute_cedula_gravable_general.org][rewrite algorithm to compute cedula gravable general]]
 * TODO Inflate from 2017 to 2022
 * TODO automate this test
   python/regime/test.py
@@ -116,7 +116,7 @@ for k,v in per_cell_spec.items():
   There are too many definitions like income_short_name_dict_cash.
   They make refactoring a nightmare.
   Unless such a thing gets used many times, don't bother defining it.
-* TODO ? Use [[https://github.com/JeffreyBenjaminBrown/public-notes-in-org-roam-format/blob/master/parquet_file_format.org][parquet (file format)]].
+* TODO ? Use [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/parquet_file_format.org][parquet (file format)]].
 * How to see that total income includes (exactly once) all capital income
 ** dividends are covered exactly once
 It's only in income_short_name_dict_cash,
@@ -154,7 +154,7 @@ because it is not part of `income_infrequent`.
    Otherwise, DIAN for both payroll and income taxes for the rich, ENPH for the rest.
 * TODO update documentation
 ** the way it's run is now completely different
-* TODO [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/tax_co_web.org][put tax.co online]]
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co_web.org][put tax.co online]]
 * TODO clean
 ** try pydoc
 ** do subprocess the same everywhere
@@ -217,7 +217,7 @@ That's why, for instance, its max in purchases_2_vat_test is 0.27, not 19.
 (0.27 is the total tax levied on big motorcycles --
 the usual 19%, plus 8% more.)
 * TODO mysteries
-** TODO [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/what_are_the_aggregate_income_expenditure_variables_in_the_enph.org][What are the aggregate income, expenditure variables in the ENPH?]]
+** TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/what_are_the_aggregate_income_expenditure_variables_in_the_enph.org][What are the aggregate income, expenditure variables in the ENPH?]]
 ** TODO Do my income variables include SS withholdings, etc?
   Write this up somewhere.
 ** TODO What does "otros impuestos" include?
@@ -330,7 +330,7 @@ But we don't use them.
 ** TODO ? throw out purchasees with absurd quantities?
 Something in the full sample has a quantity value of 9e7.
 * TODO test suite
-** TODO [[https://github.com/JeffreyBenjaminBrown/public-notes-in-org-roam-format/blob/master/tests_and_io_computer_programming.org][tests and IO (computer programming)]]
+** TODO [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/tests_and_io_computer_programming.org][tests and IO (computer programming)]]
 ** TODO My tests in tax.co don't compose.
 :PROPERTIES:
 :ID:       33e6fa69-2fb8-40d4-8037-cbcf19d552b4
@@ -919,11 +919,11 @@ but zero people in the sample received any of it:
 ** "P6500 (asalariado income) > 0" should be perfecty corr'd with pension contrib's
 ** ??? pension contribs = formality.
 * DONE | hopefully stale
-** DONE [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/makefile_running_var_summaries_by_group_py_too_many_times_from_cron_job_bug_tax_co_web.org][Makefile *still* <2023-09-08 Fri> running baseline programs when nothing has changed \ bug, tax.co.web]]
+** DONE [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/makefile_running_var_summaries_by_group_py_too_many_times_from_cron_job_bug_tax_co_web.org][Makefile *still* <2023-09-08 Fri> running baseline programs when nothing has changed \ bug, tax.co.web]]
 ** DONE use IT to compute household income quantiles
    but keep using "income" for quantiles in the individual-level reports
 *** compare IT to "income"
-** NAH [[https://github.com/JeffreyBenjaminBrown/public-notes-in-org-roam-format/blob/master/install_python_3_12_in_ubuntu.org][install python 3.12 in Ubuntu]]
+** NAH [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/install_python_3_12_in_ubuntu.org][install python 3.12 in Ubuntu]]
 ** DONE (now run-makefile.py handles this) Internalize: Baseline config file must match sample size of user config file
 :PROPERTIES:
 :ID:       6c7711c7-c228-4400-bd26-ce39997e2681
@@ -931,7 +931,7 @@ but zero people in the sample received any of it:
    This only matters when running by hand;
    the online sim automatically sets both to 1.
 ** DONE order households by per-capita income
-** [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/run_models_anticipating_tax_reform.org][run models anticipating tax reform]]
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/run_models_anticipating_tax_reform.org][run models anticipating tax reform]]
 ** estimate november-2018 reform effects
 *** the motorbike tax
  After the reform, would be 27% on all bikes.

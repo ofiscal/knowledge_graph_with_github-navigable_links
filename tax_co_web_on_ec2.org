@@ -4,7 +4,7 @@
 :END:
 #+title: deploy tax.co.web over AWS EC2
 * refs
-  [[https://github.com/JeffreyBenjaminBrown/public-notes-in-org-roam-format/blob/master/aws-frequently-used-commands.org][AWS, frequently used commands]]
+  [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/aws-frequently-used-commands.org][AWS, frequently used commands]]
 * TODO think about this diff
 ** it's between the aws branch on EC2 and the master branch
 ** I can't save it as AWS because there appears to already be something called AWS on Github.
@@ -50,10 +50,10 @@ index ccf3f51..d4b3c7c 100644
 
  # Start a docker container based on the latest image.
  docker run --name tax -itd                   \
-* TODO ? use [[https://github.com/JeffreyBenjaminBrown/public-notes-in-org-roam-format/blob/master/terraform_open_source_cli_for_cloud_computing.org][Terraform]]
-* TODO understand [[https://github.com/JeffreyBenjaminBrown/public-notes-in-org-roam-format/blob/master/hibernation_for_aws_ec2.org][hibernation for AWS EC2]]
+* TODO ? use [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/terraform_open_source_cli_for_cloud_computing.org][Terraform]]
+* TODO understand [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/hibernation_for_aws_ec2.org][hibernation for AWS EC2]]
 * to launch an EC2 instance for tax.co.web "from scratch"
-** PITFALL: *WAY EASIER* is to [[https://github.com/JeffreyBenjaminBrown/public-notes-in-org-roam-format/blob/master/aws_ami_amazon_machine_image.org#to-launch-an-ec2-instance-from-an-ami][use the existing AMI]] called "tax.co(.web)"
+** PITFALL: *WAY EASIER* is to [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/aws_ami_amazon_machine_image.org#to-launch-an-ec2-instance-from-an-ami][use the existing AMI]] called "tax.co(.web)"
 ** launch an EC2 instance
 *** PITFALL: Before configuring: Use US East 1 (N Virginia)
     Sao Paolo is almost twice as expensive (as of Jan 2022).
@@ -84,7 +84,7 @@ index ccf3f51..d4b3c7c 100644
      SSH   (default), which (I think) means* port 22
      HTTP  (added),   which (I think) means* port 80
      HTTPS (added),   which (I think) means* port 443
-** [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/tax_co_web_on_ec2.org#to-login-use-ofssh-ofsh][log into it]]
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co_web_on_ec2.org#to-login-use-ofssh-ofsh][log into it]]
 ** install docker, emacs, git, zip
 *** for AL 2:	sudo amazon-linux-extras install docker emacs git
     If that doesn't work, `yum install` might.
@@ -153,7 +153,7 @@ index ccf3f51..d4b3c7c 100644
 **** If this isn't done, Django will tell me, thanks to requirements.txt
 ** git
    git config --global core.editor "emacs -nw"
-     (details [[https://github.com/JeffreyBenjaminBrown/public-notes-in-org-roam-format/blob/master/git_version_control_software.org#configure-git-so-emacs-is-the-default-editor][here]])
+     (details [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/git_version_control_software.org#configure-git-so-emacs-is-the-default-editor][here]])
    Copy ~/.ssh/id_rsa from my home system to the new system.
    chmod 600 ~/.ssh/id_rsa
    git repos: checkout the appropriate branches, update them
@@ -178,12 +178,12 @@ index ccf3f51..d4b3c7c 100644
 :END:
    If it's not working, update the IP address,
    which gets reset after each restart of the EC2 instance.
-** update native [[https://github.com/JeffreyBenjaminBrown/public-notes-in-org-roam-format/blob/master/aws-frequently-used-commands.org#define-my-aws-related-shell-variables][record of the]] IPv4 Public IP address for the EC2 instance
+** update native [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/aws-frequently-used-commands.org#define-my-aws-related-shell-variables][record of the]] IPv4 Public IP address for the EC2 instance
    and login
-** in [[https://github.com/JeffreyBenjaminBrown/public-notes-in-org-roam-format/blob/master/aws_route53.org][AWS Route53]], associate a domain name with the EC2 instance
+** in [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/aws_route53.org][AWS Route53]], associate a domain name with the EC2 instance
 ** start the docker container
 ** TODO add more steps -- start services in the docker container?
-** visit [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/tax_co_web.org#online][manual_ingest online]]
+** visit [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co_web.org#online][manual_ingest online]]
 * create an EC2 backup ("snapshot")
 ** PITFALL why to do that
    So I can stop the EC2 instance and not worry if it's deleted automatically, which it will be if not hibernated.

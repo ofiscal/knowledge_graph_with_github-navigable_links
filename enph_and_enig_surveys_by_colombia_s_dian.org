@@ -6,15 +6,15 @@
 * references
   https://microdatos.dane.gov.co/index.php/catalog/566/get_microdata
   tax.co/hopefully-obsolete/enig-enph,email,david-suarez,2018-02-23.md
-* [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/unit_of_observation_in_the_enph.org][unit of observation in the ENPH]]
-* TODO unmerged notes on the [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/enph.org][enph]]
-* TODO [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/what_are_the_aggregate_income_expenditure_variables_in_the_enph.org][What are the aggregate income, expenditure variables in the ENPH?]]
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/unit_of_observation_in_the_enph.org][unit of observation in the ENPH]]
+* TODO unmerged notes on the [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/enph.org][enph]]
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/what_are_the_aggregate_income_expenditure_variables_in_the_enph.org][What are the aggregate income, expenditure variables in the ENPH?]]
 * PITFALL: These notes files are redundant
 There's an enig.org file, an enph.org file, and this one which pertains to both.
 * PITFALL: These notes are stale, from 2018-ish
 But they might include some insights into the data due to David Suarez not recorded elsewhere.
 * about the variables in it
-** [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/primary_keys_for_some_dane_data.org][primary keys (DIR, SEC and ORD) for some DANE data]]
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/primary_keys_for_some_dane_data.org][primary keys (DIR, SEC and ORD) for some DANE data]]
 ** some GEIH-ENPH variable correspondences
 :PROPERTIES:
 :ID:       84203014-dccc-4ca0-b57a-f83e52b4219b
@@ -30,8 +30,8 @@ But they might include some insights into the data due to David Suarez not recor
      "p6340" : "P6340",
      "p6351" : "P6350",
    }
-** [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/reported_labor_income_is_what_remains_after_some_contributions.org][Reported labor income is what remains after *some* contributions.]]
-** [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/hours_worked_variables_enph.org][hours worked variables]]
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/reported_labor_income_is_what_remains_after_some_contributions.org][Reported labor income is what remains after *some* contributions.]]
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/hours_worked_variables_enph.org][hours worked variables]]
 * to do
 ** interpreting frequencies
 *** problem: 2.1 or 2?

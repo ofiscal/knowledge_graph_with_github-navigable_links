@@ -35,14 +35,14 @@
    (because we're just over 10)
 ** Who is responsible for the grant application
 *** Primary Contact
-    [[https://github.com/JeffreyBenjaminBrown/secret-org/blob/master/oliver_pardo.org][Oliver Pardo]]
+    [[https://github.com/JeffreyBenjaminBrown/secret_org_with_github-navigable_links/blob/master/oliver_pardo.org][Oliver Pardo]]
 *** Secondary Contact
-    [[https://github.com/JeffreyBenjaminBrown/secret-org/blob/master/angelica_vargas.org][Angelica Vargas]]
+    [[https://github.com/JeffreyBenjaminBrown/secret_org_with_github-navigable_links/blob/master/angelica_vargas.org][Angelica Vargas]]
 ** Professional References
-*** [[https://github.com/JeffreyBenjaminBrown/secret-org/blob/master/andres_rosas_wulfers.org][Andres Rosas Wulfers]]
+*** [[https://github.com/JeffreyBenjaminBrown/secret_org_with_github-navigable_links/blob/master/andres_rosas_wulfers.org][Andres Rosas Wulfers]]
 **** relation to the project
      The Observatorio is part of the economics department at Universidad Javeriana. Andres is the dean of the economics, business and accounting departments.
-*** [[https://github.com/JeffreyBenjaminBrown/secret-org/blob/master/luis.org][Luis Carlos Reyes Hernandez]]
+*** [[https://github.com/JeffreyBenjaminBrown/secret_org_with_github-navigable_links/blob/master/luis.org][Luis Carlos Reyes Hernandez]]
 **** relation to the project
      He was once the director of the Observatorio. Now he runs the national tax administration.
 ** We have no research partners.
@@ -57,7 +57,7 @@
    https://mail.google.com/mail/u/0/#search/angelica+innovation/KtbxLzGLlQnMdZqXKtGLRwRHxLxMsFHBMg
 ** reduce the amount
 *** The budget file I have asks for too much, 200 K USD
-** adjust accordingly [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/our_budget_narrative_to_send_to_the_fund_for_innovation_in_development.org][our budget narrative for them]]
+** adjust accordingly [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/our_budget_narrative_to_send_to_the_fund_for_innovation_in_development.org][our budget narrative for them]]
 * DONE difference between Stage 1 and Stage 2 questions
 ** same
 *** "1. Short description of the Solution"
@@ -88,7 +88,7 @@
    Democracy and Governance
 ** DONE Expected duration
    24 months
-** DONE [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/how_we_described_the_contract_transparency_project_to_the_fund_for_innovation_in_development.org#the-short-project-description][short description]]
+** DONE [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/how_we_described_the_contract_transparency_project_to_the_fund_for_innovation_in_development.org#the-short-project-description][short description]]
 ** DONE "Development Challenge"
 *** their question
     What is the problem that you are targeting and how does it affect the lives of people living in poverty and/or marginalized populations? How would solving this problem improve people's lives? How many people does this issue impact both in the country/countries you are working in and globally? Please explain who, specifically, is impacted by the problem (e.g., different genders, age groups, income levels, marginalized populations, etc.).
@@ -100,7 +100,7 @@ On paper, Colombia provides a wealth of services to every population, particular
 Greater transparency would result not just in better spending. It would also, by making officials accountable for their actions, improve democratic outcomes, specifically citizen participation and candidate quality. The government would not only better fulfill its existing promises, but make better ones in the future.
 
 These issues affect, and hence our solution would help, every one of Colombia's 50 million citizens. It would particularly help those citizens who are unable to secure private alternatives to government-provided services -- a group that constitutes more than 90% of the population.
-** DONE [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/how_we_described_the_contract_transparency_project_to_the_fund_for_innovation_in_development.org#the-longer-project-description][Description of the Innovation or Solution]]
+** DONE [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/how_we_described_the_contract_transparency_project_to_the_fund_for_innovation_in_development.org#the-longer-project-description][Description of the Innovation or Solution]]
 ** DONE "Gender Equality"
 :PROPERTIES:
 :ID:       dfd72ac4-d488-4cf9-bb1f-dd2b39dbbfce
@@ -158,7 +158,7 @@ The potential benefits of this program are literally too many to count, but thre
 Since contracts include location data, we can run controlled experiments to determine the effectiveness of the program, by randomly dividing regions into treatment and control groups, and publishing our system's results for the treatment group while withholding it for the control group. After running the intervention for a period long enough to expect some impact -- at least half a year -- the change in contract problematicity in the control and treatment groups will permit statistical testing to determine whether the intervention makes a meaningful difference.
 
 We will use supervised and unsupervised learning to develop our measure of problematicity in government contracts. While this measure will not be the same as corruption or mismanagement, they will be correlated.
-** BLOCKED [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/our_budget_narrative_to_send_to_the_fund_for_innovation_in_development.org][budget narrative to send to the Fund for Innovation in Development]]
+** BLOCKED [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/our_budget_narrative_to_send_to_the_fund_for_innovation_in_development.org][budget narrative to send to the Fund for Innovation in Development]]
 ** DONE Pathway to Scale
 In brief: The system will perform at full scale, covering all of Colombia, as soon as it is built. The negligible cost of maintaining it can be absorbed by Javeriana University.
 
@@ -173,7 +173,7 @@ The project's major expenses are all up-front rather than in maintenance. Once t
 ** BLOCKED Applicant Organization (who we are)
 *** their question
     Please provide an overview of the lead implementing organization and include relevant past experience implementing similar activities. Describe your organization’s area of expertise and within the targeted context and explain both why it is uniquely positioned and has the capacity to implement the proposed activities.
-** DONE [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/risks_to_the_transparency_project_and_mitigation_strategies_as_we_described_to_the_fund_for_innovation_in_development.org][Risks (to launch, to sustain and to scale) and mitigation plans]]
+** DONE [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/risks_to_the_transparency_project_and_mitigation_strategies_as_we_described_to_the_fund_for_innovation_in_development.org][Risks (to launch, to sustain and to scale) and mitigation plans]]
 ** Partner Organizations
 *** our answer
     There are none so far.
@@ -200,7 +200,7 @@ The project's major expenses are all up-front rather than in maintenance. Once t
       También esta página que es directamente de hechos de corrupción (son una entidad aliada)
       https://www.monitorciudadano.co/publicaciones/#datos-abiertos
 **** Public contracts are mismanaged. This makes life worse and economic growth slower for everyone, and  is especially damaging to the most vulnerable households.
-     [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/mismangaement_of_public_funds_in_colombia.org][mismangaement of public funds in Colombia]]
+     [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/mismangaement_of_public_funds_in_colombia.org][mismangaement of public funds in Colombia]]
 **** BLOCKED Alejandro: The information we publish about what the government is doing attracts lots of attention, and ultimately changes public policy. (A good case in point could be our work on the FOME.)
 **** BLOCKED Alejandro: The public pressure of such publications makes industry and government more accountable.
 ** DONE yearly maintenance cost

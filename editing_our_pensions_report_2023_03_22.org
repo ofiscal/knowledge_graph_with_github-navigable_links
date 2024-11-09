@@ -65,4 +65,4 @@ sino que serán transformados en una renta vitalicia.
 *** quote
     no se podrá acceder al mecanismo de pensión anticipada.
 *** That term has not been introduced yet.
-* [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/pension_pillars_as_of_2023_03_21.org][pension pillars as of 2023-03-21]]
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/pension_pillars_as_of_2023_03_21.org][pension pillars as of 2023-03-21]]

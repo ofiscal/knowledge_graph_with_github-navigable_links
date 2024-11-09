@@ -175,4 +175,4 @@ https://www.iaf.gov/es/solicite-fondos/
 * guidance for the budget is found on the last page of the Word document
 * their FAQ
   https://www.iaf.gov/faq/
-* DONE [[https://github.com/JeffreyBenjaminBrown/secret-org/blob/master/our_eligibility_looked_shaky.org][our eligibility looked shaky]]
+* DONE [[https://github.com/JeffreyBenjaminBrown/secret_org_with_github-navigable_links/blob/master/our_eligibility_looked_shaky.org][our eligibility looked shaky]]

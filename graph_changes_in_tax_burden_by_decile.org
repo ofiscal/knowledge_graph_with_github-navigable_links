@@ -17,12 +17,12 @@
 ** to draw paired bar charts, like
    we did in the `cities` repo
    ~/of/_old/cities/Code/draw/chart/pairs.py
-* DONE [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/create_a_new_total_tax_variable.org][Create a new total tax variable.]]
+* DONE [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/create_a_new_total_tax_variable.org][Create a new total tax variable.]]
 * DONE Make a baseline every time.
 :PROPERTIES:
 :ID:       b8f2e47c-a378-439b-8836-769065fb41be
 :END:
-** Bear in mind that because [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/document_the_microsimulation.org#the-iva-buckets-are-approximate][the IVA buckets are approximate]], the baseline is approximate.
+** Bear in mind that because [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/document_the_microsimulation.org#the-iva-buckets-are-approximate][the IVA buckets are approximate]], the baseline is approximate.
 ** DONE Don't modify the Makefile, but create a new user.
    Call the user "baseline" (no ampersand needed).
    Check user/baseline/ into git.
@@ -30,13 +30,13 @@
    then on the current user.
 ** NOPE functionalize `run-makefile.py`
 *** purpose
-    so that it can [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/graph_changes_in_tax_burden_by_decile.org#done-every-time-in-run-makefile-build-two-users][build multiple users]]
+    so that it can [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/graph_changes_in_tax_burden_by_decile.org#done-every-time-in-run-makefile-build-two-users][build multiple users]]
     without a lot of redundant code.
 *** why I decided not to
     It's easier to just run run-makefile twice,
     first passing it the baseline user config.
     That means I'll have to make the
-    [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/graph_changes_in_tax_burden_by_decile.org#run-makefile-should-only-make-the-compare-target-if][targets in run-makefile depend on whether the email is "baseline"]],
+    [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/graph_changes_in_tax_burden_by_decile.org#run-makefile-should-only-make-the-compare-target-if][targets in run-makefile depend on whether the email is "baseline"]],
     but that's worth it --
     the alternative is for one common.py file to refer to another,
     and I have no idea how to do that.
@@ -48,7 +48,7 @@
    The baseline user's config should use the full sample.
    That's affordable because it won't actually run every time --
    it will only build the baseline user when the code changes.
-* DONE [[https://github.com/JeffreyBenjaminBrown/ofiscal/knowledge-graph/blob/master/graph_changes_in_tax_burden_by_decile.org#how-to-draw][Draw]] something that compares to the baseline.
+* DONE [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/graph_changes_in_tax_burden_by_decile.org#how-to-draw][Draw]] something that compares to the baseline.
 ** This should be a separate makefile target. "compare".
    That way I can avoid running it for the baseline user.
    (It wouldn't be terrible if it did,
