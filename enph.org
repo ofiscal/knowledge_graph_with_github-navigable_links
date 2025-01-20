@@ -203,7 +203,7 @@ If it's included, that's weird, because it's monthly
 ******** TODO P6940 = who pays the pension contributions
   option C is illegal
 ******* UNUSED : P6990* : work injury insurance
-******* UNUSED : P9450* : caja de compensacion
+******* UNUSED : P9450* : caja de compensación
 ***** P7040 - ... = second job
 ****** P7070 = income, month : labor : job 2
 ***** P7310 - ... : unemployed (at least mostly)
@@ -612,7 +612,7 @@ Even a tiny bodega has incentive to charge VAT (unless they add more than half t
 ***** takes values 1, 4, 6-7, 10, 13, 16, 19, 20, 24
 ***** 1 » 1 Almacenes o supermercados de cadena y tiendas por departamento
 ***** TODO 2 » 2 Hipermercados
-***** 4 » 4 Supermercados de cajas de compesanciónm, cooperativas, fondos de empleados y comisariatos
+***** 4 » 4 Supermercados de cajas de compensación, cooperativas, fondos de empleados y comisariatos
 ***** no vat 6 » 6.Supermercado y tiendas de barrio
 ***** no vat 7 » 7.Misceláneas de barrio y cacharrerías
 ***** no vat - TODO 8 » 8.Cigarrerías, salsamentarias y delikatessen
@@ -635,7 +635,7 @@ Even a tiny bodega has incentive to charge VAT (unless they add more than half t
 **** articulos
 ***** takes values 1, 4, 6-7, 10, 13-14, 16-17, 20-24, 26
 ***** 1 » 1 Almacenes, supermercado de cadena, tiendas por departamento o hipermercados
-***** 4 » 4 Supermercados de cajas de compesanción, cooperativas, fondos de empleados y comisariatos
+***** 4 » 4 Supermercados de cajas de compensación, cooperativas, fondos de empleados y comisariatos
 ***** 6 » 6 Supermercado de barrio, tiendas de barrio, cigarrerías, salsamentarias y delicatessen
 ***** 7 » 7 Misceláneas de barrio y cacharrerías
 ***** 10 » 10 Plazas de mercado, galerías, mercados móviles, central mayorista de abastecimiento y graneros
@@ -652,7 +652,7 @@ Even a tiny bodega has incentive to charge VAT (unless they add more than half t
 **** rural_personal
 ***** takes values 4, 6, 16, 19-20
 ***** 1 » 1 Almacenes, supermercado de cadena, tiendas por departamento o hipermercados
-***** 4 » 4 Supermercados de cajas de compesanciónm, cooperativas, fondos de empleados y comisariatos
+***** 4 » 4 Supermercados de cajas de compensación, cooperativas, fondos de empleados y comisariatos
 ***** 6 » 6 Supermercado de barrio, tiendas de barrio, cigarrerías, salsamentarias y delicatessen
 ***** 7 » 7 Misceláneas de barrio y cacharrerías
 ***** 10 » 10 Plazas de mercado, galerías, mercados móviles, central mayorista de abastecimiento y graneros
@@ -671,7 +671,7 @@ Even a tiny bodega has incentive to charge VAT (unless they add more than half t
 **** urban_diario_personal
 ***** takes values 1, 6, 21-25
 ***** 1 » 1 Almacenes, supermercado de cadena, tiendas por departamento o hipermercados
-***** 4 » 4 Supermercados de cajas de compesanciónm, cooperativas, fondos de empleados y comisariatos
+***** 4 » 4 Supermercados de cajas de compensación, cooperativas, fondos de empleados y comisariatos
 ***** 6 » 6 Supermercado de barrio, tiendas de barrio, cigarrerías, salsamentarias y delicatessen
 ***** 7 » 7 Misceláneas de barrio y cacharrerías
 ***** 10 » 10 Plazas de mercado, galerías, mercados móviles, central mayorista de abastecimiento y graneros
@@ -693,7 +693,7 @@ Even a tiny bodega has incentive to charge VAT (unless they add more than half t
 ****** 24 appears on the right, and not on the left, of one of these » symbols
 ****** everything else appears on both
 ***** 1 » 1 Almacenes, supermercado de cadena, tiendas por departamento o hipermercados
-***** 2 » 4 Supermercados de cajas de compesanciónm, cooperativas, fondos de empleados y comisariatos
+***** 2 » 4 Supermercados de cajas de compensación, cooperativas, fondos de empleados y comisariatos
 ***** TODO 4 » 6 Supermercado de barrio, tiendas de barrio, cigarrerías, salsamentarias y delicatessen
 ***** TODO 6 » 7 Misceláneas de barrio y cacharrerías
 ***** TODO 7 » 10 Plazas de mercado, galerías, mercados móviles, central mayorista de abastecimiento y graneros
@@ -713,7 +713,7 @@ Even a tiny bodega has incentive to charge VAT (unless they add more than half t
 ***** TODO takes values 1, 4, 6-7, 10, 13, 16-17, 19-21, 23-24
 ****** 21, 23, 24 appear only on the right
 ***** 1 » 1 Almacenes, supermercado de cadena, tiendas por departamento o hipermercados
-***** 2 » 4 Supermercados de cajas de compesanciónm, cooperativas, fondos de empleados y comisariatos
+***** 2 » 4 Supermercados de cajas de compensación, cooperativas, fondos de empleados y comisariatos
 ***** TODO 4 » 6 Supermercado de barrio, tiendas de barrio, cigarrerías, salsamentarias y delicatessen
 ***** TODO 6 » 7 Misceláneas de barrio y cacharrerías
 ***** TODO 7 » 10 Plazas de mercado, galerías, mercados móviles, central mayorista de abastecimiento y graneros
@@ -733,7 +733,7 @@ Even a tiny bodega has incentive to charge VAT (unless they add more than half t
 ***** TODO takes values NaN, 1, 4, 6-7, 10, 13-14, 16-25
 ****** 21-25 appear only on the right
 ***** 1 » 1 Almacenes, supermercado de cadena, tiendas por departamento o hipermercados
-***** 2 » 4 Supermercados de cajas de compesanciónm, cooperativas, fondos de empleados y comisariatos
+***** 2 » 4 Supermercados de cajas de compensación, cooperativas, fondos de empleados y comisariatos
 ***** TODO 4 » 6 Supermercado de barrio, tiendas de barrio, cigarrerías, salsamentarias y delicatessen
 ***** TODO 6 » 7 Misceláneas de barrio y cacharrerías
 ***** TODO 7 » 10 Plazas de mercado, galerías, mercados móviles, central mayorista de abastecimiento y graneros
@@ -753,7 +753,7 @@ Even a tiny bodega has incentive to charge VAT (unless they add more than half t
 ***** takes values 1, 4, 6-7, 10, 13-14, 16-21, 24-25
 ****** 21-25 are found only on the right
 ***** 1 » 1 Almacenes, supermercado de cadena, tiendas por departamento o hipermercados
-***** 2 » 4 Supermercados de cajas de compesanciónm, cooperativas, fondos de empleados y comisariatos
+***** 2 » 4 Supermercados de cajas de compensación, cooperativas, fondos de empleados y comisariatos
 ***** TODO 4 » 6 Supermercado de barrio, tiendas de barrio, cigarrerías, salsamentarias y delicatessen
 ***** TODO 6 » 7 Misceláneas de barrio y cacharrerías
 ***** TODO 7 » 10 Plazas de mercado, galerías, mercados móviles, central mayorista de abastecimiento y graneros
@@ -773,7 +773,7 @@ Even a tiny bodega has incentive to charge VAT (unless they add more than half t
 ***** takes values 1, 21-25
 ****** 21-25 are found only on the right
 ***** 1 » 1 Almacenes, supermercado de cadena, tiendas por departamento o hipermercados
-***** 2 » 4 Supermercados de cajas de compesanciónm, cooperativas, fondos de empleados y comisariatos
+***** 2 » 4 Supermercados de cajas de compensación, cooperativas, fondos de empleados y comisariatos
 ***** TODO 4 » 6 Supermercado de barrio, tiendas de barrio, cigarrerías, salsamentarias y delicatessen
 ***** TODO 6 » 7 Misceláneas de barrio y cacharrerías
 ***** TODO 7 » 10 Plazas de mercado, galerías, mercados móviles, central mayorista de abastecimiento y graneros
