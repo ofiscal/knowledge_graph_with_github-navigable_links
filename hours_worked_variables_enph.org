@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       c9595020-d67a-4139-a7d4-49d806edb8d5
 :END:
-#+title: hours worked variables \ ENPH
+#+title: ENPH / hours worked variables
 * a contiguous group
 ¿El mes pasado recibió ingresos
 por concepto de horas extras?
