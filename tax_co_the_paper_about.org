@@ -1,0 +1,40 @@
+:PROPERTIES:
+:ID:       30fb3fac-5f4b-472b-a437-cc224704ba30
+:END:
+#+title: tax.co , the paper about
+* refs
+** in tax.co
+   tax.co/tex/overview-paper.tex
+** on Overleaf
+   https://www.overleaf.com/project/5e595b989b19b0000110cfbe
+* TODO u [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/notes_on_the_paper_about_tax_co_taken_with_liliana_daniel_2023_11_17_fri.org][notes on the paper about tax.co taken with Liliana & Daniel, <2023-11-17 Fri>]]
+* TODO add a "limitations" section
+** a list
+*** we assume sales are immediate
+    that is, taxed as "income, non-labor (tax def)"
+    rather than "ganancias ocasionales".
+*** desactualizado
+*** not representative in the upper tail of income
+*** divide by zero, consumption not matching income
+*** restaurants and hotels are grouped together but have different VAT rates
+** make clear which are our fault and which are data limitations
+* TODO mention how flexibly we can model VAT changes
+  makes it hard to export but more useful for Colombia
+* TODO Say why each VAT in the 12 main categories is what it is.
+* TODO Talk about the COICOP table.
+* TODO Tell the economists they have to read the source code
+  because comments are invisible.
+* TODO Assign tasks to co-authors.
+* TODO Write this into the microsim paper.
+  esp. p. 14
+  https://www.ofiscal.org/_files/ugd/e33cdb_450d78d0701445b7a4b2fd4d0ad9fcb9.pdf
+** Just say what happens to the top and bottom deciles.
+* TODO write up flat VAT sim results
+** what the sims Daniel ran are
+*** one is the default -- no changes
+*** one is the VAT all at 19%
+* BLOCKED (whatsapped) : ask Oliver for institutional details of flat tax sim
+* BLOCKED (emailed) : [[https://github.com/JeffreyBenjaminBrown/secret_org_with_github-navigable_links/blob/master/microsimulation-questions-about-sent-to-LCR.org][LCR, questions about it that I sent]]
+* TODO edits
+** We are estimating theoretical tax burden, not actual.
+   if all the laws were enforced and obeyed

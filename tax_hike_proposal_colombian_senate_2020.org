@@ -1,0 +1,46 @@
+:PROPERTIES:
+:ID:       b03dbe01-ce5a-46ac-b2d3-7e22949781a1
+:END:
+#+title: tax hike proposal, Colombian Senate, 2020
+* the law
+** new and changed taxes
+*** part 1: wealth tax change
+ I'm asking Daniel if it's measured in pesos (surely it is) or UVT.
+ The brackets have changed but so too have the rates risen a lot,
+ so we can put a minimum on the increase in revenue.
+*** part 2: personal dividend income tax change
+*** part 3: personal income tax change
+ Section 3, the first table.
+ (The second one in theory should have no effect.)
+*** part 4: change in inheritance tax
+** all other taxes remain unchanged
+*** and the definitions of the income they cover are the same
+* TODO modifying tax.co for the proposal
+** PTIFALLS
+*** everything is specified in UVTs
+*** I have not included inheritance income in
+**** non-labor income
+**** private income
+*** The proposal's changes are only to schedules, not definitions.
+**** The definitions of income taxed are the same.
+**** All other taxes continue to apply, except the old inheritance tax.
+Previously inheritance was part of the set of "ingresos ocasionales"
+taxed at 20%. Now it is progressive, and the old tax on it no longer applies.
+** DONE inheritance income: incorporate into relevant totals
+** DONE inheritance income: add taxes for it
+ape the dividend tax
+** DONE inheritance income: propogate to (not through) overview.py
+** DONE replace python.regime.r2018.non_dividend_income_tax
+** DONE replace the dividend portion of python.regime.r2018.income_taxes
+** DONE include both pre- and post-proposal taxes
+** TODO ? tests
+** TODO present
+*** Compute average of a given kind of tax per percentile.
+*** Graph tax/income against income %ile for each kind of tax (2 curves/plot).
+*** Total tax/income against income %ile, including VAT and SS.
+* the current wealth brackets
+via Daniel
+https://www.dian.gov.co/impuestos/reformatributaria/impuestoalariqueza/Paginas/comoliquidoimpuesto-.aspx
+* does DIAN say how much revenue they took in from each wealth bracket in the wealth tax?
+Daniel's not sure this is it, but
+"the best data set I found was Estadísticas de recaudo mensual" (attached to the email).
