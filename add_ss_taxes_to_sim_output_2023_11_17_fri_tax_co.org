@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       221ad7b4-ca6c-49d9-a7bf-8377c56872a1
+:END:
+#+title: add SS taxes to sim output <2023-11-17 Fri> \ tax.co
+* the new functions and tax names in python/build/ss/functions.py
+  [ ( "tax, ss, ARL",
+      mk_arl)
+  , ( "tax, ss, ARL, employer",
+      mk_arl_employer)
+  , ( "tax, ss, aux transporte, employer",
+      mk_aux_transporte_employer)
+  , ( "vacaciones, employer",
+      # PITFALL: not a tax -- that's why its name looks different.
+      mk_vacaciones_employer) ]
+* TODO Should cesantias, primas and vacaciones be prefixed "income" and included in various "income" sums?
+* DONE the new vars in python/build/ss/schedules.py
+  ARL
+  aux transporte
+  vacaciones

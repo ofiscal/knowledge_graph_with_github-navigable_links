@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       62c907a9-7b2b-487e-80a8-c7df64e7f591
+:END:
+#+title: look over section three of our report 2022-10-08
+* DONE
+** "Actualmente cada tipo de ingreso tiene un tratamiento diferencial"
+   I don't feel like that's accurate.
+** "n la legislación vigente, las exenciones y deducciones ya cuentan con un tope del 40% de la renta líquida (la suma de las rentas menos los aportes a la seguridad social). Por tanto,  alguien con una renta líquida de $100 millones mensuales puede hoy en día sumar hasta $40 millones mensuales "
+   I don't think so.
+   5040 * 38e3 / 12 = 1.596e7
+   so the most you can deduct under curent law is about 16e6 per month.
+** "una persona con cinco dependientes podrá deducir $920 mil mensuales por concepto de dependientes"
+   I would say "con cinco dependientes podrá [claim 4 of them and] deducir ..."
