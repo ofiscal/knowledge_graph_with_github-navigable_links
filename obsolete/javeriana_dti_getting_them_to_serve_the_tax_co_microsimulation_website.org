@@ -1,0 +1,80 @@
+:PROPERTIES:
+:ID:       b5f2f6bc-1078-419d-87d4-71d482fb1276
+:END:
+#+title: Javeriana DTI: getting them to serve the tax.co microsimulation website
+* case number 245936
+* my latest response to DTI
+** what I said in brief
+   Who's in charge of this shit?
+   Here's what the app does: _.
+** planned response
+*** original, nixed
+Justificación:
+==============
+
+  Varios me han dicho que tal vez DTI me puede servir un sitio web que estoy programando. (Todavía me falta tal vez un mes de trabajo en ello.)
+
+Situación actual:
+=================
+
+  He preguntado muchas veces si lo pueden hacer, y descrito a muchos como funcionará la aplicación (a Claudia, Dario, Laura, y quien séa el que lea el correo mesaservicios_dti@javeriana.edu.co). Cada uno me ha dicho tengo que discutir con otra persona para resolver el pedido.
+
+*** sent, 2021 02 02
+Justificación:
+==============
+
+  Tengo entendido que la DTI me puede ayudar a albergar un sitio web interactivo que estoy programando para el Observatorio Fiscal de la Facultad de Ciencias Económicas y Administrativas.
+
+Situación actual:
+=================
+
+  Me gustaría saber quién es la persona a cargo del hosting en el servidor de la universidad para poder proceder a implementar el proyecto que tenemos en el Observatorio.
+
+Cambios esperados:
+==================
+
+  La microsimulación permitirá que alguien especifica parametros alternativos del sistema tributario -- la tasa del impuesto de renta, la tasa sobre dividendos, la IVA, etc. -- para ver como afectaría la economía. Un usuario especifica los parametros, y el sistema genera unas tablas y graficas. El usuario puede ver las graficas en el navegador, y puede descargar las tablas.
+
+  La especificación del IVA es complejo, porque cada clase de bien puede cargar una tasa diferente. Para permitir que un usuario pueda especificar tasas diferentes para cada clase de bien, le da la opción de subir una tabla (.xslx) al sistema mientras escojan los otros parametros.
+
+  El programa requiere alrededor de 50 GB. Cada vez que corre el modelo genera alrededor de 2.1GB de datos, y es multiusuario, así que tiene que guardar los datos de algunos usuarios a la misma vez. También empieza con alrededor de 10 GB de datos originales, de los cuales se genera los productos de datos espeficas para cada usuario. La mayoría de esos datos de orígen son la Encuesta Nacional de Presupuestos de Hogares, hecho por el DANE.
+
+  La aplicación está hecho en un contenedor Docker, así que no necesita acceso al disco entero de la máquina anfitriona; solo necesita su propio directorio.
+
+  El imagen Docker tendría un peso alrededor de 10 GB. (Eso ya he incluido en el anterior requisito de 100 GB.) Ese imagen incluye el servidor Apache; no tiene que usar otro servidor.
+
+  Cada vez que el sistema corre la simulación, los resultados se guardan en el disco por un día. Una vez existen, envia un correo al usuario, dicidendoles que están listos para ver y dando un enlace donde encontrarlos. Si la porción de la memoria aporcionada para la aplicación está lleno cuando un usuario pide resultados, tienen que esperar hasta que los de algún usuario han sido borrados.
+
+  Si algo falla durante el proceso, el sistema me enviará a mi un correo explicando el error. Por eso yo necesitaré acceso al contenedor Docker, y a la porción del disco que usa el contenedor Docker. No necesitaré acceso al sistema fuera de ese directorio.
+* who
+** mesaservicios-dti@javeriana.edu.co
+** Claudia Patricia Forero Rodriguez <cpforero@javeriana.edu.co>
+  said to write to mesaservicios-dti
+** Dario Rivillas Ossa <drivilla@javeriana.edu.co>
+** Laura <Last name?> at DTI called me
+   I explained the project, she said someone else would contact me.
+   That was around Thursday Jan 28 or Friday 29.
+* what I want
+La microsimulación permite que alguien especifica parametros alternativas del sistema tributario -- la tasa del impuesto de renta, o la tasa sobre dividendos, o la IVA -- para ver como afectaría la economía. Un usuario especifica los parametros, y el sistema genera unos tablas y graficos. El usuario puede ver los graficos en el navegador, y puede descargar las tablas.
+
+La especificación del IVA es complejo, porque cada clase de bien puede cargar una tasa diferente. Para permitir que un usuario pueda especificar tasas diferentes para cada clase de bien, le da la opción de subir una tabla (.xslx) al sistema mientras escojan los otros parametros.
+
+El programa puede usar menos de 20 GB de memoría para almacenar los datos funamentales (la Encuesta Nacional de Presupuestos de Hogares, hecho por el DANE), los subidos por usuarios, y los creado por el sistema. Está hecho en un contenedor Docker, así que no necesita acceso al disco entero de la máquina anfitriona; solo necesita su propio directorio, lo cual puede empezar vacio.
+
+El imagen Docker tendría un peso alrededor de 10 GB. (Eso ya he incluido en el anterior requisito de 100 GB.) El imagen incluye el servidor Apache; no tiene que usar otro servidor.
+
+Si el imagen tuviera acceso a más memoria, podría usar menos capacidad computacional. Alacenaría los resultados de los usuarios, así que si alguien pide algo que ya ha simulado, no tendría que simularlo de nuevo. Si me dicen que puede usar, digamos, hasta 50 GB, entonces cuando está a punto de pasar ese nivel borraría los resultados más viejos hasta que puede mantenerse debajo de ese límite.
+* Claudia said to specify
+  Sobre esta solicitud deben realizar un caso a la mesa de ayuda informan que ustedes tienen un programa donde están desarrollando una plataforma para  los servicios descrito en el correo, por favor en este correo ser especifico la parte técnica, como: el programa es multiusuario, como van hacer las conexiones, como va estar conectado el programa para que las persona ingresen los datos ejemplo por medio de  WEB? o como lo tiene pensado.
+* form that mesaservicios-dti sent me (filled)
+JUSTIFICACIÓN:
+
+Claudia Patricia Forero Rodriguez del DTI me dijo que yo podría entrar al sitio Servir-T. Quiero hacer eso para preguntar si la aplicación web que estoy desarrollando se puede servir de la javeriana, o si tendría que usar otro dominio web.
+
+SITUACIÓN ACTUAL:
+
+El sistema Servir-T no me reconoce. Estoy usando el mismo nombre de usuario (brown-j) y clave que me permiten entrar al correo Javeriana, a Teams, etc.
+
+¿CUÁLES SON LOS CAMBIOS ESPERADOS?
+
+Espero o que el sistema me reconozca.

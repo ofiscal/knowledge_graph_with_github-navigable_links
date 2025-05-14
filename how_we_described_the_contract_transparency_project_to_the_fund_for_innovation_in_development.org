@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       d9a9122c-2758-4456-90c7-73fb18b5d39e
+:END:
+#+title: how we described the contract transparency project to the Fund for Innovation in Development
+* the short project description
+:PROPERTIES:
+:ID:       85a5318b-8b3e-4d9e-bd4d-d5d443c12401
+:END:
+** their question
+   Brief description of the project/innovation or solution
+   Please provide a short description of the project and your innovation or solution in no more than two sentences.
+** our answer
+   Our system will automatically detect anomalous public contracts and report them to the public, empowering voters and providing accountability for lawmakers. We will also engage in communication efforts -- with the media, with lawmakers, various forms of publication, and colloquia -- to make the system's findings known.
+* the longer project description
+:PROPERTIES:
+:ID:       cf93884b-a3e2-4dae-ba7b-2aeb46db1660
+:END:
+** their question
+   Please provide a brief description of your innovation or solution and how it addresses the development challenge. In this description, please summarize why your approach is innovative: why does your innovation have potential to address the development challenge more easily, at lower cost, faster, or more feasibly at scale than the status quo or alternative solutions? Please indicate the alternative solutions that already exist and specifically how your innovation differs. What are the advantages of your innovation compared to existing solutions to address the development challenge? Please address whether your innovation has been piloted and what you have learned from piloting. In your response, please discuss results you have achieved to date, including the number of people your innovation or solution currently serves and any evidence of demand for your innovation or that the innovation fills an identifiable need.
+** our answer
+The information needed to monitor public contracts in Colombia is, technically, available to everybody. Colombia publishes data on public contracts in a number of online databases. The amount of data, while incomplete, is extremely large, and with some difficulty it can be searched. If a citizen suspected a specific contract of being mismanaged, they could typically find a great deal of information regarding it from these systems. But systematically traversing the data as it is updated to look for anomalies would require an impossible amount of time, were a human to do it.
+
+A computer could do it, though, and that is our plan. We have already written code that can extract data from some of the online contract databases. The software that remains to be written is a supervised learning algorithm to automatically detect anomalous contracts, and an automatic system for publication of anomalous results. We have two years of experience creating online systems -- in particular, our online tax microsimulation: http://www.ofiscal-puj.org/microsim/run_make/manual_ingest.
+
+We have five years of experience communicating with lawmakers, the media, and civil society groups -- as abundantly evidenced by our Youtube channel: https://www.youtube.com/channel/UCf75rVz--QES-Xs83tdrl5A/videos We will rely on that experience as we pilot local dissemination efforts -- colloquia in small communities, explaining what the software has discovered about contracts in those communities, and how ordinary citizens can use it to monitor such activity.
+
+This project is not merely innovative, but unique -- it solves a problem nobody has tackled before. The only existing "solution" is to hope that individuals sampling droplets from the ocean of online data on public contracts will somehow be able to provide the accountability that a well-functioning democracy requires. Instead of that -- instead of needing an absurd amount of human labor -- our system will require 24 months of programming and research from a small team.
+
+Once the software is written, it will be able to run indefinitely on a single server, monitoring all public information on contracts available in Colombia, with occasional maintenance from a single programmer-economist. We will continue to engage in publicity efforts, but those will be cheap relative to the up-front cost of developing the system.
+
+Our prior investigations of public contract databases revealed that the funds allocated by the Fondo de Mitigación de Emergencia (FOME) for the Covid emergency were being directed by a private agency under no obligation to make its spending public. The attention we brought to this issue forced the government to move those funds to the ministry of health, which as part of the government is so obligated to make its contracts public. The resulting transparency permitted citizen oversight of spending, resulting in more efficient spending, as well as savings, we believe, of thousands of millions of pesos. And those results came merely from monitoring a single database, manually; our automated system will have a much greater scale.

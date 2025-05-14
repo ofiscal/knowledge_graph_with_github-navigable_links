@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       e76cf2b2-f2fe-4cde-a541-09b990906b86
+:END:
+#+title: getting a grant from the Global Partnership for Social Accountability
+https://thegpsa.org/
+* BLOCKED What does this quote mean? How to do it?
+** the quote
+   "Review your country’s priority theme(s) included in the country call for proposals."
+** my confusion
+   I've found their (general) 5th Call for Proposals,
+   but no (country-specific) "country call for proposals".
+** I've emailed their help desk about it.
+   https://mail.google.com/mail/u/0/#sent/QgrcJHrhvXFmcSzlZtDkVcWvsXkVJkSSnrv
+* their Call for Proposals
+:PROPERTIES:
+:ID:       0c381498-396c-40cd-ba2a-ba8825cb87c7
+:END:
+  https://thegpsa.org/grant-making/grant-selection-process/5th-call-for-proposals/
+* goals of theirs that we can advance
+  "transformative use of social accountability to solve pressing development challenges"
+  "Cross-cutting themes: Inclusion, CivicTech"
+  (from [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/getting_a_grant_from_the_global_partnership_for_social_accountability.org#their-call-for-proposals][their Call for Proposals]])
+* requirements
+  apply in English

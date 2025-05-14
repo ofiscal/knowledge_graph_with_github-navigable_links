@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       5c9fd303-e261-4867-bb0a-d33c57694979
+:END:
+#+title: chip.gov.co (website)
+https://www.chip.gov.co/schip_rt/index.jsf
+* how to get (individual) muni data from it
+  serial
+** Use Brave in Private mode so it doesn't get stuck on a page.
+** Select the first box in the right sidebar, "Consulta : Informe al Ciudadano"
+** Type in some municipality.
+** It offers a giant range of data sets on that municipality.
+   So much that I don't know what to try but it looks like what I want is probably in there.

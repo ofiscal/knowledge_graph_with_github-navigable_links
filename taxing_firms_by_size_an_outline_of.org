@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       441338d2-401d-4ec3-a6bc-f6aee1c29e30
+:END:
+#+title: taxing firms by size, an outline of
+* The definition of progressivity
+  is that the rich pay a higher fraction of their income or wealth in taxes.
+  Income? Wealth?
+* Progressivity is the motivation
+  behind a corporate tax that depends on firm size.
+* Size and profitability are not well coupled
+  Huge firms can be unprofitable.
+* Neither firm size nor profitability predicts owners' wealth well.
+** size and profit
+*** A big company can have low, even negative, profit.
+*** A small company can have high profit.
+    Hedge funds are the canonical example.
+** size and owner wealth
+*** A small company's owner can be rich.
+    Indeed, a single rich person is in many cases be the sole owner of many small companies.
+*** A big company's owners can be poor.
+    Indeed, the owners of numerous large companies are pension funds -- i.e., modulo a middleman, the company is owned by the retirees who save with that fund, and who are as a general rule not rich enough to pay income tax at all.
+* Employees bear some of the cost, too.
+* So it wouldn't have the intended effect. But it would have a couple of clear effects.
+** The relationship between income and taxation would become more chaotic.
+   This is something the government was hoping to reduce, not expand. That's why the government said (as they all seem to say) they would reduce the tax code's number of exemptions and special treatment for different kinds of firms and people.
+** It would give firms an incentive to stay small or to break up.
+   This is bad, because big firms tend to be more productive. There are fixed costs and economies of scale. A nation full of small firms is a nation full of duplicated effort and less production.
+* how to measure size
+** Revenue
+   But some businesses sell a lot without making a lot of money (groceries),
+   and some the reverse (used cars).
+** Law firm
+* In conclusion, please don't tax firms by size.
