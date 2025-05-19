@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       c1b53258-b3bc-4dec-a708-2fa875fcdcfa
+:END:
+#+title: make tax.co.web publishable
+* use more memory on AWS
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/show_images_offer_downloads_from_browser_don_t_email.org][show images, offer downloads from browser, don't email]]

@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       dcc368b4-e09c-4334-9500-d11f203e1fd8
+:END:
+#+title: taxing firms by size
+* TODO add ideas
+** the actual law that is half-approved
+** talk about marginal and average rates
+** effect on government revenue
+* refs
+  [[/home/jeff/of/papers/tax-rates-by-firm-size.minhacienda-2022.pdf][Minhacienda (2022) computes tax rates by firm size]]
+  [[/home/jeff/of/papers/Bachas-et-al.slides.2022-09.pdf]]
+* questions
+** does it work?
+** how to measure size?
+* I can't find a single paper on it.
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/taxing_firms_by_size_an_outline_of.org][taxing firms by size, an outline of]]
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/taxing_firms_by_size_my_essay_on.org][taxing firms by size, my essay on]]
+* ? citations to add
+  from "Bachas et al_slides_092022.pdf"
+** Smaller firms are owned by poorer entrepreneurs
+   (La Porta and Shleifer 2014,
+   Ulyssea 2018,
+   Brown and Medoff 1989)
+** Taxes passed through employees’ wages
+   (Fuest et al. 2018,
+   Arulampalam et al. 2012,
+   Suárez Serrato and Zidar 2016)
+** Colombia's inverted U is not unique!
+   Inverted U-shaped relationship:
+   1. ETR increases progressively across distribution for all
+countries
+    2. ETR decreases at the top for the largest firms in most
+countries

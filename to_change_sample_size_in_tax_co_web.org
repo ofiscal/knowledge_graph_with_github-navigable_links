@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       3f39bd42-4d68-41b0-879a-65f2a1cba116
+:END:
+#+title: to change sample size in tax.co.web
+Change the default value of `subsample`
+in the definition of `class TaxConfig`,
+in run_make/models.py

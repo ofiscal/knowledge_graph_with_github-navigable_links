@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       aa3b5635-9936-4c1a-82ce-78ce49bfea40
+:END:
+#+title: primary keys (DIR, SEC and ORD) for some DANE data
+* data sets this applies to
+** definitely the [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/gran_encuesta_integrada_de_hogares_colombian_economic_survey.org][GEIH]]
+** probably the [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/enph_and_enig_surveys_by_colombia_s_dian.org][ENPH]]
+** probably others
+* the keys
+** DIR = vivienda
+** SEC = hogar / family
+   The same vivienda can have multiple hogares.
+** ORD = member of the family
