@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       090a81f4-8cc4-4b78-9593-f876c848b75f
+:END:
+#+TITLE: tricks - how to do some things
+* [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/python_programming.org][Python (programming language)]]
+** [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/scipy_libraries_for_python.org][scipy (libraries for Python)]]
+** [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/testing_in_python.org][testing in Python]]
+* [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/bash_shell.org][shell programming]]
+* [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/libreoffice_software.org][LibreOffice (software)]]
+* [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/git_version_control_software.org][Git (version control software)]]
+* [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/make_build_utility.org][make (build utility)]]
+* [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/csv_file_format.org][csv (file format)]]
+* bughunting tricks
+** problem: incomplete generalization from example to function.
+   Two heuristics that can catch this kind of bug:
+     (1) Make sure every variable in the type signature is used.
+     (2) When designing test data,
+         use column names that are similar but *not* identical
+         to those in the real data.

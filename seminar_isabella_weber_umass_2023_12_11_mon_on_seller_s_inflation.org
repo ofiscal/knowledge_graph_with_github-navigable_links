@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       9c98e0f1-ce34-4804-ba95-7e1a850481dd
+:END:
+#+title: Isabella Weber (UMass), seminar <2023-12-11 Mon>: seller's inflation
+* [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/annual_average_profit_fluctuates_wildly.org][Annual average profit fluctuates wildly.]]
+* [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/earnings_calls_permit_something_resembling_collusion.org][Earnings calls permit something resembling collusion.]]
+* strangely just-so argument
+  Lots of just-so stories, esp. for asymmetric price changes, not a lot of data backing them up. Firms willing to reprice to protect profit margins, but otherwise not.

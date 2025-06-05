@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       2372a506-832e-4235-af0d-10e2e4fdc683
+:ROAM_ALIASES: "Colombia / data sets on"
+:END:
+#+title: data sets on Colombia
+* budget data
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/sisfut.org][SISFUT]]
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/cuipo_data.org][CUIPO]]
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/budget_data_from_the_contraloria.org][Budget data from the Contraloría]]
+* inflation
+** PITFALL: DANE's is more useful
+   They actually give a deflator -- a rising series.
+   BanRep only gives changes -- a stationary series.
+** CPI, via DANE
+   https://www.dane.gov.co/index.php/estadisticas-por-tema/precios-y-costos/indice-de-precios-al-consumidor-ipc/ipc-historico
+** changes, via el Banco de la República
+   https://www.banrep.gov.co/es/estadisticas/inflacion-total-y-meta
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/geih.org][geih]]
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/medicion_de_pobreza_monetaria_colombian_economic_survey.org][MPMD]]
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/enph.org][enph]]
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/secop.org][SECOP]]
+* ENUT too (Encuesta Nacional del Uso del Tiempo)
