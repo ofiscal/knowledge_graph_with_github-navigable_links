@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       5d4a167f-a3b0-477b-9539-eba0a157ad97
+:END:
+#+title: Colombia's pension system, and a possible 2023 reform
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/pension_reform_2023_coding.org][pension reform 2023 coding]]
+* Constitutionally, a pension can't be less than one mínimo.
+* "pilar no contributivo"
+* the status quo: pension systems people have
+  alternatives
+** sistema de ahorro (defined contrib)
+*** the AFP (fondos privados)
+*** cotizaciones ->
+    currently has a stock of 320 billones
+    -> pensiones
+*** has "rendimientos financieros"
+**** can invest anywhere but some fraction fixed by law has to be in domestic bonds etc.
+** sistema de reparto (defined benefit)
+   e.g. Colpensiones
+   no stock, just a flow from contributors to recipients
+** 75% are not in either
+   in which case you get almost nothing
+* the stock of workers
+** we'll look at this using the GEIH
+   but it doesn't say which system you contribute to
+** status quo: 3 types of workers
+*** contributors to either system, and those who don't contribute
+** the question: in the proposal, depending on the threshold, how much money would go to which system?
+* the "pilares" proposal
+  is that your first 4 salarios minimos go to the reparto system,
+  and the rest to the other
+** Chile already did something very similar.
+* Colpensiones also gets money from the PG (presupuesto general)
+  because the contributions alone aren't enough
+* Colpensiones *also* gets money from "traslados", which come from the ahorros fund (i.e. the other one)
+* If you don't finish your time it's worse if you were on the public system, because you don't get financial returns, just inflation.
+* workers also contribute to other things
+  Comision de seguros -- both public and privately pensioend people contribute to that.
+  The private system pensioned-to-be workers also contribute to the Fondo de Garantía de Pensión Mínima

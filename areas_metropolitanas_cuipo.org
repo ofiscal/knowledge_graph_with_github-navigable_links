@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       929c37d6-8f39-49c9-89c0-9f8b76928d3d
+:END:
+#+title: Áreas Metropolitanas \ CUIPO
+* duplicated = Bucaramanga, Aburrá
+  These are present both as Áreas Metropolitanas and not
+  ("not" meaning without that substring).
+* missing = ["Valle de Aburrá", "Barranquilla", "Cúcuta", "Centro Occidente"]
+  These are only present as Áreas Metropolitanas.
