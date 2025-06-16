@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       64bb1c42-8733-40ce-a37f-a793de9ee58b
+:END:
+#+title: Lift grants from Open Contracting
+* ref : our app
+  https://docs.google.com/document/d/1ysODdw5Q9KIWnI0le3VTwcJzTMdPZvnd/edit#
+* unused passage: how we'll do it, and what it'll accomplish
+  We will build an open, easy to use, well-documented online system for querying public contracts, and publicize it conspicuously. By making it easier to discover misuse of public funds, we expect to improve not just the use of those funds (thus reducing taxes and/or improving the state of public services), but electoral accountability in the government.
+* about the program
+  https://lift.open-contracting.org/apply/
+** our goals overlap
+*** quote
+    We are looking for ... teams that have big ideas for using open contracting to fight corruption and strengthen democratic institutions ... or promote social inclusion.
+*** source
+    https://lift.open-contracting.org/program/
+** what we get and/or have to do
+*** up to 35k USD
+*** Bi-weekly virtual meetings with Lift advisor, and two initial workshops
+*** technical and data assistance
+*** "help with monitoring"
+    Does this make monitoring their way a requirement?
+* to sign up for the 1-hour Application Webinar, April 11
+  https://www.open-contracting.org/events/lift-informational-webinar/

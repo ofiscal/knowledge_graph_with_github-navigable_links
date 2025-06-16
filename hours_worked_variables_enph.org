@@ -1,0 +1,39 @@
+:PROPERTIES:
+:ID:       c9595020-d67a-4139-a7d4-49d806edb8d5
+:END:
+#+title: ENPH / hours worked variables
+* a contiguous group
+¿El mes pasado recibió ingresos
+por concepto de horas extras?
+¿El mes pasado recibió ingresos
+por concepto de horas extras?
+¿cuánto recibió?
+¿El mes pasado recibió ingresos
+por concepto de horas extras?
+¿Incluyó este valor en los los
+ingresos del mes pasado ($
+${P6500}) que me declaró
+anteriormente?
+* a 2nd contiguous group
+La semana pasada ... trabajó
+horas extras remuneradas?
+discrete numeric
+¿La semana pasada ... trabajó
+horas extras remuneradas?
+¿Cuántas?
+* a 3rd contiguous group
+¿Cuántas horas a la semana
+trabaja normalmente... en ese
+trabajo?
+¿Cuántas horas trabajó durante
+la semana pasada en este
+trabajo?
+* a 5th (one)
+¿Por qué razón, de las horas que
+normalmente trabaja, hubo
+algunas que no trabajó la
+semana pasada ?
+* a 5th (one)
+¿Cuántas horas trabajó ... la
+semana pasada en ese segundo
+trabajo?

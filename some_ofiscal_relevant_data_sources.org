@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       99cefe98-22a4-44c6-aedf-9323f42a7d9b
+:END:
+#+title: some ofiscal-relevant data sources
+* [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/atlas_of_economic_complexity.org][Atlas of Economic Complexity]]

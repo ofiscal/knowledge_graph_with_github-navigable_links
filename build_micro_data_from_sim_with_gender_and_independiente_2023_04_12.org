@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       91b84cdd-19a1-4df4-9667-bf9c53e2af0b
+:END:
+#+title: build micro data from sim with gender and independiente, 2023-04-12
+* SOLVED: sent people_3_income_taxish data
+  Drawback: This includes no expenditure-like data
+  (which includes a few minor taxes).
+* requirements
+  Should be all people, not just earners.
+* ? merge household data
+** people_4 = earners
+   includes purchase data from households_2

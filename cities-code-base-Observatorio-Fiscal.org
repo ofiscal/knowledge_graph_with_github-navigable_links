@@ -1,0 +1,120 @@
+:PROPERTIES:
+:ID:       86f3c13a-4dd2-42ca-9a56-03ea56368aac
+:END:
+#+title: cities (code base, Observatorio Fiscal)
+* u, meeting with Dirección de Apoyo Fiscal, <2023-08-09 Wed>
+  CCPET = catalogo calsificacion, doesn't divide by functionamiento/inversion,
+
+  funcionamiento cannot be divided by sector
+    for instance, salary
+  but for inversion, in CUIPO, can classify very well by sector
+
+  Andres suggests looking at the COFOG.
+
+  producto mga, first two digits, indicates sector. this is part of cuipo. for instance, 22 = salud. can find in "catalogo de productos del dept nacional de planeacion". but only for gastos de inversion.
+* refs
+** https://github.com/ofiscal/cities
+** https://github.com/ofiscal/cities-output
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/history_of_municipal_finance_in_colombia_meeting_2023_05_24_wed_with_jaime_from_banco_de_la_republica.org][history of municipal finance in Colombia : meeting <2023-05-24 Wed> with Jaime from Banco de la República]]
+* TODO Rename "TOTAL DE LA DEUDA" in the CUIPO gastos key
+  to "Pago de la deuda"
+* TODO BUG: Where did muni code = -2 go?
+  It is created, supposedly, in
+    Code/build/budget_6p7_avg_muni.py
+  but I don't see it in the data.
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/chip_gov_co.org][chip.gov.co (website)]] *seems* to have what I need
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/ask_whether_codes_are_comparable_from_sisfut_to_cuipo_ofisca_cities.org][ask whether codes are comparable from SISFUT to CUIPO \\ ofisca./cities]]
+* TODO incorporate this change
+  raw_series now comments out the line
+    #  , ("Código Concepto", "Concepto" )
+  from the definition of
+    `duplicative_columns_long`,
+  because although it's true that "concepto"
+  can be inferred from "codigo concepto",
+  I want the former so that I can build the keys in "Code/explore/cuipo/sisfut_keys".
+
+  That means that downstream from "budget_0_collect.py"
+  I should drop that "concepto" column.
+* TODO is vintage-dependent-admin-timespan done?
+* TODO understand and use [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/cuipo_data.org][CUIPO data]]
+* BLOCKED on other people
+** TODO can we get new [2023, updated from 2019] regalias data?
+   See these files:
+     data/2019/regalias/muni.csv
+     Code/build/regalias.py
+** TODO how to get deuda info?
+   Is it in the deuda columns?
+   I only want payment toward the debt.
+   Maybe it's in one of the gastos files now? If so, under what item code?
+** TODO ask someone to verify the set of codes we're using
+:PROPERTIES:
+:ID:       2b712914-221d-471e-b2ed-d962e4a0fabb
+:END:
+   as coded in Code/build/classify_budget_codes.py
+* TODO Generalize years.
+** in build/
+*** the problem
+    The latest build stages compute an average from 2015 onward.
+    Therefore that number appears in these files:
+      build/budget_6p7_avg_muni.md
+      build/budget_6p7_avg_muni.py
+      build/budget_9_static_compare.py
+      draw/chart_content.py
+    That made sense in 2019, but what to do now?
+*** TODO Also generalize, I think, the 3 in `get_muni_year_count`.
+    defined in `Code/build/budget_6p7_avg_muni.py`.
+    It's probably meant as a count of years 2016, 2017 and 2018.
+** in draw/
+*** This quote appears twice in it.
+    text = ["Se muestra el acumulado de los ingresos de esta " +
+            "administración (2015 a 2018) en cada sector."],
+*** I think there are others.
+** write year window data
+   Do something like this, and save the resulting range,
+   as a small muni-specific data set --
+   maybe a one row, two column frame, or (more naturally) a series.
+**** code
+     import Code.build.budget_9_static_compare_lib as lib
+
+     for s in s4.series: # Compute min, max year for each space slice in dfs0.
+       # PITFALL: This is a little wasteful -- it computes min and max year
+       # four times per municipality. But moving it upstream would be hard.
+       for stat in ["min","max"]:
+         dfs1 [s.name] = lib.compute_stat_of_year_per_space_slice (
+           space_cols = ["dept code","muni code"],
+           stat = stat,
+           df = dfs1 [s.name] )
+* TODO check all "TODO" items in code.
+* TODO check that the new code does not materially differ for 2019
+  Run it and the old code on the 2019 data;
+  compare results with .describe().
+* TODO check that results for 2023 are not crazy different from 2019
+  esp. that for years they have in common,
+  they are nearly identical
+* TODO update for 2023
+** Update data/sisfut/csv.
+   That's what's used in budget_0_*.py
+*** use new wide format for sisfut data
+** Update data/regalias/*.csv
+   That's 2 data sets, `muni` and `dept`.
+** Determine whether output/keys/* need to change.
+** Verify that the categories still mean the same thing.
+   The dictionary I wrote is here:
+   ~/of/cities/Code/build/classify_budget_codes.py
+** restore integration tests
+   Code/integ_tests/
+** add Indice de Desempeño Fiscal to cities
+   available from SISFUT
+   The new methodology might not be available for recent years.
+** DONE
+*** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/split_the_data_flow_by_2019_2023_ofiscal_cities.org][Split the data flow by 2019 | 2023 \\ ofiscal / cities]]
+*** Makefile problems
+**** Why is sample_tables running?
+**** Why are some paths being read as files at /?
+     They should be deeper in the tree.
+* TODO maybe fill holes in SISFUT with CHIP data
+  but it's much more raw
+* some names for some spending categories
+** debt = amortizaciones + pago de intereses
+*** amortizaciones = payment of capital component of debt
+*** pago de intereses = payment of interest
