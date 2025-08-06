@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       5cd13164-4e73-4ecf-9229-444aa4dc66b7
+:END:
+#+title: unit of observation in the ENPH
+* household data
+The variables defining the unit of observation in the household data are, at most, these:
+
+V1847 VIVIENDA
+V1848 DIRECTORIO
+V1849 SECUENCIA_ENCUESTA
+V1850 SECUENCIA_P
+V1851 ORDEN
+
+I don't know what any of those actually means. It *sounds* like VIVIENDA is the building, which *suggests* that DIRECTORIO is the household (multiple households can share a building). I think SECUENCIA_ENCUESTA might be irrelevant. I don't know what the other two are. The documentation does not define them.
+* person data
+The variables defining the unit of observation in the person data are, at most, these:
+
+V1584 DIRECTORIO
+V1585 SECUENCIA_ENCUESTA
+V1586 SECUENCIA_P
+V1587 ORDEN
+
+Again I think SECUENCIA_ENCUESTA might be irrelevant. But that still leaves the mystery of what the other two variables are. You would think one of them defines the household member. If so, though, what is the other one?
+
+So far we seem to assume that DIRECTORIO defines the household, ORDEN defines the member, and the others can all be disregarded.

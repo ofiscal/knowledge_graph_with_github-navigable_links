@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       448b41e2-e1b1-4659-beaa-e9661a03a048
+:END:
+#+title: document the microsimulation
+* need instructions
+** explain that it computes tax burdens, hence post-tax income, but does not do GE -- everyone's base income is unchanged
+** Include `markdown/interpreting-the-output.md` among the attachments
+modified   python/requests/main.py
+@@ -179,7 +179,8 @@ def advance_request_queue ():
+           + glob.glob ( os.path.join ( data_path, "change-in*by*.png" ) )
+           + glob.glob ( os.path.join ( data_path, "changes_*.xlsx" ) )
+           + [ os.path.join ( data_path,
+-                             "../../logs.zip" ) ] ) )
++                             "../../logs.zip" ),
++              "markdown/interpreting-the-output.md" ] ) )
+       with open( defs.global_log_path, "a" ) as f:
+** Income thresholds for marginal rates must be monotonic.
+   Tax rates need not, though.
+** The IVA buckets are approximate.
+:PROPERTIES:
+:ID:       106ca7be-c9de-42c6-89aa-db93c5202304
+:END:
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co.org#todo-vat-conflates-some-taxes]["vat" conflates some taxes]]

@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       0d8d7d94-72c7-44c5-8dc7-58432c5bec6f
+:END:
+#+title: mtg with AFD ("French Development Bank"?), 2022-10-19-ish
+* TODO know what research has AFD done, esp. using CEQ
+* TODO find: World Bank updated ENPH to 2020
+  "Jairo", wrote Oliver.
+* who they are
+** a development bank, part of the govt
+** gives to governments (local & national) & NGOs
+* African Centre of Excellence for Inequality Research (ACEIR)
+* focusing on 4 countries
+** South Africa, Colombia, Indonesia & _?
+* GEMMES (economic model with carbon)

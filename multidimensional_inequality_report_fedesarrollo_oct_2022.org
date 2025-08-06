@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       ad00525e-44a3-4483-aa7f-e49cc2e45055
+:END:
+#+title: Multidimensional Inequality Report, Fedesarrollo, Oct 2022
+* refs
+  [[/home/jeff/of/papers/fedesarrollo.multidimensional-inequality-in-Colombia.docx]]
+* TODO Is this report old? The IVA reimbursement section (2.1.5) describes events in 2020 and plans for 2021.
+* some ideas from it
+** tax is one of the causes of wealth inequality
+   La riqueza de las personas se concentra más en el ingreso y depende de factores tales como el desempeño de la economía, el ahorro de las familias, las herencias, la propiedad de la tierra, los arreglos pensionales y los impuestos. En las últimas décadas, la desigualdad de la riqueza ha venido incrementándose gracias al aumento en los precios de activos financieros y no financieros, los cuales son los que mayores aportes tienen en la desigualdad (Murtin y Mira, 2015; Piketty y Zacman, 2014).
+** the IVA reimbursement
+*** Section 2.1.5 just says how much went out in 2020, what its motivation is, and what its future plans were
+    It went to roughly the poorest million households in 2020.
+    The government intends to double it in 2021.
+    It looks like it was either five or six payments (the passage seems to cite contradictory sources about that) of 75 or 76 thousand pesos.
+    One motivation was "lograr la inclusión de hogares que no han sido parte de las Transferencias Monetarias de Prosperidad Social".
