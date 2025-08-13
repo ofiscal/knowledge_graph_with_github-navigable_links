@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       45a20eff-9c1e-4c93-ac93-597e81f14ef9
+:ROAM_ALIASES: GEIH
+:END:
+#+title: Gran Encuesta Integrada de Hogares (Colombian economic survey)
+* refs
+** the data @ DANE
+*** 2021
+    https://microdatos.dane.gov.co/index.php/catalog/701
+*** 2022
+    https://microdatos.dane.gov.co/index.php/catalog/771/get-microdata
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/primary_keys_for_some_dane_data.org][primary keys (DIR, SEC and ORD) for some DANE data]]
+* relevant pages in the DDI docs
+  21-71
+* PITFALLs
+** informal /= independiente
+   Independiente means contractor, as opposed to empleado.
+* some code that interprets some of it
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/pension_reform_2023_coding.org][pension reform 2023 coding]]
+*** git@github.com:ofiscal/pension-flows.git
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/medicion_de_pobreza_monetaria_colombian_economic_survey.org][Medición de Pobreza Monetaria]] : an easier GEIH data set
+* the three kinds of data sets (per their titles)
+** "area" = rural
+** "cabecera" = urban
+** "resto" = complicated
+   We're not sure what it is, but it's small.
+   We're using it to catch people who for some reason
+   aren't in either of the other two kinds.
+* about the variables in it
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/enph_and_enig_surveys_by_colombia_s_dian.org#some-geih-enph-variable-correspondences][some GEIH-ENPH variable correspondences]]
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/reported_labor_income_is_what_remains_after_some_contributions.org][Reported labor income is what remains after *some* contributions.]]

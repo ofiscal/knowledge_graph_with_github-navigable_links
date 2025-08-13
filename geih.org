@@ -1,0 +1,72 @@
+:PROPERTIES:
+:ID:       6a0f91be-f15b-460b-a1f0-1b64d9f797fc
+:ROAM_ALIASES: geih
+:END:
+#+title: gran encuesta integrada de hogares
+* references
+** [[http://microdatos.dane.gov.co/index.php/catalog/659/get_microdata][GEIH 2020 online]]
+* geo matching
+per Daniel
+** ENPH divided by regions (bigger than departments)
+** GEIH divided by departments
+* TODO PROBLEMS
+** the cuestionarios for 2020 changed twice
+Starting in March it has been done over the phone.
+In March and April ones were much shorter.
+In May, a little longer but still much shorter than previously.
+* TODO
+** use the cuestionarios, not the aggregate "Documentación en PDF"
+because they change from Feb to March of 2020, and the cuestionarios seem to have more info -- e.g. distinguishing
+** kinds of income from the ENPH that we'll need from the GEIH
+*** investment: dividends, innterest
+*** sales
+*** rental
+*** government programs
+*** pension
+*** cesantias
+*** in-kind : food, lodging, transport, other
+*** beca
+*** remittances, from firms & people
+*** alimony
+*** gambling
+*** inheritance
+*** jury awards
+*** refund, tax
+*** refund, other
+*** borrowing
+** ? match every ENPH income variable to every GEIH one
+** ask Daniel
+*** the sample is the "Muestra Maestra de Hogares"
+Where is that documented?
+* vocab
+** PEA = población económicamente activa
+= employed and unemployed
+** UPM = Unidad Primaria de Muestreo
+= a place they sampled from
+* notes & how to look stuff up
+** TODO it samples 10 houses at a time?
+From the ddi-doc for 2020:
+
+La unidad de muestreo es la Medida de Tamaño, MT, o segmento. La medida de tamaño o segmento está conformada por un
+promedio de diez viviendas las cuales se indagan todas, se incluyen todos los hogares de cada vivienda y cada persona de
+cada hogar.
+** Vivienda > hogar
+"Hogar" appears to be a group of people;
+there can be more than one per "vivienda".
+** Vivienda
+*** Wall material, etc. is included.
+*** So are utilities
+These may differ across hogares within a vivienda.
+I'm not sure they're in the Vivienda file.
+** all the usual controls
+age, sex, literacy, schooling ...
+
+** the sample = section titleda "Muestreo"
+*** probablisistic
+Supposedly everyone has a nonzero probability of being in it.
+But they only include places (see section on UPMs) of 7000 or more people.
+*** stratified
+Includes the 24 biggest cities and some other stuff.x
+** weights = "FACTOR DE EXPANSIÓN"
+** error
+There's a section called "Estimación de error de la muestra"
