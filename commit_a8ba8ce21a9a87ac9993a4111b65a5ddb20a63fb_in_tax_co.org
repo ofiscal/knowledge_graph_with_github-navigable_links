@@ -1,0 +1,44 @@
+:PROPERTIES:
+:ID:       09d7afcb-9397-4720-9ae8-f117a522f5c0
+:END:
+#+title: tax.co commit a8ba8ce21a9a87ac9993a4111b65a5ddb20a63fb
+* state the goal
+  rename
+    people_4_post_households ->
+    people_4_earners_post_households
+* Find all appearances of the old name:
+  find . -type f -not \( -name "*.csv" -o -name "*.xlsx" -o -name "*.tgz" -o -name "*.zip" -o -name "*.ssv" -o -name "*.sav" -o -name "*.pyc" -o -name "*.pdf" -o -name "*.jpeg" -o -name "*.odt" -o -name "*.pack" -o -name "*.ods" -o -name "*.ipynb" -o -name "*.idx" -o -name "*.docx" -o -name "*.dta" \) -print0 | xargs -0 grep "people_4_post_households" --color
+* Decide which references to change.
+** It really needs changing only in make/ and python/
+   Can ignore it in users/.
+   *Definitely* don't want to change it in .git/
+** I should delete the mypy and python caches
+   because they refer to the old name,
+   and sometimes they get confused.
+
+   find . -name "*mypy*"         # finds only one, so delete it by hand
+   find . -name "*pycache**"     # finds a lot, so delete it automatically
+   find . -name "*pycache*" -print0 | xargs -0 rm -rf
+* Rename the files.
+  git mv people_4_post_households.py people_4_earners_post_households.py
+  git mv people_4_post_households_defs.py people_4_earners_post_households_defs.py
+
+
+
+
+
+
+
+
+find . -type f -not \( -name "*.csv" -o -name "*.xlsx" -o -name "*.tgz" -o -name "*.zip" -o -name "*.ssv" -o -name "*.sav" -o -name "*.pyc" -o -name "*.pdf" -o -name "*.jpeg" -o -name "*.odt" -o -name "*.pack" -o -name "*.ods" -o -name "*.ipynb" -o -name "*.idx" -o -name "*.docx" -o -name "*.dta" \) -print0 | xargs -0 grep "output/" --color
+
+
+
+# !!! WARNING !!! Use this on the duplicate repo,
+# to avoid having to rerun everything.
+#
+# find . \( -name "*.py" -o -name "*.md" -o -name "*.org" -o -name "Makefile*" -o -name "*.sh" -o -name "*.hs" -o -name "[^\.]*" \) -print0 | xargs -0 sed -i "s/xxx/yyy/g"
+* Rename references to it in make/
+  find make/ -name "Makefile.*" -print0 | xargs -0 sed -i "s/people_4_post_households/people_4_earners_post_households/g"
+* Rename references to it in python/
+  find python/ -name "*.py" -print0 | xargs -0 sed -i "s/people_4_post_households/people_4_earners_post_households/g"

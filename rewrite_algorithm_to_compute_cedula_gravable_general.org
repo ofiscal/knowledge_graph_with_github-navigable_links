@@ -1,0 +1,35 @@
+:PROPERTIES:
+:ID:       5c2e57e1-21ec-4be5-b2ce-6248fb301867
+:END:
+#+title: rewrite algorithm to compute cedula gravable general
+* the dependent exemption should be inside the 40%
+  rather than on top of it.
+* DONE UNDONE earlier notes
+** THIS IS OBSOLETE
+   In fact we had it pretty right before,
+   and we're not screwing with it now.
+** How we thought we had misunderstood
+   From "renta liquida" we deduct min (
+     something between 25% and 40%, depending on what someone buys,
+     5040 UVTs )
+   Since we didn't know how much someone would deduct,
+   we assumed the average, 32.5%.
+** Reality
+   according to both Angelica and Mariana (our new economist-accountant)
+
+   First you can deduct up to 40% of your income,
+   depending on what kinds of things you buy,
+   or 5040 UVTs, whichever is smaller.
+   After that, you can deduct 25% of whatever is left,
+   up to a maximum of 2880 UVTs.
+   Thus, unless at least one of the two maxima (5040 and/or 2800 UVTs)
+   applies, you're able to deduct exactly 55% of your income.
+   (Note that I use the terms deduct, exempt and exclude interchangeably.
+   I suspect the tax code doesn't.)
+** the terms to use
+*** The 40%/5040uvt discount is sobre la "renta liquida".
+*** renta liquida
+    All labor income - SS contributions
+*** The 25%/2880uvt discount is over the renta liquida trabajo
+*** renta liquida trabajo
+    renta liquida - 40%/5040 from before

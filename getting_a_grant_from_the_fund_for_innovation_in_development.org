@@ -1,0 +1,207 @@
+:PROPERTIES:
+:ID:       ece43518-7a0b-44b8-88c3-979337b6a5a0
+:ROAM_ALIASES: "grant, Fund for Innovation in Development" "Fund for Innovation in Development, grant"
+:END:
+#+title: getting a grant from the Fund for Innovation in Development
+* refs
+** main page
+   https://fundinnovation.dev/en/application-form-step-0/
+** login
+   https://fundinnovation.wiin.io/en/login
+*** PITFALL: It might be temporarily borken.
+    It was broken <2022-11-23 Wed>.
+    I waited an hour and then it worked.
+* TODO incorporate these data
+* their goals
+  https://fundinnovation.dev/en/
+** They want to reduce poverty.
+** TODO They want "evidence of clear, measurable outcomes". Tricky.
+** They want cost effectiveness. We are certainly cheap.
+   Making research scales in a way that
+   making drugs or any physical product doesn't.
+** They want scalability. We're already in a sense at scale.
+* infinite money
+* The grant process takes at least half a year.
+* DONE questions
+** Applicant Organization Name
+   Observatorio Fiscal de la Pontificia Universidad Javeriana
+** "Applicant Organization Type" = Academic
+** Applicant Organization Website
+   www.ofiscal.org
+** address
+   Cra 7 #40b-36, Piso 7, Bogotá, Colombia 110231
+** "How many employees are in your organization?"
+   <50
+   (because we're just over 10)
+** Who is responsible for the grant application
+*** Primary Contact
+    [[https://github.com/JeffreyBenjaminBrown/org_personal-most_with-github-navigable_links/blob/master/oliver_pardo.org][Oliver Pardo]]
+*** Secondary Contact
+    [[https://github.com/JeffreyBenjaminBrown/org_personal-most_with-github-navigable_links/blob/master/angelica_vargas.org][Angelica Vargas]]
+** Professional References
+*** [[https://github.com/JeffreyBenjaminBrown/org_personal-most_with-github-navigable_links/blob/master/andres_rosas_wulfers.org][Andres Rosas Wulfers]]
+**** relation to the project
+     The Observatorio is part of the economics department at Universidad Javeriana. Andres is the dean of the economics, business and accounting departments.
+*** [[https://github.com/JeffreyBenjaminBrown/org_personal-most_with-github-navigable_links/blob/master/lcrh.org][Luis Carlos Reyes Hernandez]]
+**** relation to the project
+     He was once the director of the Observatorio. Now he runs the national tax administration.
+** We have no research partners.
+** We have submitted only to these other funders.
+   The Ford Foundation
+   The Global Innovation Fund
+** "Is this proposal still actively under consideration ..."
+   We hope so. Nobody has responded so far.
+* BLOCKED budget
+** ref : I asked here
+   message 8, <2023-01-13 Fri>
+   https://mail.google.com/mail/u/0/#search/angelica+innovation/KtbxLzGLlQnMdZqXKtGLRwRHxLxMsFHBMg
+** reduce the amount
+*** The budget file I have asks for too much, 200 K USD
+** adjust accordingly [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/our_budget_narrative_to_send_to_the_fund_for_innovation_in_development.org][our budget narrative for them]]
+* DONE difference between Stage 1 and Stage 2 questions
+** same
+*** "1. Short description of the Solution"
+*** "2. Development Challenge"
+*** "3. Description of the Innovation or Solution"
+*** Project progress and need for funding
+    numbered differently, but the same question
+*** Theory of Change (narrative)
+    same question, different number
+*** Learning Agenda and expected results
+    same, except different numbers
+*** Pathway to Scale
+    same, except different numbers
+*** Cost-effectiveness of the innovation
+** only for stage 2
+*** Evaluation methodology planned or to be developed
+* TODO processing: answers
+** DONE project title
+:PROPERTIES:
+:ID:       c224ac6b-6bab-4c59-b0ce-cc51fa4cf138
+:END:
+*** DANIEL: Is this too long?
+*** our answear
+    An Automatic System of Alerts for Potentially Problematic Government Contracts, and Associated Analysis and Communication Efforts
+** DONE total amount requested
+   199850 EUR
+** DONE Sector
+   Democracy and Governance
+** DONE Expected duration
+   24 months
+** DONE [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/how_we_described_the_contract_transparency_project_to_the_fund_for_innovation_in_development.org#the-short-project-description][short description]]
+** DONE "Development Challenge"
+*** their question
+    What is the problem that you are targeting and how does it affect the lives of people living in poverty and/or marginalized populations? How would solving this problem improve people's lives? How many people does this issue impact both in the country/countries you are working in and globally? Please explain who, specifically, is impacted by the problem (e.g., different genders, age groups, income levels, marginalized populations, etc.).
+*** our answer
+Public contract spending in Colombia is opaque. This results in official impunity, the misuse and misappropriation of funds, and voter apathy – the last of which entrenches poor governance.
+
+On paper, Colombia provides a wealth of services to every population, particularly its most vulnerable – healthcare (which is socialized), education, public housing, sanitation, energy, infrastructure, security, justice, and countless others. In practice, however, much of this spending is wasted or stolen. Those with the means spend to secure better services from the private sector. Those without suffer red tape and long queues for shoddy services. Ambulances can take hours to arrive. Police often simply don't. Ordinary citizens pay the price in time, money, health, security, justice and economic growth. Colombians would have more of all of those things, if government funds were better spent.
+
+Greater transparency would result not just in better spending. It would also, by making officials accountable for their actions, improve democratic outcomes, specifically citizen participation and candidate quality. The government would not only better fulfill its existing promises, but make better ones in the future.
+
+These issues affect, and hence our solution would help, every one of Colombia's 50 million citizens. It would particularly help those citizens who are unable to secure private alternatives to government-provided services -- a group that constitutes more than 90% of the population.
+** DONE [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/how_we_described_the_contract_transparency_project_to_the_fund_for_innovation_in_development.org#the-longer-project-description][Description of the Innovation or Solution]]
+** DONE "Gender Equality"
+:PROPERTIES:
+:ID:       dfd72ac4-d488-4cf9-bb1f-dd2b39dbbfce
+:END:
+*** their question
+    How have you considered gender equality in the design of your innovation? How can its implementation contribute to reducing gender inequalities? Note that additional information on gender is also expected in response to the questions below, including theory of change, expected impact, project team and prospects for scaling up.
+*** our answer
+Our project will improve gender equality in three ways.
+
+(1) Adequate provision of government services is especially important to the most vulnerable populations. To the extent -- which is substantial -- that women and female-led households have, on average, fewer resources than men and male-led households, our work will further gender equality.
+
+(2) The databases of public contracts in Colombia include a flag for projects intended to benefit women specifically. Whenever our work detects suspicious information in such contracts, it will permit citizen oversight of a sort that can benefit the women for whom the spending was intended.
+
+(3) Furthermore, where it is possible, we will monitor for gender parity in the contracts themselves. This will be possible when a contract involves enough sub-contracts that the fractions going to men and women can be considered statistically meaningful evidence of unequal gender treatment.
+** DONE theory of change
+*** their question
+    The “Theory of Change” describes a strategy or blueprint for achieving a desired long-term goal. The theory of change identifies the prerequisites, pathways, and interventions needed to achieve that goal. A theory of change should include an identification of needs, inputs, outputs, intermediate outcomes, and final outcomes. It allows you to build a clear narrative and highlight the causal chain of events and assumptions that explain your innovation and its impact on people. Please describe the theory of change behind your innovation (how the solution will lead to the desired results). Please specify the assumptions on which it is based, and your level of confidence around these assumptions. Please also explain the parts of the theory of change for which you already have evidence, and the parts for which evidence remains to be established. Further, please specify how a perspective of gender is integrated within your theory of change.Please state the intended impact of your innovation as a result of the activities proposed in this application, clearly stating the primary result you wish to achieve as well as any additional outcomes expected (e.g., impacts on gender, health outcomes, household income change, etc.). Note that you can also illustrate your Theory of Change with the help of a diagram by uploading an image of it (JPEG or PNG format) in Question 6.2 (highly recommended). If you upload a diagram in Question 5.2, please also respond to Question 5.1 with a narrative explanation of the diagram provided.
+*** our answer
+:PROPERTIES:
+:ID:       9e6d77be-38fd-467d-aeb8-41fbea9d98bb
+:END:
+The work required consists of the following stages:
+(*) Learn to parse each of the remaining databases. (We can already parse some of them.)
+(*) Label a set of training data, identifying suspicious- and ordinary-looking contracts.
+(*) Experiment with supervised learning architectures. Select one.
+(*) Experiment with unsupervised learning algorithms. Select one.
+(*) Train both algorithms and integrate them.
+(*) Code a process to scrape the databases for updates.
+(*) Code a process to regularly publish suspicious contracts to one of our websites, so that they are available to any internet user.
+(*) Share the system's results with lawmakers and the media.
+(*) Share the results in live colloquia, inviting academics, journalists and congresspeople.
+
+The project relies on the following assumptions, each of which we present together with the probability we assign it:
+(*) 95%: The online DBs will continue to exist.
+(*) 95%: The online DBs will continue to be parseable.
+(*) 99%: We will continue to be permitted to publish the data and host our colloquia.
+(*) 99%: Our work will continue to attract attention, fuel debate, and enable citizen oversight.
+(*) 95%: Citizen oversight will continue to result in changes in government policy.
+(*) 80%: The project will take two years.
+
+The potential benefits of this program are literally too many to count, but three of the most salient are these:
+(*) Better provision of healthcare. This will benefit almost everybody, but it will disproportionately benefit the poorest, families with children, and caretakers (which are disproportionately women).
+(*) Better infrastructure, which has the direct effects of economic growth, higher wages, better employment, and better sanitation (hence public health).
+(*) Better education. This benefits not just the young, but also anyone who takes care of them (which again in Colombia is disproportionately women), and anyone who shares a household and hence resources with children.
+(*) Greater public safety. This, like infrastructure, enables people to spend more time at work, studying, or engaging in leisure. These benefits accrue disproportionately to the vulnerable populations, since wealthier ones have already bought a greater measure of safety from the private sector.
+** DONE picture of theory of change
+   [[/home/jeff/of/grants/Fund-for-Innovation-in-Development/theory of change, one page.png]]
+** DONE Hypothesis validation and assessment of pilot results
+:PROPERTIES:
+:ID:       0383af4d-0cce-4452-bd5a-bf5b70920087
+:END:
+*** their question
+    Stage 1 funding requires monitoring and evaluation and data collection plans during the grant period to test the key assumptions of the theory of change. FID’s goal with Stage 1 pilot testing is to illustrate the potential economic and social outcomes and actual costs of implementing the solution in a real world setting. Please list the relevant metrics or indicators you will use to track your innovation’s performance, and how you will collect and monitor this data.
+*** our answer
+Since contracts include location data, we can run controlled experiments to determine the effectiveness of the program, by randomly dividing regions into treatment and control groups, and publishing our system's results for the treatment group while withholding it for the control group. After running the intervention for a period long enough to expect some impact -- at least half a year -- the change in contract problematicity in the control and treatment groups will permit statistical testing to determine whether the intervention makes a meaningful difference.
+
+We will use supervised and unsupervised learning to develop our measure of problematicity in government contracts. While this measure will not be the same as corruption or mismanagement, they will be correlated.
+** BLOCKED [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/our_budget_narrative_to_send_to_the_fund_for_innovation_in_development.org][budget narrative to send to the Fund for Innovation in Development]]
+** DONE Pathway to Scale
+In brief: The system will perform at full scale, covering all of Colombia, as soon as it is built. The negligible cost of maintaining it can be absorbed by Javeriana University.
+
+In a little more detail:
+
+As soon as the software is written and running, it be monitoring all contracts in the public contract databases. Colombia's population is about 50 million people, and the system will (after the preliminary controlled experiment is complete) make the data on every region in Colombia available to everyone in the world. Of course not all 50 million people will be reading it, but the resulting improvements in visibility, accountability, and voter information will, we expect, benefit the entire country.
+
+The project's major expenses are all up-front rather than in maintenance. Once the system is running, it will only require occasional maintenance from a single developer -- we estimate one person-month of labor per year, costing under $1000 -- plus the cost of the server time, which we believe will be less than $2500 USD per year. Javeriana University can easily absorb these maintenance costs.
+** TODO cost-effectiveness of the innovation
+*** their question
+    FID is interested in understanding why your solution has the potential to have a greater impact per euro than alternative means of addressing the same development challenge, including the status quo. Briefly present the existing solutions to address the development challenge in your location or in other regions. To the best of your ability, please provide your best estimate of the current cost of the innovation per beneficiary served or unit treated (including any co-funding, but not including evaluation and data collection costs). Please include both fixed and variable costs. Please indicate how you plan to provide an initial measure of cost-effectiveness in terms of cost per development outcome in Stage 1. How do you expect these costs to change as your innovation scales? Note: FID understands that precise estimates can be difficult to calculate. Please include explanations for your working assumptions and supporting calculations to demonstrate how you reached your estimates.
+** BLOCKED Applicant Organization (who we are)
+*** their question
+    Please provide an overview of the lead implementing organization and include relevant past experience implementing similar activities. Describe your organization’s area of expertise and within the targeted context and explain both why it is uniquely positioned and has the capacity to implement the proposed activities.
+** DONE [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/risks_to_the_transparency_project_and_mitigation_strategies_as_we_described_to_the_fund_for_innovation_in_development.org][Risks (to launch, to sustain and to scale) and mitigation plans]]
+** Partner Organizations
+*** our answer
+    There are none so far.
+** BLOCKED (asked Oliver, Daniel, Angelica and Alejandro): citations?
+*** an email in which I ask some team members for these
+    https://mail.google.com/mail/u/0/#search/citations/QgrcJHsBscPbrDGWBWlNWtWvJpcmrTFDKKG
+*** BLOCKED points to support
+    Oliver directed each point at a different person.
+**** There exist public databases in Colombia to track contracts. They have a lot of data.
+***** via Daniel
+***** the list
+      Secop y Colombia compra: Bases de datos de información de contratación pública.
+      https://www.colombiacompra.gov.co/transparencia/conjuntos-de-datos-abiertos
+
+      Procesos rama judicial: Pagina de consultas de casos judiciales.
+      https://consultaprocesos.ramajudicial.gov.co/Procesos/NombreRazonSocial
+
+      Sistema General de Regalías: Varias paginas de consulta acerca del pago de regalias a los municipios.
+      https://www.sgr.gov.co/Vigilancia/SeguimientoSGR.aspx
+      https://www.datos.gov.co/Econom-a-y-Finanzas/DNP-ProyectosSGR/mzgh-shtp
+**** Some of the contracts look fishy.
+***** via Daniel
+***** citation
+      También esta página que es directamente de hechos de corrupción (son una entidad aliada)
+      https://www.monitorciudadano.co/publicaciones/#datos-abiertos
+**** Public contracts are mismanaged. This makes life worse and economic growth slower for everyone, and  is especially damaging to the most vulnerable households.
+     [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/mismangaement_of_public_funds_in_colombia.org][mismangaement of public funds in Colombia]]
+**** BLOCKED Alejandro: The information we publish about what the government is doing attracts lots of attention, and ultimately changes public policy. (A good case in point could be our work on the FOME.)
+**** BLOCKED Alejandro: The public pressure of such publications makes industry and government more accountable.
+** DONE yearly maintenance cost
+   The yearly maintenance cost of this project are minimal: One month of a programmer-economist's labor (about 1800 EUR), and one year of server runtime (about 2400 EUR), for a total of 4200 EUR per year.

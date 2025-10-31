@@ -1,0 +1,64 @@
+:PROPERTIES:
+:ID:       5bac3074-dd2b-47f4-81fb-4a67d5d01a69
+:END:
+#+title: taxing firms by size, my essay on, in Spanish
+# La razón detrás de, y el probable efecto de, un impuesto que depende del tamaño de la empresa.
+
+Algunas personas dentro y fuera del gobierno creen que se debería tributar a las empresas de manera diferente en función de su tamaño. Es posible que esa ley entre en vigor este año, por lo que vale la pena examinar la motivación detrás de ella y los efectos que podría tener.
+
+## La motivación detrás de la idea
+
+La motivación para tributar a las empresas más grandes más se encuentra en una sola palabra: progresividad. La idea -que está consagrada en la Constitución de Colombia- es que los ricos deben pagar en proporción más. Por ejemplo, un impuesto sobre la renta progresivo es aquel en el que aquellos con mayores ingresos pagan una mayor fracción de su ingreso en impuestos.
+
+Vale la pena señalar que, en ciertos aspectos, el código tributario de Colombia es de hecho progresivo. Por ejemplo, alguien que gana 3 millones de COP por mes en ingresos laborales no paga impuestos sobre éllos, mientras que alguien que gana 100 millones de COP al mes paga alrededor del 34,5% de eso en impuestos. En una medida más incluyente, desafortunadamente, el código tributario es regresivo, ya que tributa diferentes tipos de ingresos a diferentes tasas. En particular, mientras que la tasa marginal máxima para los ingresos laborales es del 39%, la tasa máxima para los ingresos de dividendos es del 10%. Dado que los ingresos de dividendos fluyen desproporcionadamente a los colombianos más ricos, la tasa efectiva de impuestos que soportan los muy ricos es menor que la que soportan muchas personas que ganan menos.
+
+El gobierno es consciente de problemas como estos y quiere corregirlos. Se ha propuesto tributar a las empresas más grandes como una forma de hacer que el código tributario sea más progresivo. La idea es que las empresas más grandes representan a personas más ricas, y por lo tanto tributarlas más fuertemente significa tributar a los ricos más que a los pobres.
+
+
+## Lo que podemos esperar si sucede
+
+### No tendría el efecto deseado.
+
+El argumento supone que las empresas más rentables son propiedad de las personas más ricas. La suposición, desafortunadamente, no se cumple: el tamaño de las ganancias de las empresas y la riqueza de sus propietarios son débilmente acoplados.
+
+Una pequeña empresa puede pertenecer a personas ricas. De hecho, una sola persona rica a menudo es el único propietario de muchas pequeñas empresas. Del mismo modo, una gran empresa puede pertenecer a muchas personas pobres. Millones de jubilados son así: son los propietarios de un fondo de pensiones y, por lo tanto, los propietarios de las empresas, generalmente grandes, en las que ese fondo ha invertido. Tributar a una gran empresa propiedad de un fondo de pensiones es, en efecto, tributar a muchas personas mayores pobres.
+
+Los empleados también soportan parte del impuesto corporativo. Una empresa con una carga fiscal más baja puede permitirse más empleados y salarios más altos. Y en esta dimensión también, el tamaño puede estar negativamente correlacionado con la riqueza: una clínica privada de un cirujano plástico podría tener tres empleados bien pagados, mientras que una gran cadena de comida rápida podría tener cientos de empleados mal pagados. Tributar a la gran cadena de comida rápida más que a la pequeña cirugía es, efectivamente, transferir algo de dinero de los trabajadores de comida rápida a los asistentes del cirujano.
+
+
+### Tendría otros efectos.
+
+Como se describe anteriormente, tributar a las empresas por tamaño haría que la relación entre ingresos y tributación sea más caótica, sin favorecer sistemáticamente a los pobres.
+
+También crearía un incentivo para que las empresas se conviertan en pequeñas o se mantengan pequeñas. Ese incentivo es ineficiente, ya que las empresas más grandes suelen ser más eficientes que las pequeñas, gracias a las "economías de escala". Las economías de escala son ventajas de costo que surgen cuando una empresa aumenta su producción. Presentar impuestos resulta ser un buen ejemplo. Presentar impuestos para veinte personas no es el doble de difícil que presentar impuestos para diez personas. Por lo tanto, dos empresas con diez personas tendrán que dedicar más tiempo y dinero a presentar sus impuestos que una sola empresa de veinte personas.
+
+El mundo está lleno de economías de escala: 500 empresas que fabrican 100 coches consumirían muchos más recursos que una sola empresa que fabrica 50.000 coches. Cien personas que cultivan alimentos en sus patios harán mucho más trabajo que un solo agricultor con la misma cantidad de tierra. Un país cuyas empresas son demasiado pequeñas es uno que está duplicando demasiado esfuerzo. Las leyes fiscales que motivan a las empresas a ser pequeñas dañan la productividad nacional.
+
+
+## Tasas marginales, tasas promedio y incentivos empresariales
+
+Esta discusión hasta ahora omite una distinción importante: la que existe entre las tasas impositivas promedio y marginal. Las leyes tributarias se pueden definir con cualquiera de estos conceptos, pero los resultados son muy diferentes.
+
+En resumen, la tasa impositiva promedio es la relación entre los impuestos pagados y los ingresos recibidos, mientras que la tasa impositiva marginal es la relación entre un aumento en los impuestos pagados y un aumento en los ingresos. (Para una explicación detallada de la diferencia entre las tasas impositivas marginales y promedio, consulte [[link a la pieza de Juan, si existe]].)
+
+Las tasas impositivas promedio son más fáciles de entender, y gran parte del código fiscal está definido en términos de ellas, así que empecemos por ahí. Consideremos un impuesto sobre la renta corporativa definido en términos de tasas impositivas promedio. Llamemos a esta ley P (por "tarifa Promedio"). Bajo esta ley, la tasa impositiva promedio es del 30% para las empresas que ganan hasta 100 millones de COP, y del 35% para las empresas que ganan más que ese umbral. Una empresa que gana 100 millones de COP antes de impuestos pagará 30% * 100 millones = 30 millones de COP en impuestos, y una empresa que gana 101 millones de COP antes de impuestos pagará 35% * 101 millones = más de 35 millones de COP en impuestos. ¡Esto es extraño! Al ganar un millón de COP extra antes de impuestos, aumenta su factura fiscal en más de 5 millones de COP. Bajo esta ley P, una empresa preferiría ganar 100 millones de COP antes de impuestos que 101 millones. (Si el 15 de diciembre descubre que ha ganado 100 millones, la empresa sería inteligente cerrar por el resto del año.)
+
+Ahora consideremos una ley similar, definida en términos de tasas marginales en lugar de tasas promedio. Llamémosla ley M (por "tarifa Marginal"). Bajo esta ley, la tasa impositiva *marginal* es del 30% para los ingresos hasta 100 millones de COP, y del 35% para los ingresos por encima de ese umbral. Por lo tanto, si una empresa gana 100 millones de COP antes de impuestos, paga 30% * 100 millones = 30 millones de COP en impuestos. Si en cambio gana 101 millones de COP, entonces paga 30% * 100 millones + 35% * 1 millón = 30.350.000 COP en impuestos. En este caso, esos últimos 1 millón de pesos en ganancias antes de impuestos solo aumentaron su factura fiscal en 0,35 millones de COP. Por lo tanto, tranquilizadoramente, bajo la ley M la empresa preferiría ganar 101 millones de COP antes de impuestos en lugar de 100 millones. (Pero tenga en cuenta que la empresa todavía podría ahorrar dinero dividiéndose en dos empresas, de modo que ninguno de sus ingresos incurra en la tasa impositiva más alta.)
+
+*Se está considerando actualmente la ley P o la ley M. No estamos seguros de cuál.* [[El texto aprobado recientemente en la cámara baja del Congreso]] utiliza el término "tarifa marginal", lo que sugiere que está describiendo un horario impositivo marginal. Sin embargo, para cada horario impositivo marginal actualmente consagrado en la ley, la ley define la fórmula que se debe utilizar para calcular los impuestos a partir de los ingresos, y el texto en cuestión no lo hace. [[Provide an image of the text in question.]] Esto sugiere que el texto en cuestión está definiendo las tasas impositivas promedio, no marginales.
+
+
+### Efectos en los ingresos
+
+Ambas leyes proporcionan incentivos similares para que las grandes empresas se dividan en empresas más pequeñas. Bajo la ley P, si una empresa puede desprender una parte que gana menos de 100 millones de COP en una empresa separada, ahorra el 5% en todos los ingresos de esa nueva empresa. Bajo la ley M, incluso si la empresa se divide en dos empresas que ambas ganan más de 100 millones de COP, aún así ahorra 5 millones de COP, porque ahora está pagando el 30% sobre 200 millones de COP en lugar de 100 millones de COP.
+
+Ambas leyes también brindan un incentivo para que las pequeñas empresas permanezcan pequeñas. Ese incentivo es extremo para la ley P (por ejemplo, en el ejemplo anterior de una empresa que deja de operar el 15 de diciembre). La ley M reduce ese incentivo, pero lo hace sacrificando más ingresos.
+
+Específicamente, mientras que las leyes P y M tratan a las empresas que ganan menos de 100 millones de COP de la misma manera, tratan a las empresas más grandes de manera diferente. Bajo la ley P, todas las empresas que ganan más de 100 millones de COP pagarán lo mismo en impuestos que actualmente: el 35% de todo lo que ganan. Bajo la ley M, por el contrario, cualquier empresa que gane más de 100 COP pagará 5 millones de COP menos en impuestos, porque en sus primeros 100 millones de COP de ingresos antes de impuestos solo pagan el 30% en lugar del 35%.
+
+
+## Conclusión
+
+Un impuesto sobre la renta corporativa que depende del tamaño de la empresa está motivado por la progresividad, pero no tendría ese efecto. Si ocurre, podemos esperar ver cambios en el tipo de empresas que existen, una disminución en el tamaño promedio de las empresas, una disminución correspondiente en la eficiencia de las empresas y ingresos de jubilación más bajos para los jubilados privados cuyo dinero está invertido en empresas grandes.
+
+Dado que las personas ricas y pobres pueden poseer la misma empresa, la única manera fiable de gravar a las personas ricas más que a las pobres es a través del impuesto sobre la renta personal, no el corporativo. Gravar el ingreso por dividendos de la misma manera que el ingreso ordinario, en lugar de dar a los dividendos su propia tasa baja especial, sería un buen comienzo.

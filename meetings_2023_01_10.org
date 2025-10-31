@@ -1,0 +1,49 @@
+:PROPERTIES:
+:ID:       ba9b4f8e-36a9-48db-b8f0-0a1c79b43a53
+:END:
+#+title: meetings 2023-01-10
+* meeting w/ Oliver, 10 AM
+** two main projects
+*** Daniel's public contract project
+**** most public expenditures get reported in these systems
+**** campaign contribs are also public
+**** sometimes the same cedula uses different names
+**** if you fund more than 2% of a campaign, you can't receive a contract from them
+**** should keep records of changes
+     Someone wanted to build a pier in Boyaca,
+     then moved it at the last minute to San Andres.
+**** I should code review Daniel.
+** TODO talk to Daniel, William, find out more about the contract program
+*** which web pages? how to navigate?
+* meeting w/ Daniel, 2 PM
+** look into embeddings
+   do we need a finance-specific one?
+** Daniel's plan
+   serial
+*** make data
+**** scraping sources
+**** OCR for tables from PDFs
+**** Cleaning by Transparencia por Colombia
+**** Experts
+     our William Reyes
+     academic papers
+     journalists
+*** make these in parallel
+**** models based on labeled data
+***** data
+****** contracts
+****** criminal histories (people & corporate)
+       some from news, most from public databases
+***** outputs will be used to preict fishiness and potential damage
+****** potential damage = Pr( fishy ) * contract value
+**** unsupervised learning
+     Uses the same input as the labeled data system.
+     Different kind of output from that system, though,
+     to be used for clustering.
+**** expert system
+     rules-based system (no ML, no regression)
+     built from advice from human experts
+*** use them
+**** each predicts some of : fishiness, potential damage
+**** combine those predictions to create things to publish
+** Mariana works at De Justicia which shares a building with Transparencia por Colombia

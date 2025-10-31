@@ -1,0 +1,52 @@
+:PROPERTIES:
+:ID:       2e4cec18-78e0-4457-a54b-ce55ad7f9d79
+:END:
+#+title: getting a grant from the Global Innovation Fund
+https://www.globalinnovation.fund/apply/
+* WE DID IT. <2022-11-08 Tue>
+* their goals
+  https://www.globalinnovation.fund/apply/about/what-we-fund/
+** focus on poor
+** novel
+** backed by evidence of impact
+** can scale
+** apply to many issues
+** will generate new knowledge
+* We're a good fit for almost everything they want.
+* Infinite money, and seems not too onerous.
+* process duration: could not find.
+* TODO when applying
+** mention we are almost all Colombian and have a few women
+** yes, we're in a middle-income country
+   "high middle"
+   https://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/DAC-List-ODA-Recipients-for-reporting-2021-flows.pdf
+** mention how our "innovation" compares to alternatives
+** my innovation *can* improve the lives of those living on less than $5 PPP a day.
+** "could be applied in several developing countries."
+** "potential to scale to reach millions"
+** "has expertise in this area and the skills and experience to make the innovation a success"
+** "The innovation is ready to be applied, tested or scaled in a real-world setting."
+** "I have a clear vision for how GIF can contribute to our vision of success"
+** "My team aims to generate and share evidence and learning from our work."
+** TODO "guidance on a Type of Funding and Stage of Funding and am confident I meet the criteria for my chosen category"
+   type: grant
+   stage: pilot?
+** goal is to ensure money is spent, not just well, but also fairly, specifically on the most vulnerable
+** legal and technical unfamiliarity is a barrier to participation
+** there's no oversight mechanism
+   "no se evidencian mecanismos de seguimiento o monitoreo a los proyectos que se aprueban con destino específico a los territorios de grupos étnicos. "
+* What we put
+** project title
+   Automatic System of Alerts for Government-Funded Investments
+** one-sentence pitch
+   Our system will automatically detect anomalous public contracts and report them to the public -- unlike anything that currently exists in Colombia.
+** 2 paragraph pitch
+*** max 1800 characters
+*** to include
+    why your approach is innovative
+    expected impacts
+    potential to scale
+    team leading your innovation
+*** the pitch
+    Information on public contracts in Colombia is published in an online database [NAME OF DB] that is extremely large, somewhat incomplete, and difficult to read, understand or search. Our system will automatically search it, and publish anomalies it finds. Making this resulting information easy to find and understand will encourage citizen participation in the political process, empower voters, and impose much-needed accountability for the use of public funds. Once in place, the system will require no extra investment to perform at full scale, monitoring all public contracts in Colombia.
+    We are a small group of economists, accountants, lawyers, programmers, and communications specialists. For five years, we have researched fiscal policy in Colombia, made our results easily understood, and shared them with the general public, the media and government. As Colombia's first (and still one of only two) independent policy watchdogs, we have been influential in numerous policy debates.

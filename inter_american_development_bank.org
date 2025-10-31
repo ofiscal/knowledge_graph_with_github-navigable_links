@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       3d435a38-8dad-4700-80a1-a00fbe8a30eb
+:ROAM_ALIASES: IADB (Inter-American Development Bank)
+:END:
+#+title: Inter-American Development Bank (IADB)
+* The IADB's Mapa Regalias is lesser in scope than its Mapa Inversiones.
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/getting_a_grant_from_the_iadb_transparency_fond.org][getting a grant from the IADB Transparency Fond]] for the Observatorio Fiscal
