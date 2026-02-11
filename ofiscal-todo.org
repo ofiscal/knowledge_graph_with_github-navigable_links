@@ -1,0 +1,203 @@
+:PROPERTIES:
+:ID:       cb1bb067-d8cc-48d2-ad90-60ba4308adf8
+:END:
+#+TITLE: ofiscal, todo
+* TODO pgn data
+  https://mail.google.com/mail/u/0/#search/from%3Awilliam/QgrcJHrnxSwGZZCqcZmVLxgdzkgrmMjzgng
+  If two rows in the same year have the same code,
+  add their data.
+* TODO weight the deciles in the microsimulation
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/organizing_the_responses_to_our_derechos_de_peticion_for_salary_data.org][clean derechos de petición for salaries]]
+  at least see if I can get the first 75%
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/pgn_years.org][pgn-years]]
+* TODO [[https://github.com/JeffreyBenjaminBrown/secret_org_with_github-navigable_links/blob/master/giving_daniel_permissions_in_aws.org][giving Daniel permissions in AWS]]
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/make_microsimulation_if_possible_match_dane_s_and_gabriel_s_income_stats.org][make microsimulation (if possible) match DANE's and Gabriel's income stats]]
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/subdivide_labor_income_into_indep_and_dep_tax_co.org][subdivide "labor income" into "indep" and "dep" \ tax.co]]
+* TODO test SS-2023 branch on AWS
+  If it works, move those changes into master
+  (from SS-2023) and update AWS.
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/add_ss_taxes_to_sim_output_2023_11_17_fri_tax_co.org][add SS taxes to sim output <2023-11-17 Fri> \ tax.cco]]
+* TODO redraw the tax.co makefile graph
+* TODO come up with a time estimate for the sim paper
+  Explain all the TODO items to Oliver,
+  ask which he wants.
+* TODO make a separate tax.co repo, with the PDF
+  Suggest this as "the link" to share.
+* TODO amend tax.co installation instructions
+When updating git submodules, you'll need (if you haven't done it already) to configure git to use the git (ssh) protocol, as described here:
+
+    https://stackoverflow.com/a/42641637/916142
+
+  or change the submodule URL to the http protocol:
+
+    cd tax.co.web/system_specific/
+    git remote set-url origin https://github.com/ofiscal/tax.co.web-system.specific
+* TODO ? rather than regexes across column names, write out all column names in some kind of data structure, but include a test that the regex relationship holds on that structure
+* TODO show Daniel [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/commit_a8ba8ce21a9a87ac9993a4111b65a5ddb20a63fb_in_tax_co.org][commit a8ba8ce21a9a87ac9993a4111b65a5ddb20a63fb in tax.co]]
+* TODO Write the [[https://github.com/JeffreyBenjaminBrown/secret_org_with_github-navigable_links/blob/master/a_data_science_skills_assessment.org][test for the data analyst]].
+* TODO [[https://github.com/JeffreyBenjaminBrown/secret_org_with_github-navigable_links/blob/master/test_a_cto.org][test a CTO]]
+* TODO break out predial and vehiculos, and don't use other "value" taxes.
+  where "don't use" = "don't propogate into aggregate tax figures"
+* podcast from Mauricio
+  https://spotify.link/rHzgcbJP8Db
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co.org#todo--pension-income-should-mostly-be-exempt-from-income-tax][? Pension income should mostly be exempt from income tax.]]
+* TODO compare SS contribs at 1 min wage from sim to Mauricio's code
+  might need dotaciones
+  and maybe even more stuff, but dotaciones is huge
+* TODO Run a VAT simulation that Oliver has been asking Gabriel for.
+  Baseline v. 19% flat VAT.
+* TODO ask [[https://github.com/JeffreyBenjaminBrown/org_personal-most_with-github-navigable_links/blob/master/jaime_e_trujillo_ruiz.org][Jaime Trujillo]] to show me what data he's extracting from [[https://github.com/JeffreyBenjaminBrown/secret_org_with_github-navigable_links/blob/master/dian/funcion_publica.org][Función Pública]]
+  Hola Jaime! Oliver pidió que yo te pidiera a ti que me muestres lo que estás sacando de Función Pública, una vez has sacado algo.
+* TEFISCON
+** (someone) estimates more than 25% of tax revenue is foregone for tax expenditures
+** "political discount rates" depend on politicians' incentives -- e.g. just get to the next election
+* reading a law
+  https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=56882
+** NGOs can be petitioned too
+   The law seems mostly targeted at users of pulic funds, but:
+
+   "Las disposiciones de esta ley serán aplicables a las siguientes personas en calidad de sujetos obligados: ... Los partidos o movimientos políticos y los grupos significativos de ciudadanos."
+* TODO in sim
+** see also [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co.org][tax.co]]
+** Sing it loud: I need the subsample in the baseline config to match that of the user config!
+** use [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/parallel_processing_in_gnu_make_with_a_multi_output_rule_that_does_not_create_redundant_processes.org][parallel processing in GNU make with a multi-output rule that does not create redundant processes]]
+   Ideally, via pymake, since text manipulation is hard in make, and I need to create a list of rules from a list of targets.
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/are_these_data_the_contralia_sent_us_useful.org][Are these data the Contraloría sent us useful?]]
+* TODO Help Silvana with backups, maybe version control
+* new project "Desagregación del PGN"
+** Central gov reports transfers to munis and depts in PGN.
+** Munis and depts report receipts? CUIPO, supposedly.
+   Should correspond.
+* TODO bughunt for Gabriel
+  Why didn't he get a response?
+* TODO compare microsim output to Downloads/boletin-enph-2017.pdf
+* TODO suggest recaps in all team meetings
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co_the_paper_about.org][tax.co, the paper about]]
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/cities-code-base-Observatorio-Fiscal.org][cities repo : update for 2023]]
+** TODO cities: [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/cities-code-base-Observatorio-Fiscal.org#todo-ask-someone-to-verify-the-set-of-codes-were-using][ask someone to verify the set of codes we're using]]
+* TODO look for grants from Wellspring
+  They have a gender focus.
+* my nix javeriana repo looks bad
+  The repo has a different nixos-version.
+  Probably I updated it for the new computer.
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/pension_pillars_as_of_2023_03_21.org][pension pillars as of 2023-03-21]]
+* DONE [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/editing_our_pensions_report_2023_03_22.org][editing our pensions report, 2023-03-22]]
+* read this report on inequality, then talk to [[https://github.com/JeffreyBenjaminBrown/org_personal-most_with-github-navigable_links/blob/master/jairo_nunez.org][Jairo Nuñez]]
+** https://www.afd.fr/fr/extension-facilite-recherche-inegalites-colombie
+* (stale? done?) [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/find_unemployment_rates_as_function_of_gender_age.org][find unemployment rates as function of gender & age]]
+* (stale? done?) [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/find_rate_of_formality_among_aforados.org][find rate of formality among aforados]]
+* Edit OSF proposal
+  https://docs.google.com/document/d/14WfUc3RscpVXKyzkb4bny5vuBBfqqILc34zgxmszCUo/edit
+** check for consistency in our parts. Give consistency comments for theirs but don't try to fix.
+* questions about pensions
+** If Colpensiones has mas afiliados than it does cotizantes, are the rest receiving pensions already?
+** p3 par 3 in our writeup: what is the Sistema Obligatorio de Pensiones?
+* meeting, pensions, <2023-02-08 Wed>
+** vocab
+   en vigencia
+   reácio
+** salario minimo se aumenta mas rapido que la inflacion
+** If you reach pension age without having saved enough, you can't keep saving to get one later!
+** TODO rules, for me to code using the GEIH
+*** earning less than 2 min, under Ed's proposal, 13% of wages go to Colpensiones (public)
+    need to know how much that is
+*** by Ed, 13% of the rest goes to RAIS (private)
+*** status quo: some percentage goes to either Colpensiones or RAIS, but can get the total, which should be around 38 (Colombian) billones COP
+*** my estimates from the status quo are too calibrate how much to expland what I estiamte for Ed's proposal
+*** threholds might be from 1.5 to 4 minima
+* TODO add notes on these
+** CAOBA
+** ADACOP
+** MINTIC
+* BLOCKED (emailed) to Marcel about GEIH
+  https://mail.google.com/mail/u/0/#search/marce/KtbxLxgGDrdsNKNSgPmvWBdShVDpsDGZkL
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/contract_transparency_ofiscal_project.org][contract transparency (ofiscal project)]]
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/colombia_s_pension_system_and_a_possible_2023_reform.org][pension reform]]
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/adacop.org][ADACOP]]
+* TODO file notes from [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/meetings_2023_01_10.org][meetings 2023-01-10]]
+* TODO put a limit on the number of requests the sim can do in a day
+  because it will be published on our site
+* TODO keep copies of stuff on Oliver's Box account
+* TODO check out what Transparencia wrote
+  https://transparenciacolombia.org.co/
+* TODO Daniel says
+** make public contracts more transparent
+** the information avail now is good only if you know how to navigate it
+** cruzar (merge) contract data with corruption data
+   but we don't have corruption data
+** aliados para crear el indice de corupción
+   Transparencia and Veinte are the most likely to be useful.
+*** Transparencia por Colombia
+    They work on discovering corruption.
+    Their data comes from the news.
+    Their data is biased toward big corruption scandals.
+*** Los Veinte
+    Lawyers working on transparency.
+    One of their interests is that some info that should be public,
+    re. penal or civil processes, is not made public.
+    That's information that judges most likely have.
+    We might be able to use their data to know whether parties to any public contract were sued. Best case.
+    Second best: They tell us the information doesn't exist.
+** if we can't use external data to identify corruption, we'll just cluster the data
+   or maybe not clustering but just look at how a contract's cost differs from what we predict.
+** problems with writing a citizens' guide
+   Transparencia para Colombia already did that.
+   Lots of bulletins, maps, things about SECOP, and how they scrape the news.
+* TODO u
+** writing
+*** TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co_the_paper_about.org][tax.co, the paper about]]
+*** TODO (after Tuesday): extend [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/taxing_firms_by_size.org][taxing firms by size]] with a comparison to [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/cedetrabajo_and_acopi_propose_taxing_small_firms_less_oct_2022.org][Cedetrabajo and ACOPI propose taxing small firms less]]
+*** TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/translate_un_ano_de_la_pandemia_opacidad_en_los_gastos_y_una_reforma_tributaria_para_pagarlos.org][translate "Un año de la pandemia: opacidad en los gastos y una reforma tributaria para pagarlos"]]
+*** TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/our_report_on_the_second_petro_tax_reform_2022_09_28_ish.org][our report on the second Petro tax reform, <2022-09-28>-ish]]
+** policy ideas
+*** subsidize healthy prepared food
+    for gender equity
+** about Colombia's economy
+*** hotels employ more women
+*** TODO find someone who knows about the [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/elca.org][ELCA]]
+** economics
+*** TODO learn about [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/ceq_method_for_evaluating_fiscal_incidence.org][CEQ (method for evaluating fiscal incidence)]]
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/observatorio_fiscal_grant_applications.org][Observatorio Fiscal grant applications]]
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co.org][tax.co]]
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/document_the_microsimulation.org][document the microsimulation]]
+* BLOCKED [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/can_we_send_regressions_for_dian_run.org][Can we send regressions for DIAN run?]]
+* TODO review [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co.org][tax.co]]: in org-roam, and TODO notes in code
+* TODO testing whether email == quien@donde.net is failing
+** how to test
+   I already set a trace in requests.main.
+   Now run it twice, first adding to temp queue,
+   then trying to advance queue.
+** thoughts
+  My gmail tried to send another such email.
+  The only place in the code it could be triggered from is requests.main.
+  Maybe req["user email"] is not a string?
+* TODO new sim, but for after the "income-tax" picture
+** irrelevant to the code: more declarantes
+   alternatives?
+*** everyone declares
+*** if you earn more than 2e6 CGG, you have to declare taxes
+    CGG = labor income - SS - 2e6 - 1e6 * #dependents
+** negative CGG => reimbursed
+** 1 million per child, can have more than 1
+** make a slightly different baseline: include dependents in the 40%, but only 25% if none
+   for the baseline only
+** 20% income tax for negative CGG
+** assign fractional dependents -- divide # dependents by # of taxpayers
+** if no earners, head of household gets (- 2e6 - 1e6 * #deps)
+* TODO document units of observation and quantiles somewhere
+  Recall that the meaning of the quantiles in nonzero-laborers is different. In each data set the quantiles are over the unit in the name of that data set -- so earners quantiles are computed over all earners (including the unemployed), not households; household quantiles are computed over households; and nonzero_laborers quantiles are computed over earners with nonzero labor income. But additionally, whereas the other two data sets have their quantiles computed with respect to total income, the nonzero-laborers quantiles are computed only with regard to labor income.
+* TODO make the maximum deduction a numerical user input
+* TODO inflate to 2022 pesos
+* TODO ? [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/rewrite_algorithm_to_compute_cedula_gravable_general.org][rewrite algorithm to compute cedula gravable general]]
+* TODO ? Tax on capital affects employment, not just wages
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co.org][tax.co]]
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/measure_sugary_drink_consumption_group_project.org][measure sugary drink consumption (group project)]]
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/publish_our_tax_wishlist.org][publish our tax wishlist]]
+* TODO figure out why the model seemed down for me and not Sebastian
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co_web.org][putting tax.co online]]
+* BLOCKED dubious
+** read the [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/guia_presupuestal_2022_by_the_observatorio_fiscal.org][Guia Presupuestal 2022, by the Observatorio Fiscal]]
+** learn [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/ssh_over_https_at_least_for_github.org][how to SSH over HTTPS, for Github or maybe anything]]
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/move_ofiscal_org_to_javeriana_edu_co.org][move ofiscal.org to javeriana.edu.co]]
+* u, notes from [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/observatorio_fiscal_s_trip_to_washington_dc_circa_2019.org][Observatorio Fiscal's trip to Washington DC, circa 2019]]
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/done_not_sure_why_i_m_keeping_observatorio_fiscal.org][DONE & not sure why I'm keeping \\ observatorio fiscal]]

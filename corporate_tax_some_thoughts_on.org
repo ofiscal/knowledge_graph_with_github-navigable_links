@@ -1,0 +1,48 @@
+:PROPERTIES:
+:ID:       7c550e05-82e1-41d6-a8da-c8171f59f68c
+:END:
+#+title: corporate tax, some thoughts on
+* [#A] PITFALL: These are probably out of date.
+
+  I sent them to Oliver and Angelica via Whatsapp.
+  Once they build on that, these are garbage.
+
+* Should there be a corporate tax?
+
+** It's redundant.
+
+   The Spanish language is instructive. Corporations are a legal fiction. Ultimately, a corporation's profits go to people. And we already have a personal income tax.
+
+** Progressivity is hard to achieve at the corporate level.
+
+   One could, for instance, impose a progressive marginal tax schedule on corporations. But, since progressivity means taxing the rich more, that approach assumes that companies making more money are giving their money to richer people.
+   There's no such link. A giant corporation can take a loss one year; that doesn't mean its money is suddenly going to poorer people. A small corporation -- indeed, any number of small corporations -- can be entirely owned by one rich person. Similarly, a giant corporation can be owned in large part by retirement funds -- i.e., ultimately, by retirees. Those are generally not rich people, regardless of how profitable the giant companies funding their retirements are.
+
+** A corporate tax is inefficient.
+
+*** If there's a corporate tax, there's an industry devoted to minimizing corporate tax bills.
+
+    That's a huge pool of highly educated labor that could be producing something of value but instead is merely shifting value from the state to the private sector.
+
+*** If the average corporate tax rate depends on a corporation's scale, it creates a growth disincentive.
+
+    If small companies pay a lower average tax rate than large companies, that makes small companies want to stay small. But bigger companies are more efficient. All else equal, two small companies are in general less productive than one bigger company the size of the two small ones.
+    The effect could be great enough even to cause a company at the margin to want to shrink. Suppose the tax rate is 20% for companies with profits below 1000 million pesos a year, and 30% for a company with profits above. Stated equivalently, big companies can keep 70% of their profits, and small ones can keep 80%.
+    Under those conditions, a company that makes 1050 million pesos before taxes will make 0.7 * 1050 = 735 million pesos after taxes. By contrast, a company that makes 950 million pesos before taxes would end up with 950 * 0.8 = 760 million pesos after taxes. A big company could, in December, realize it's about to cross the 1000 million peso threshold and respond by halting operations. That's clearly a terrible use of resources.
+
+** A corporate tax is complex, and thereby less transparent.
+
+   Taxing income twice -- once as corporate income, once as personal dividend income -- can only more complicated than taxing it once would be. And the more complex the process, the harder it is to see what's going on.
+
+* What is the current corporate tax rate, and what should it be?
+
+  The purpose of taxes is to fund the government in a fair way. Everyone should contribute, and the rich should contribute more.
+  With these goals in mind, if there is a corporate tax, to choose its rate one must take into account the taxes on personal dividend income and personal slae of stock. (Stock is ownership of a corporation, and the people who own a company's stock receive some portion of its profits as dividends.)
+  Income from selling stock in Colombia is taxed like any other kind of income, in quite a progressive way -- people with the least income pay no income tax, and people with the most pay 39%. Income from dividends is taxed separately, and less progressively. No matter what your income from other sources is, if you make less than 300 UVT from dividends -- about 11.4 million COP in 2022 -- you pay nothing on that money, and any income you receive above 300 UVT is taxed at a flat 15% rate.
+  The corporate tax rate in Colombia is supposedly 35% (but see below). A business pays 35% tax on its dividends, and gives the remaining 65% of those dividends to the owner. The owner then pays 15% of what they received in taxes. Since they only received 65% of the original profits, after both taxes the owners are left with about 55% of the profits -- making the effective tax rate about 45%. (In math, they keep (1 - 0.15) * (1 - 0.35) = 55.25%, meaning the effective tax rate is 100% - 55.25% = 44.75%.)
+  In reality, the corporate tax rate is much less than 35%, and varies wildly across companies. <<TODO: Give examples.>>
+  So consider a compnay that in reality pays only 20% income tax, and a household that receives 20 million COP per month from that company. Since the first 11.4 million COP are exempt from the personal dividend income tax, the household ends up with (20e6 * 0.8 - 9.6e6 * 0.15) = about 14.6 million COP, making the effective tax rate only about 27%. And this tax has *nothing* to do with how much that household receives in other income -- the dividends could be all they have, or they could be making a hundred million pesos a month selling cars, and they would still pay the same rate.
+
+* Conclusion
+
+  There's no reason anybody should be entitled to 11 million COP of tax-free income per month as long as it comes from dividends. There's no reason potato chip companies should pay a different tax rate than cellular service providers or banks. It would be both simpler, cheaper for the DIAN to enforce, and fairer to get rid of the corporate tax and treat dividend income the same as any other income.

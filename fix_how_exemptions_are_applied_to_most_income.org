@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       b91ea186-b66a-48ab-90d4-c7cba0688e3b
+:END:
+#+title: fix how exemptions are applied to "most income"
+* DONE where it's blocked
+  I asked LCR who I should ask to check the work; he hasn't responded.
+* DONE history
+  LCR, Daniel, Angelica and I met in person about this on 2021 07 28.
+  It then fell off our radar.
+  I rediscovered this note and implemented the change on <2022-09-01 Thu>,
+  in commit da580efdbda43169f30bb0bd0264fe0134017bf0.
+* DONE the correction
+min (
+      ( ppl["income, labor"]
+        - ppl["tax, ss, total employee contribs"]
+        - "those exemptions" ),
+   0 )
++ rental + interest + non-labor
+
+To that whole thing, apply the marginal tax scchedule.
+(The min(_,0) is the part not yet implemented.)

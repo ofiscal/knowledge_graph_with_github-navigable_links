@@ -1,0 +1,47 @@
+:PROPERTIES:
+:ID:       378173df-3632-476b-915f-5340d3360b20
+:END:
+#+title: "Evaluación de políticas pensionales para reducir la brecha de género en la etapa de retiro en Colombia", by Andrea Lizeth López Rodríguez
+* TODO RESUME at
+  3.3.2 Diseño y funcionamiento del modelo
+  pdf 27 | page number 25
+** note that I read out of order
+   the section on the change we're interested in
+* acronyms
+** SPC = sistema pensional de Colombia
+** CEPAL = Comisión Económica para América Latina y el Caribe
+* DNPensión is a model made for Colombia.
+* assumptions
+  See section 3.3.1 (pdf p. 27) for (all?) of them.
+** People retire as soon as possible.
+** Income is a deterministic function of education.
+* findings
+** Rural men work a bit more than urban ones.
+** Rural women work much less than urban ones.
+** Women work and contribute to pensions less than men.
+** The rural gender wage gap is bigger than the urban one.
+** Urban women earn more than rural men.
+** En el inicio de la vida laboral no existe brecha de ingresos.
+* calculations
+** Estimates (how?) probability of state transitions
+:PROPERTIES:
+:ID:       c98f44cb-4aea-497a-9e6f-f8e3a1ffc8e4
+:END:
+   as functions of age and education.
+   See "anexo 1", p. 54.
+** For single people, uses simple life expectancy. For couples, joint life expectancy.
+* fancy data she uses
+  "Con respecto a los salarios, se cuenta con información desagregada por género proveniente de las bases de datos de las historias laborales de Colpensiones"
+* TODO ? potential improvements
+** Rather than assuming static salaries,
+   assume salaries follow the average age profile --
+   i.e. young people earn more as they age, at least for a while --
+   as estimated from the data.
+* Escenario 5: Reducción a 1150 semanas para mujeres en RPM
+** Reasons it's an underestimate to the cost figure we seek.
+*** It considers a drop only to 1150 weeks.
+*** PITFALL: It considers the change for all women.
+    She mentions that the change has been considered
+    for women earning less than 2 minimum wages,
+    but what she analyzes is what would happen
+    if it applied to all of them.

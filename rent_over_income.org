@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       e5707130-a5ab-4c8e-be3c-51d430068280
+:END:
+#+title: rent as a fraction of income
+* variables
+** whether the home is owned or rented
+V1884 P5090 La vivienda ocupada por este hogar es:
+** rent amount
+V1904 P5140 ¿Cuánto pagan mensualmente por arriendo ?
+** mortgage payment
+V1889 P5100S4 Cuánto pagan mensualmente por cuota de amortización?

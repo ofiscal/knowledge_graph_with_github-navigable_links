@@ -1,0 +1,178 @@
+:PROPERTIES:
+:ID:       5ff764f6-74c0-4151-a68f-7d4fb2a9be23
+:ROAM_ALIASES: "grant \ Inter-American Foundation && ofiscal"
+:END:
+#+title: getting a grant from the Inter-American Foundation
+https://www.iaf.gov/es/solicite-fondos/
+* DONE Manu says the webpage cost 12 million COP
+* BLOCKED questions I can't answer
+** I emailed about it
+   https://mail.google.com/mail/u/0/#search/to%3Aoliverpardo%40gmail.com/QgrcJHsTfQzCXMzBTvxWpqLMDDctXPsMScb
+** the list
+*** Estructura organizativa/de gobernanza actual
+    (Se refiere a la forma de liderazgo de la organización,  que puede incluir una junta directiva, una asamblea general, un consejo fiscalizador  y/o un director ejecutivo; también indique cómo se toman las decisiones, la frecuencia de las reuniones, etc.) Escriba los nombres completos de los integrantes de la junta directiva, afiliación a la organización y sus cargos. Indique sus profesiones (agricultor, técnico, maestro, etc.).
+*** who
+    Escriba los nombres completos de los integrantes de la junta directiva, afiliación a la organización y sus cargos. Indique sus profesiones (agricultor, técnico, maestro, etc.).
+*** Logros pasados más importantes
+    (Describa la historia y los logros principales de su organización) Incluya los que sean pertinentes para este proyecto.
+* answers
+** title
+*** 2, J
+    An Automatic System of Alerts for Potentially Problematic Government Contracts, and Associated Analysis and Communication Efforts
+*** 1, D
+    Evaluación y transparencia en los contratos nacionales de Colombia
+** resumen, 50 word max
+*** 2, J
+    We will analyze Colombia's public contract databases; create a central metadatabase from those databases; create an automatic system to detect potential contract mismanagement; and write, publish and share (in seminars, etc.) how citizens can use them.
+*** 1, D
+    El proyecto está dirigido a determinar cuales son las fuentes de información de contratación pública en Colombia y cómo se pueden usar estas fuentes para hacer veeduría ciudadana de forma efectiva.
+** retos y oportunidades claves
+*** 2, J
+***** 2, essay
+      Public contract spending in Colombia is opaque. This results in official impunity, the misuse and misappropriation of funds, and voter apathy – the last of which entrenches poor governance.
+      On paper, Colombia provides a wealth of services to every population, particularly its most vulnerable – healthcare (which is socialized), education, public housing, sanitation, energy, infrastructure, security, justice, and countless others. In practice, however, much of this spending is wasted or stolen. Those with the means spend to secure better services from the private sector. Those without suffer red tape and long queues for shoddy services. Ambulances can take hours to arrive. Police often simply don't. Ordinary citizens pay the price in time, money, health, security, justice and economic growth.
+      Greater transparency would result not just in better spending. It would also, by making officials accountable for their actions, improve democratic outcomes, specifically citizen participation and candidate quality. The government would not only better fulfill its existing promises, but make better ones in the future.
+      Colombia offers favorable conditions for a transparency project like this one. Democracy functions well in Colombia. Speech is free (although policing and enforcement against retaliatory actions can be weak). Elections are clean. While vote-buying exists, it has lost its effective (and appears to be entirely useless at the national level). And light brought to government activities is powerful in Colombia -- something that is amply demonstrated by the Observatorio's record of publications, of media appearances, in social media attention, and of appearances in Congress. Effectively communicating research into the government's activities and their effects on society generates energetic citizen debate, attention from media and government, accountability in government and those who work with it, and changes in the law.
+      Public procurement contract data for all levels of Colombia's government is freely available online. The size, complexity and obscurity of the data, however, renders it nonetheless opaque to would-be citizen researchers. Computer-assisted analysis of these databases offers the potential for massive scale at trivial cost.
+      We will integrate the existing databases into a single public meta-database, analyze the data, and build an automatic system of alerts that publishes anomalies it finds in the databases as they are continuously updated. We will futher publish and share our results with the public through multiple channels -- friendly general-audience reports, blog posts, social media efforts, traditional media appearances, and in-person seminars. The result will be a more engaged public making better decisions at the voting booth, greater accountability of the government and its contractors, and improved provision of public goods in Colombia.
+***** 1, outline
+****** the problem
+       outline missing -- I copied that part of the essay
+       from our grant application to
+       the Fund for Innovation in Development
+****** opportunities
+******* Democracy functions pretty well here.
+******** Speech is pretty free here.
+******** Elections are pretty clean.
+******* Bringing light to government activity works.
+	It generates citizen debate, media attention, government accountability, and changes to the law.
+******* (D wrote) The data exists but is opaque.
+******* Computer-assisted analysis offers cheap, massive scale.
+******* (D wrote) We have allies.
+*** 1, D
+**** 2, outline
+***** The data exists but it is opaque.
+***** We have allies.
+**** 1, original
+     En Colombia existe información de contratación pública, pero no está consolidada en una sola fuente, no está completa, y tiene algunos problemas de manejo y limpieza de datos. Entendemos nuestras oportunidades desde alianzas estratégicas que hemos consolidado con organismos civiles que trabajan el tema de la transparencia además de distintos medios públicos como periodistas y gobierno.
+** (who participates?) - who participates, who benefits
+*** question
+    Describan la(s) comunidad(es) que se espera que participen. ¿Qué personas y grupos se beneficiarán?
+*** answer
+**** 2, J
+     This project will benefit everyone who uses goods or services provided by the Colombian government -- everyone who lives here and everyone who visits, at the least. In this as in all countries, everybody relies on public goods and services like roads, hospitals and police. But since the wealthiest Colombians can afford to purchase private alternatives to some government services, the improvements in public contract accountability that are this project's goal will disproportionately benefit Colombia's poor majority.
+     Anyone who wishes can already, in theory, try to investigate the government's public databases. But in practice that number is extremely small, because the system is complex and little understood. The meta-database we develop will be easier to use than the existing public databases, and our publications, media efforts and seminars will show people how to use both. This will enable many more people to participate. We cannot say, but our past experience leads us to expect substantial public engagement with the project.
+**** 1, D
+     Esperamos que las personas en Colombia resulten beneficiadas por mayor veeduría. Si bien no consideramos que ningún grupo en particular se beneficie más que el resto, es posible que quienes mas hayan sido perjudicados por la corrupción se vean mas eneficiados.
+** whence?
+*** 2, J
+**** question
+      Cómo se decidió el enfoque del proyecto? ¿Cómo han participado la comunidad y los participantes en el diseño del proyecto? ¿Qué procesos existen para garantizar que la comunidad se apropie del proyecto?
+**** answer
+***** 2, text
+      We decided to undertake the project because it appears both extremely needed and extremely feasible. Feasible because the public databases exist, because Colombia is an environment in which research groups can freely investigate those data and publish their findings, because the project's up-front cost is low, and because its maintenance cost is tiny. Necessary, because citizens clearly want to know how their money is being spent, and are willing and able to use that information to bring the government to account.
+      The tools we design will be easy to use, and a substantial portion of the project involves spreading information about how to use them. Once the project is up and running it will require very little financial support. Data analysis, software development and public outreach are the biggest costs, and they are all up-front. Once they are complete the project will require only the continual use of a single server and, we estimate, one month per year of one programmer-economist's time. These negligible maintenance costs can be absorbed by our parent organization, Pontificia Universidad Javeriana. (Doing so will not even constitute charity, as the project will be a perpetual source of highly-valued publicity for the university.)
+***** 1, outline
+****** how we decided to do it
+******* It appeared possible and necessary.
+******* Possible, because the data exist, and in Colombia we are free to analyze it and make our findings known.
+******* Necessary, because citizens want to know where their money is being spent.
+****** how will the community take ownership of it
+******* it will be easy to use
+******* we will explain how
+******* It will be cheap to maintain, requiring no additional outside funding.
+*** 1, D
+**** 2, outline
+***** our motivation
+****** The information was missing.
+***** how will the community take ownership of it
+****** it will be easy to use
+****** we will explain how
+**** 1, text
+     La decisión del enfoque la percibimos por la ausencia de información que encontramos en otros proyectos. La necesidad de información nos interesó en centralizar y estudiar las estructuras de contratación pública en Colombia.
+     Esperamos que la comunidad utilice los recursos que proveamos para hacer veeduría ciudadana. Para esto nos dedicaremos a que las herramientas sean fáciles de usar y brindar apoyo técnico y talleres explicativos a los y las ciudadanas.
+** principal activities
+*** 3, J, text
+    The first stage of the project is to assemble a meta-database integrating the data from Colombia's many public databases of public contracts. Once the meta-database is in place, a number of analytical and engineering can proceed in parallel:
+    (-) Manually study the data, especially its summary statistics and instances of outliers.
+    (-) Use econometrics and machine-learning to identify patterns of suspicious contract acitivity, such as contracts that are highly overvalued relative to others with similar deliverables.
+    (-) Develop a system to automatically run such detection algorithms and publish its results online.
+    (-) Make our meta-database and the automatically detected anomalies available online, and build a user interface for the public to access them.
+    Toward the end of those analytical and engineering tasks, we will begin a communication campaign similar to the many we have already executed. We will publish an illustrated layperson's guide to navigating both our primary sources and the meta-database we will have made available. We will provide blog posts and engage in informal social media efforts. We will communicate with the media and lawmakers. We will host seminars and colloquia.
+    Once these efforts are complete, we expect citizens to use our tools to oversee government activities, and for the government and its contractors to be highly aware of that oversight, and to act accordingly.
+*** 2, J, outline
+**** Collect data.
+**** Integrate data.
+**** Automate the data update process.
+     Econometrics, ML
+**** Analyze data.
+**** Determine signatures of contract mismanagement.
+**** Automate the search for potential contract mismanagement.
+**** Design a public-facing user interface for our centralized DB and its automatic mismanagement search results.
+**** Communicate
+***** Publish our results.
+***** Push our results to the press.
+***** Give seminars and colloquia.
+*** 1, D, text
+    En primer lugar estructurar la información de contratación pública existente y consolidarla. En segundo lugar realizar tres tareas paralelas: 1. Desarrollar técnicas para actualizar los datos encontrados de forma automática. 2. Reconocer la información en las bases consolidadas a través de estadísticas descriptivas, realizar modelos de econometría y aprendizaje de maquina para reconocer estructuras dentro de los datos y encontrar datos extraños. 3.Diseñar una interfaz para publicar los resultados actualizados de forma frecuente. Por último realizaremos la publicación del ejercicio.
+** other groups involved
+   The Observatorio Fiscal will bear sole responsibility for the project’s execution.
+** what changes do we expect? how will we recognize success?
+*** 2, J
+**** 2, text
+     Upon completion of this project, we expect many more Colombian citizens to understand how to exercise oversight of public contracts, by using both the existing government-provided tools and the ones we will design, and to engage in such oversight. As a result, we expect government to recognize an increased political risk of contract mismanagement, and as a result, that contracts will be better managed.
+     The result should be better provision of essential services such as healthcare, education, infrastructure, public safety, and a corresponding increase in citizen welfare and economic output.
+     We will measure the program's effectiveness experimentally. Since public contracts are local, we can make the project available in some places and not others. After executing a power study to determine an appropriate size for it, we will randomly select a group of control localities for which we will withhold data. By monitoring for differences in suspicious contract activity in the treatment and control groups, we will be able to generate a useful measure of the program's effectiveness.
+     There are certain aspects of the program, such as the publication of laymens' guides to the oversight process, that cannot be restricted to certain regions. If those aspects are effective as well, then the experiment will yield an underestimate of the program's effectiveness. This will bolster our case, if (as we expect) the experiment reveals a meaningful difference between the treatment and control groups.
+**** 1, outline
+***** citizens identify contract mismanagement
+      using our tools and those already provided by the govt
+***** contract mismanagement carries greater political risk
+***** contracts are managed better
+***** effects of that
+****** healthcare
+****** infrastructure
+****** education
+****** public safety
+*** 1, D
+**** 2, outline
+***** citizens use our tools to find contract mismanagement
+**** 1, text
+     Esperamos que las herramientas sean utilizadas por la ciudadanía para describir sus procesos locales y encontrar casos extraños o sospechosos. El desarrollo de los modelos, bases de datos e interfaz gráfica mostrará que tuvimos éxito en el desarrollo. Los resultados por parte de la ciudadanía en hacer veeduría efectiva mostrará si tenemos éxito en los ideales.
+** how to handle risks and opportunities
+*** 2, J
+    The opportunities we plan to take advantage of, and how, are described above in our response to an earlier question. To repeat them in brief, the opportunities are the following: that speech is free; that democracy is clean; that bringing light to government activities generates vigorous public debate, to which the government is responsive; that public contract databases exist, but are currently opaque; and that automated analysis of the database permits oversight on a massive scale. Our response to those opportunities is the plan we have set forth already: to collect the public databases into a single meta-database; to automate the search for and publication of supicious contract activity in that meta-database; and to explain to the public at large, through a variety of channels, how to use those tools to oversee government actiities.
+    The most catastrophic risk would be a violent act of revenge by someone who does not appreciate our revelations. We consider this unlikely. While assasinations of rural community leaders remain common, political violence is extremely rare in Bogotá, where we are located.
+    Second, the conditions in Colombia favorable to a transparency project like ours could change. The public contract databases could be taken offline -- but we consider this unlikely because such a move would be highly visible and very politically damaging to anyone who might consider it. Similarly, the government could try to silence us in particular -- but given our own high visibility and outstanding reputation, such a move would be at least as politically damaging as taking down the databases.
+    The risk with the greatest probability -- though we consider it small -- of materializing is that integrating the public databases, analyzing the data, setting up an automatic publication mechanism, and making all of those things understood by the public proves to take longer than we initially estimate. This is not a risk to the project's viability, however; it would merely mean we would have to, say, seek funding for another year. But at that point we would already have useful initial results, and so could perhaps secure continued funding more easily.
+    Last, and most subtly, are potential obstacles in the contract data itself. While the databases we will draw from are enormous, they unlikely to be complete. Even if they cover all contracts, they may not record everything about those contracts that they should. Therefore, if we believe it is necessary, we will supplement the contract databases with other information scraped from the web. Transparencia por Colombia has already performed such scraping for news articles, and is open to sharing information with us. Another potential response would be to limit our reports of suspicious activity to cases in which the mismanagement is severe enough that it is obvious even from incomplete data. (This second response not really an either-or condition; rather, regardless of what we find, we will flag exactly those results we feel confident of, and their scope will depend on the quality of the information at hand.)
+    Those are all risks to launch. We foresee no risks to scaling or maintaining the project, as it will launch at full scale and maintaining it is cheap.
+***** outline
+****** We could be assasinated.
+****** The favorable conditions in Colombia could change.
+******* Democracy might weaken.
+******* The DBs could disappear.
+****** Our estimate of the development task's duration could be wrong.
+****** (D wrote) Information problems
+******* Critical data might be missing.
+******* Mismanagement might be unidentifiable outside of the most extreme cases.
+*** 1, D
+    Los riesgos principales son la ausencia de información y carencia de variables explicativas. En el caso de la ausencia de información estamos preparados para extraer información de fuentes no tradicionales por medio de scraping, minería de datos y otras herramientas. En carencia de variables explicativas suficientes tenderemos a mostrar resultados solamente en contratos exageradamente extraños que aún con poca información sean reconocibles.
+** how will this continue once we stop funding?
+*** 2, J
+    In the long term this project does not require external funding. After the two years for which we are requesting funding in this grant application, we expect to have put in place the meta-database and the program to continuously monitor it for suspicious contract activity, and to have published guides regarding, and otherwise have made known, how citizens can use the public databases and the tools we have built to monitor public contracts.
+    Thereafter we will simply leave the program running. We estimate that a single month of a single programmer-economist's time will be needed per year to maintain the program. That labor, plus the continuos use of a single server (probably on Amazon Web Services) are all that the project will require once your funding period ends. Javeriana University, our parent organization, can easily cover those costs itself.
+*** 1, D
+    Seguiremos actualizando la información, mejorando la interface y los modelos predictivos. Además, buscaremos utilidades [óther applications] extra de nuestra información en fomento de transparencia pública.
+** budget
+   /home/jeff/of/grants/Inter-American-Foundation/IAF-Budget-English.xlsx
+** ORPHANED: Talk about how we have already changed laws.
+* the application form
+** online
+   https://www.iaf.gov/wp-content/uploads/2022/10/IAF-Solicitud-Espanol.docx
+** on my system
+   [[/home/jeff/of/grants/Inter-American-Foundation/IAF-Solicitud-Espanol.docx]]
+* guidance for the budget is found on the last page of the Word document
+* their FAQ
+  https://www.iaf.gov/faq/
+* DONE [[https://github.com/JeffreyBenjaminBrown/secret_org_with_github-navigable_links/blob/master/our_eligibility_looked_shaky.org][our eligibility looked shaky]]

@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       7167ee03-5643-44f3-8caa-4ad59b978ef8
+:END:
+#+title: let user modify SS taxes
+* TODO
+** test each ss tax csv table
+** automate the tests
+** mypy complaining about
+   python/build/output_io.py
+* import hierarchy
+  in production, excluding tests:
+** ss.schedules is only used in ss.functions
+** ss.functions is only used in people_3_income_taxish
+   and only in one line:
+     ppl = ss.mk_ss_contribs(ppl)

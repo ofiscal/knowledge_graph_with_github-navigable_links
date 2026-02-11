@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       fad44790-e4ce-4780-97cc-c63c9922e85d
+:END:
+#+title: my work at the Observatorio, formal, for SIGEP and/or the DIAN
+Programación y Administración de Sistemas
+-----------------------------------------
+
+Desarrollar una microsimulación tributaria de Colombia y actualizarla continuamente para reflejar los cambios en la legislación colombiana, en estrecha colaboración con economistas y abogados. Construir una plataforma en línea a través de la cual cualquier persona pueda ejecutar la simulación y visualizar los efectos de cambios hipotéticos en el código tributario. Administrar el sistema que aloja la plataforma en línea, a través de Amazon Web Services.
+
+Construir un sistema para generar automáticamente informes sobre las finanzas municipales para cada uno de los 1100 municipios de Colombia.
+
+Diseñar bases de datos homogéneas a partir de diversas fuentes de datos públicas colombianas, como el DANE, el banco central y el Congreso.
+
+Configurar el sitio web del Observatorio.
+
+Administrar la colección de repositorios de código abierto del Observatorio en Github.
+
+
+Liderazgo
+---------
+
+Dirigir pequeños equipos de programadores, generalmente en ingeniería de datos.
+
+Brindar asesoramiento sobre el uso de diversas tecnologías, como Python, Pandas, Git, Linux, Docker, scripting de shell, Wix (la plataforma de publicación en línea), criptografía e inteligencia artificial.
+
+Brindar asesoramiento económico y estadístico, especialmente en lo que respecta al uso adecuado de datos públicos.
+
+
+Redacción
+---------
+
+Editar la redacción de otros miembros del equipo antes de su publicación, generalmente en español.
+
+Redactar solicitudes de subvenciones, generalmente en inglés.
+
+Documentar todo el software, incluyendo un documento formal que describa la microsimulación, los datos que utiliza, las suposiciones económicas y legales que la sustentan, y su utilidad.

@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       ec6401e9-a512-4237-be6f-b1273c9cc094
+:END:
+#+title: getting a grant from the OPEC Fund
+* refs
+** website
+   https://opecfund.org/what-we-offer/grants/grant-application
+** grant guidelines (pdf)
+   [[/home/jeff/of/papers/OPEC-fund-grant-guidelines.pdf]]
+* They want measurability and alignment.
+  Alignment of our goals with theirs.
+* their goals
+"particularly low-income countries, in support of their economic and
+social development efforts."
+
+"support of technical assistance and
+capacity building activities as well as special development initiatives aimed at
+building public goods and addressing the needs of disadvantaged populations"
+* need a "government commitment"
+** one passage
+   For all types of grants, and with the exception of emergency aid grants and grants in support of projects sponsored by other development finance institutions or UN agencies, proposed activities and projects may be undertaken only where there is a solid commitment from the government to the project concerned.
+** in part, that might be okay because
+   we're a project sponsored by another development finance institution (OSF)
+** They seem to want to be sure the govt is okay with our work.
+   "should provide clear evidence of government approval of the proposed project/activity"
+** We can easily show that.

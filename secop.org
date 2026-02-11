@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       54bc5836-291f-4154-b1e9-7a85cd07ee50
+:END:
+#+title: SECOP
+* TODO How bad are [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/secop.org#its-errors-are-of-content-not-just-formatting][its data entry errors]]?
+  Could we fuzzy-match?
+* Its errors are of content, not just formatting.
+:PROPERTIES:
+:ID:       4290d658-ba55-4d4f-965a-0a85e041f8e2
+:END:
+  e.g. even after stripping out non-numeric characters,
+  someone's cedula can be wrong.
+* SECOP 1 is full of errors.
+* SECOP 2 is cleaner than SECOP 1 but has CAPTCHAs.

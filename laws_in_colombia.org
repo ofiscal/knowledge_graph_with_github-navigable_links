@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       10ce18c2-bac2-4d74-bbdb-63ed002bdfd0
+:END:
+#+title: laws in Colombia
+* [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/secret_recording_is_sometimes_legal_in_colombia.org][Secret recording is sometimes legal in Colombia.]]
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/ley_80_regimen_de_contratacion_estatal.org][Ley 80: Regimen de Contratacion Estatal]]
