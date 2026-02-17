@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       78338d97-3af9-431d-94b4-b4e911b8d901
+:END:
+#+title: taxing firms by size, my essay on
+* CHANGELOG
+  As of <2022-11-09 Wed> I am removing talk of "firm size" as a separate concept from profits.
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/taxing_firms_by_size_my_essay_on_in_english.org][taxing firms by size, my essay on, in English]]
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/taxing_firms_by_size_my_essay_on_in_spanish.org][taxing firms by size, my essay on, in Spanish]]
+* Figure 1
+  [[/home/jeff/many-small/blob/2022-10-05-ZPAHEsvb.progressive-average-tax-and-incentive-to-be-small.jpg]]

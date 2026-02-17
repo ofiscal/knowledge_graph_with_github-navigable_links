@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       cf805990-0558-4608-9d51-ccd76d82d036
+:END:
+#+title: tax.co.web's request queue
+* how it works
+  incomplete
+** python.requests.main
+   serial
+*** acquire `lock_for_temp_db`
+    That's the temp request queue.
+*** call `request_handler`

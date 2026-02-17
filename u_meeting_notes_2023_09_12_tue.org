@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       783189af-5163-4167-aa36-5f40e872a5ac
+:END:
+#+title: meeting notes <2023-09-12 Tue>: legal structure of the budget
+* 3 kinds of budget items
+  deuda servicio, gasto functionamiento, gasto inversion
+* dimensions
+** func v. inversion is a legal, not economic, distinction
+** sector is another dimension
+** entity is another
+* un sector es un conjunto de entidades
+  and no entity is in more than one sector
+* f differs fro i only in where the money goes
+* i is disagg'd into program/project
+* f is disagg'd into "cuentas"
+  personal {salarios, ...}, transferencias,
+  adq de bienes y servicios,
+  pago de multas
+* four stages of spending
+  apropriacion
+  compromiso
+  oblig = ejecutado
+  pago
+
+  With a few exceptions, "compromisos" are for a year or less -- they are not long term.
+* read the blog post William shared to the Gasto Publico y Presupuesto group, <2023-09-12 Tue>

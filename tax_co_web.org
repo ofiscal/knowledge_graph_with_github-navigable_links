@@ -1,0 +1,659 @@
+:PROPERTIES:
+:ID:       f8d67417-cc75-4e62-b219-abaee0f73b0b
+:ROAM_ALIASES: "putting tax.co online"
+:END:
+#+title: tax.co.web
+* refs
+  [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co_web.org#online][manual_ingest online]]
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co_web_on_ec2.org][deploy tax.co.web over EC2]]
+** tax.co.web on github
+   https://github.com/ofiscal/tax.co.web
+   git clone git@github.com:ofiscal/tax.co.web.git
+** some tax.co.web websites
+*** manual_ingest
+**** offline
+     http://localhost:8000/microsim/run_make/manual_ingest
+**** online
+:PROPERTIES:
+:ID:       1ce3f194-cd72-4163-a0ea-88e672f3760a
+:END:
+     http://www.ofiscal-puj.org/microsim/run_make/manual_ingest
+*** write_time (for testing)
+    http://localhost:8000/microsim/run_make/write_time
+    http://ofiscal-puj.org/microsim/run_make/write_time
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/how_to_onboard_someone_to_the_tax_co_repositories.org][how to onboard someone to the tax.co* repositories]]
+* TODO a test is failing
+** full sample, python/build/people_4_post_households.py
+*** the problem
+    For 6 out of 86439 observations,
+    earners["share"] is less than 0.7.
+*** It's only a problem in the full sample.
+*** Search for the word "share" in people_4*.py
+* TODO resume filing [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co_web.org#todo-to-promote][here]] downward
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/make_tax_co_web_publishable.org][make tax.co.web publishable]]
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/let_user_modify_ss_taxes.org][let user modify SS taxes]]
+* TODO include corporate income taxes
+** the idea
+   "Each person pays corporate taxes in an amount equal to a parameter A multiplied by their share of dividend income, and a parameter B multiplied by their share of (rentas de capital + ganancias ocasionales). A and B should be easily updatable - though by us, not by the user."
+   -- LCR, https://mail.google.com/mail/u/0/#search/from%3Aluis/QgrcJHrntPsWjTvkLbDQFRqvHTFTrvqrhVL
+** corporate income tax module
+*** nominal corporate inncome tax rate (currently 35%)
+*** sim needs to know what revenues from corporate taxes are
+*** would be nice to split corp tax between workers and owners
+    ask user for % that falls on workers
+* internalizing: [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/to_change_sample_size_in_tax_co_web.org][to change sample size in tax.co.web]]
+* streamline [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co_web_s_request_queue.org][tax.co.web's request queue]]
+* ? rename the "detail" strategy to "default"
+* TODO ? Use [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/parquet_file_format.org][parquet (file format)]].
+* PITFALLs
+** if csv files have the wrong (i.e. Windows-style) line terminators
+   [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/csvlib_python_library.org#use-linux--not-windows-style-line-terminators][how to use Linux-, not Windows-style, line terminators in csvlib]]
+* [[:id:7f3be852-18ca-4381-8462-c6425cfa37ca][Mailgun & tax.co.web -- broken link?]]
+  In case Gmail breaks more seriously.
+* DONE consumable_groups_by_coicop.csv should include data from coicop_major_codes.tsv
+  And maybe that should be .csv, and the .tsv saved in the 1.dos2unix subfolder
+* TODO new ideas
+** TODO read the answers from (ITP?) to some questions we have
+   in their FAQ
+   https://itep.org/itep-tax-model/
+   https://itep.org/modelfaq/
+** spelunking the VAT table
+*** 0.15 for vehicle motors
+    Motores para veh�culo
+    Was 0.15, should be 0.17694 (see below).
+    VAT depending on value (no vat for Diesel engines up to 150 HP). For electric cars, the VAT rate is 5% (goods with different VAT rates). I (jbb, oct 2021) guess the rest must be 0.19.
+    (6.8 * 0 + 0.1 * 0.05 + (100 - 6.8 - 0.1) * 0.19) / 100
+    = 0.17694
+**** UI solution: let someone assign tax rates to those three things
+     and use a distribution to compute the final average tax rate
+*** bimodal transport
+    Servicio en dos o m�s medios de transporte cuando el gasto no se puede discriminar ,7350101,,0.0,0.01,goods with different tax rates
+    Just call it 0 | the free-transport group.
+*** photocopies
+    "Servicio de fotocopias, reducciones, ampliaciones, laminaciones, argollados, impresi�n de hojas y documentos, servicio de scanner, servicio de quemado de CD o DVD y trabajos en computador",12709903,,0.0,0.0,VAT depending on place of purchase (most people buy these goods at pleces where no VAT is charged).
+    Group: Services? Education? jbb says "printing".
+*** residential phone
+    Servicio telef�nico residencial (local y larga distancia)  ,8300204,,0.0,0.02,exemption for the first 325 minutes month
+    Comunicaciones
+*** no idea
+    Mercados sin especificar productos,1190901,,0.0,0.19,goods with different tax rates
+*** anchetas
+    Anchetas,1191001,,0.0,0.19,goods with different tax rates
+*** smartphone
+    Compra de celular inteligente y accesorios,8200203,,0.0,0.19,"vat depending on value (cellphones above 22UVT, aprox. $700800 COP)"
+    When we run this, we want the best weighted VAT rate we can calculate, weighted by value.
+    But for other people, it's just assigned a group.
+*** internet cafe
+    Servicios de internet en centros de acceso p�blico con costo (caf� internet),8300303,,0.0,0.19,There could be a tax cascade
+    Why is this multiple rates?
+    What did I mean by tax casade?
+*** computers
+    "Computadores personales de escritorio (PC, all in one)",9130101,,0.0,0.19,"vat depending on value (computers above 50UVT, aprox. $1593000 COP)"
+    actual VAT by weight
+    what group(s?) appliesa
+*** laptops
+    Computadores port�tiles,9130110,,0.0,0.19,"vat depending on value (cellphones above 50UVT, aprox. $1593000 COP)"
+    same problem
+*** tablets
+    Tabletas (ipads),9130111,,0.0,0.19,"vat depending on value (tablets above 22UVT, aprox. $700800 COP)"
+    now (oct 2021) it's about 8e5 COP
+    same thing
+*** plants and accessories
+    Semillas, bulbos de plantas, c�sped, fertilizantes, fungicidas, abonos, materas, macetas y tiestos para flores y plantas",9330501,,0.0,0.19,goods with different tax rates
+*** primitive books
+    "Revistas sueltas, comics, novelas gr�ficas, historietas, cuentos y cuadernillos para colorear",9520301,,0.0,0.19,goods with different tax rates
+*** pens+
+    "Bol�grafos, estil�grafos, plumas, marcadores, plumones y resaltadores",9540202,,0.0,0.19,goods with different tax rates
+*** makeup, umbrellas, and sunglasses
+    "Art�culos personales varios como: gafas de sol, lentes de contacto, cosmeticos, bastones, paraguas y sombrillas, abanicos, llaveros, etc",12320401,,0.0,0.19,goods with different tax rates
+*** credit payments
+    Cuotas o pagos directos a almacenes y distribuidores por compras a cr�dito (excluye tarjetas de cr�dito expedidas por almacenes y distribuidores),12620105,,0.0,0.19,
+*** internet 2?
+    "Servicios de acceso a Internet proporcionados por operadores de infraestructura cableada, inal�mbrica o satelital",8300301a,,0.02,0.19,vat depending on estrato (>3)
+*** Avena en hojuelas
+    1110302,,0.05,0.19,
+*** bikes
+    Compra de bicicletas nuevas o usadas (excepto para ni�os),7130101,,0.05,0.19,Depending on value an nature. If value is below 50 UVT (aprox $1593000 COP) the VAT rate is 5%
+*** bikes 2
+    "Bicicletas para ni�o(a), triciclos, columpios",9310202,,0.05,0.19,Depending on value an nature. If electric OR below 50 UVT (aprox $1593000 COP) the VAT rate is 5%
+*** car parts
+    "Buj�as, inyectores, filtros, amortiguadores, bater�as, carburadores, distribuidores de corriente, vidrios, condensadores, correas de ventilador, etc.",7219902,,0.15,0.19,goods with different tax rates
+** TODO we never did the "impuesto nacional al consumo"
+   See the bigger VAT spreadsheet.
+* TODO where are those \r symbols coming from?
+  See long comment in
+    ~/of/tax.co/online/haskell/Main.hs
+  following `filter _ $` expression.
+* /home/jeff/code/erlang-py
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/daniel_s_ingresos_xlsx.org][Daniel's "ingresos.xlsx"]]
+* TODO important
+** DONE correct low-ceiling error in most.csv
+   The top income tax rate for most income ended at a finite income level; it shouldn't. Now it doesn't.
+   Daniel helped me find the error.
+   Comparing to the old code (still the latest commit in the main branch),
+   was able to see what the rates should have been.
+** TODO IVA interface
+*** choose what's exempt, what's 5%, what's the other tax rate
+*** fiddle the 5% too
+*** "tarifa general", "tarifa especial", "exenta"
+*** three columns, with a choosable tax rate at the top
+    each row needs exactly one check in it.
+*** DONE will need someone to group the goods
+** let someone download a config
+   So that they can upload it to the interface, instead of repeating themselves.
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co_web.org#todo-generate-pictures][generate pictures]]
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co_web.org#todo-enable-xlsx-or-csv-upload][enable .xlsx or .csv upload]]
+** TODO use Aaron's code
+*** updating it
+   git fetch origin pull/1/head && git checkout FETCH_HEAD
+*** how to run it
+    docker-compose -f docker-compose-deploy.yml up --build
+    http://localhost:8080/run_make/ingest_full_spec
+*** questions/comments for him
+   I see dependencies on a few URLs.
+   Don't really need every template changed; users aren't expected to visit most of them, just "ingest" and "thank".
+* TODO to promote
+:PROPERTIES:
+:ID:       73fe22f8-0635-4954-ad04-90ef21c14523
+:END:
+** TODO collect log-like files
+*** collect global logs in logs/ rather than project root
+    data/requests.csv
+    data/requests.temp.csv
+    data/requests.temp.csv.lock
+
+    income_tax.pickle
+    manual_ingest.pickle
+    non_tax.pickle
+    vat.pickle
+    requests-cron-log.txt
+    requests-log.txt
+*** DONE collect user logs in user folder
+** TODO tax.co should use income floors, not ceilings
+   for its marginal income tax tables.
+   That way I could delete a bunch of cruft that converts ceilings to floors for display in the UI, and floors to ceilings for getting the UI data back into tax.co.
+** TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co_web.org#todo-handle-return-codes-1][handle return codes]]
+* TODO easy
+** un-hardcode this path
+   secrets_path = "/mnt/apache2/secret"
+   in tax.co/python/email.py
+** [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/collect_all_tax_co_and_tax_co_web_paths_in_a_single_repo_file.org][collect all tax.co and tax.co.web paths in a single (repo? file?)]]
+** make code more understandable
+*** in commands.sh, rather than hardcode paths, define commented variables
+    so the user knows to redefine them
+    maybe better, read paths.json
+*** make the users folder for quien@donde.net
+*** make the default run-makefile command not use "jeff" but instead the hash for quien@donde.net
+*** change the email address in users/exmaple/
+*** in users/example, include vat_by_*.csv
+*** what about tax.co.web/secret/ ?
+    and SECRET_KEY in ebdjango settings?
+* TODO in tax.co
+** DONE Docker: change time zone to COT.
+** DONE take .json inputs
+*** make a new branch, "online"
+*** add a new Makefile argument
+    the config.json file
+*** define usage in a comment of make.py
+*** use config.json to define the standard Makefile arguments
+    subsample=$1
+    regime_year=$regime_year
+    strategy=$strategy
+*** merge common* programs
+    I don't need to split the command line and the repl any more.
+    And I need the definition of common.valid_* to work from both contexts.
+*** test that it ingested properly
+    I can first leave all the Makefile recipes that use the command line-defined arguments in place. They don't need to use config.json yet. Instead just add a recipe that calls a new .py file that reads the json, defines some variables, and prints them to screen.
+*** rewrite extant Makefile recipes
+    to use config.json and ignore the earlier Makefile arguments
+*** change these files to only use the full sample
+**** DONE python/build/ss_functions_test.py
+**** DONE python/build/people_2_buildings.py
+**** DONE python/build/purchases/input_test.py
+**** DONE python/regime/r2018_test.py
+**** DONE python/build/buildings_test.py
+*** add a config param: VAT schedules (spreadsheet)
+*** add tests for spreadsheet valididty
+** TODO ? in lib.py, canonicalize on read routine, write routine
+*** the idea
+    This prevents needing to canonicalize everywhere.
+    There might not yet be a write routine; if so make it.
+*** the problem
+    I might mutate reqs in a function, then pass it as an argument to another function, with no read or write step. Therefore the receiving function still has to canonicalize.
+** DONE what figures out which one to run next?
+:PROPERTIES:
+:ID:       927559bb-036d-49fc-9fdd-024745fb941b
+:END:
+*** the problem
+    In tax.co, python.requests.main is called with a particular user's folder as an argument. Therefore it must get called from something else that figures out which user to apply it to.
+*** verify try_to_advance_request_queue and advance_request_queue don't need their user_hash arguments
+*** make try_to_advance_request_queue depend not on the user shell.json argument
+**** Why this is a good idea
+     Here are the only routines in python.requests that depend on the user specified by shell.json:
+ lib.py:
+   this_request()
+ main.py:
+   add-to-temp-queue (section, not function)
+     It calls
+       lib.this_request().
+   try-to-advance-user
+     It passes c.user to
+       main.try_to_advance_request_queue().
+** DONE Can I delete the "max_runtime_minutes" parameter?
+   I see nowhwere it's used, and I don't see how I'd use it.
+** csv-dynamic income tax regimes
+:PROPERTIES:
+:ID:       1d3000ca-5771-4495-9632-099b606c277c
+:END:
+*** only for regime 2019
+*** Haskell: share libraries
+*** generate working Python
+*** turn CSV into a [Formula]
+**** validateTable should be called in tableToMoneyBrackets
+     not in csvToPython
+*** clear out those ", proposed" variables
+*** build an executable, callable from shell, with command-line args
+    for translating a .csv file
+*** duplicate the hard-coded functions with some .csv-dynamic ones
+**** make the .csv files' location a config param
+     That location should have each of the files needed --
+     most_income.csv, dividend.csv, etc.
+**** keep .csv and generated .py under python/csv-dynamic
+     Some of the .csv can be permanent.
+**** build, execute a dynamic import statement
+     It can be executed with `exec`,
+       which is type String -> IO ().
+     It imports the needed .csv-generated .py files.
+     It is executed in python/regime/r2019.py.
+*** test that they give the same answers
+*** then delete the hard-coded 2019 functions
+*** TODO Ponder: Why was this so much harder than expected?
+** TODO generate pictures
+:PROPERTIES:
+:ID:       b7595065-bed2-4703-875a-7077a1ee72b2
+:END:
+*** decide which to draw
+*** code drawing them
+*** patch that into the website
+** TODO ? Makefile must catch all changes
+:PROPERTIES:
+:ID:       306f0e24-363e-4a61-99b3-0ef3028c57f1
+:END:
+*** details
+   Inc. changes to the user-supplied .csv files,
+   on which (only?) r2019 depends.
+*** recursive import tracing
+    Can I encode the imports of a program as a recipe that does nothing,
+    to ensure that it is re-run whenever any of those imports changes,
+    without having to list dependencies of dependencies in each recipe
+    that actually does something?
+*** BLOCKED add Haskell files
+    Adding them to make/deps is easy.
+    The hard part is using them in make/build.
+** TODO ? Makefile: smart within user
+   It won't recreate data products unnecessarily when I'm testing.
+** solve memory, time constraints, cron job
+:PROPERTIES:
+:ID:       c3c33450-e196-4116-be1e-7b253bc68391
+:END:
+*** DONE choose optimal wait
+    Promise to respond within 2 hours,
+    and to hold the results for at least 1 hour after making them.
+    If space for 10 users, then actually the response will always come in at most 100 minutes, and the data will stay for at least 100 minutes.
+    If no new users bump the space, they might stay longer.
+*** DONE compute hash of email address
+    This will be treated like a user name.
+*** DONE NEXT all* output should go to a specific user's folder
+    * except the subsample, which is slow and extremely initial
+**** places to change to_csv
+     report/overview.py
+     build/output_io
+*** DONE add new user to db of requests
+**** sort  : time of request
+**** field : hash of email
+**** field : time of requests
+**** field : time of results
+     often missing
+*** DONE maintain a .json file of spacetime params
+    data/constraints-time-memory.json
+*** DONE The program will have to use `dh` from the shell.
+*** DONE incorporate requests/test.py into Makefile
+*** TODO find appropriate constraints for serving full sample
+    Can only be done from EC2.
+** test tax.co (by hand)
+:PROPERTIES:
+:ID:       cd69f027-d73b-4d3d-be8f-bf0a6c7d90e7
+:END:
+*** DONE starting one when memory is full and time's not up
+*** DONE try starting one when memory is full and time's up
+*** DONE try starting one when more than one are pending
+    make sure the right one started
+*** DONE try starting one "try-to-advance" while another is running
+:PROPERTIES:
+:ID:       f3149cb1-d95d-4dc7-ab07-27cf08eafa1c
+:END:
+    Because one cron job could do this to an earlier one.
+*** DONE try running "try-to-advance-queue" giving the wrong user config
+    It shouldn't make a difference.
+*** DONE what happens if a user has two completed requests in requests.csv?
+    Nothing bad happens -- they get collapsed into one before tax.co tries to delete the corresponding folder.
+    (Otherwise it would bork the next time it tries to delete the same data, because it won't be there.)
+*** DONE collect other tests here
+* TODO in Django
+** DONE solve Django bug: filesystem not always written to
+*** forum question
+    https://forum.djangoproject.com/t/view-only-sometimes-writes-to-filesystem/6799
+*** where the bug happens
+The last commit that works:
+  89a231c3bda51c3e245e1991a57b1b3f814cd3be
+The first that fails:
+  cb0e71e9ee3b3f9253cf2c21e376c7759e3ef6f0
+** DONE send data to tax.co
+*** create folder with name = hash of user email
+*** insert json spec
+*** rename ingest_spec -> ingest_json
+    and move it to "examples",
+    and then start on "ingest_spec", which ingests both json and tables
+*** factor out functions from ingest_json
+    The one that makes the user folder if needed,
+    and writes the json config data to it.
+*** insert spreadsheets
+**** in upload_multiple.html, read list of table names
+     from the calling Django view.
+**** make spreadsheets in tax.co shareable
+     Move them to to-serve/,
+     and simlink their original locations to the new ones.
+     Then run tax.co to make sure they work.
+**** configure Apache to find tax.co spreadsheets
+**** Allow download of default spreadsheets.
+**** handle the case of an invalid spec form
+     in ingest_full_spec
+     The trick was to populate  the optional "choices" fields of the Model elements.
+**** rearrange file tree
+     I want the user to have free access to tax.co,
+     but not to any secret keys in, say, web/.
+**** use symlinks for files not uploaded.
+     It could be that the user's folder always has a file for every uploadable table, but that in the event that they don't upload it, that file is a symlink.
+     This simplifies the config file -- no need to indicate where the files are, becuase they're always there -- and doesn't have much effect + or - on the simplicity of the code that puts the files there.
+**** remove some now-obsolete shell.json params
+ "vat_by_coicop"         : "data/vat/vat-by-coicop.csv",
+ "vat_by_capitulo_c"     : "data/vat/vat-by-capitulo-c.csv",
+ (and change all the code that used to depend on those,
+ to use the symlinks instead)
+**** ? move the spec to a subfolder
+     of the user folder called spec/
+     where "the spec" includes all uploaded tables too.
+**** handle the case that an uploaded file already exists
+** DONE rewrite link.sh to copy ports.conf in addition to apache2.conf
+** DONE rename /mnt/web -> /mnt/django
+** TODO ? split email address from other details
+   (When I first tried fixing this problem something went wrong I didn't understand.)
+   It's mandatory and obvious, whereas the rest are optional and esoteric.
+     Therefore they deserve a preamble, but it doesn't.
+** DONE determine whether, when to run
+*** CANCELED change import path to see the db functions
+    Hard to do. Instead, call tax.co/python/requests from tax.co.web
+*** split tax.co/python/requests.py into lib, tests, main
+*** on each run of the view: add request to tax.co/data/requests.csv
+*** the code expects vat_by_c*, not vat-by-c*
+    That is, underscores, not dashes.
+    So change all the filenames accordingly.
+    Also change the READMEs (plural) in data/vat
+*** get try-to-advance to work in the repl
+*** get try-to-advance to work from the shell
+**** IMPORTANT: DON"T MESS WITH tax.co/master
+     because tax.co/web has unsaved changes,
+     some for debugging and maybe some that fix bugs
+**** do it from within tax_web docker container
+**** may need to os.chdir to /mnt/tax_co
+     once running python from a different python
+*** bugfix: delete the oldest *extant* user
+:PROPERTIES:
+:ID:       51d7d5fb-baa0-4558-8bdf-463b6d77f902
+:END:
+    Call it liek this
+    (but change the value "4" to whatever is appropriate).
+
+    PYTHONPATH=/mnt/tax_co/ python3         \
+      /mnt/tax_co/python/requests/main.py   \
+      /mnt/tax_co/users/1/config/shell.json \
+      try-to-advance
+*** fix: view currently doesn't trigger add-to-requests
+    and yet this works from anywhere in the shell (in the docker container):
+  PYTHONPATH=/mnt/tax_co/                                               \
+  python3                                                               \
+  /mnt/tax_co/python/requests/main.py                                   \
+  /mnt/tax_co/users/972411cda1a01ae85f6c36b1b68118c3/config/shell.json  \
+  add-to-queue
+*** clean requests/main.py
+  Change _file and _folder to _path.
+    This makes searching easier.
+
+  In advance_request_queue, don't redefine tax_root.
+*** change os.system calls to subprocess.run calls
+    can model on tax.co/python/requests/main.py
+*** how to advance requests (on cron's time)
+**** THINKING: unused functions
+***** delete_oldest_user_folder
+***** gb_used
+***** memory_permits_another_run
+***** delete_oldest_request
+***** at_least_one_is_old
+***** unexecuted_requests_exist
+**** the work
+     See if unexecuted requests exist.
+     If so, see if it can be run yet.
+     If there's room for another already, run the oldest unexecuted request.
+     If there's no room, but some request is old enough to be deleted,
+     then delete it from requests.csv and users/,
+     and then run the oldest unexecuted request.
+     Once the request has executed, mark it complete.
+*** ! introduce a memory lock
+**** the filelock library seems good
+     https://pypi.org/project/filelock/
+     https://stackoverflow.com/a/498505/916142
+**** strategy
+***** temporarily hold new requests in a briefly-accessed file
+      Keep a file next to requests.csv called requests.new.csv.
+      Each time a user submits a request,
+      add it to requests.new.csv, rather than requests.csv.
+      Each time the cron job runs, it transfers from requests.new.csv to requests.csv.
+      The advantage of this is that the file is never needed for very long, so no process will meaningfully block another.
+***** only the cron job accesses requests.csv
+**** DONE stale
+***** why
+     Otherwise one instance of the cron job could clobber another,
+     or a user request could be missed
+     because the cron job held an earlier copy of requests.csv.
+***** if I were to DIY it
+****** To lock a file,
+       save a file of the same name with ".lock" appended. Optionally, write in the file the reason it's locked.
+****** To unlock a file,
+       delete the lock. But don't do that unless the lock is yours.
+****** To wait on a file
+       See if the file is locked.
+       If so, wait a given (as an argument) number of seconds.
+*** resubmission problems
+:PROPERTIES:
+:ID:       6d78fc5f-9958-4b28-9ad5-b74e20c7b12a
+:END:
+**** DONE If someone resubmits, delete earlier config, but keep earlier submission date.
+***** to test
+****** From zero data: Create users 1 and 2.
+****** Give user 1 a bogus spreadsheet.
+****** Resubmit user 1.
+****** Verify the bogus spreadsheet is gone.
+****** DONE ? Run try-to-advance, verify that user 1 is the one advanced.
+**** DONE Don't bork if someone resubmits when they already have a completed request.
+***** to test
+****** submit user 1 request, then user 2 request
+****** process user 1 request
+****** submit a new user 1 request
+****** process user 2 request
+****** process user 1 request
+****** make sure nothing borked
+**** DONE add disclaimer to webpage
+     Explain that that's what happens.
+*** read shell variables from a .json file
+    Using [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/jq_shell_command.org][jq (shell command)]].
+    See commands.sh (in the tax.co.web repo)
+** TODO enable .xlsx or .csv upload
+:PROPERTIES:
+:ID:       52884b96-5c15-42d9-a55f-32c013934ffb
+:END:
+*** keep original filename extensions
+    Currently the symlink always ends in .csv,
+    even though the file itself might end in .xlsx.
+** TODO handle return codes
+:PROPERTIES:
+:ID:       1c9cef73-d495-4735-a789-2daf051c9beb
+:END:
+*** if sp . returncode == 0:
+         # TODO : `make` returns 0 even when from my point of view it didn't work, so this is unreliable.
+         lib . mutate (
+             requests_path,
+             lambda reqs: lib . mark_complete (
+                 user_hash, reqs ) )
+*** show Makefile errors if build fails
+**** convey exit status to webapp
+**** write error to a file
+**** find, display that error file in the webapp
+** DONE email results to user
+:PROPERTIES:
+:ID:       d3900b4b-c97d-4bd5-a898-06281df235be
+:END:
+*** email a hello.txt file
+**** put secrets in a tax_co/secret folder
+     files named "email address", "password"
+*** make a .zip file with all the logs, and the config file
+**** do user/../std* not get made any more?
+     If so, redirect run-makefile to write there, not in tax.co/make-logs/
+**** they include view.std* and std*
+**** send config file also, to know user's email & hash
+**** use `zipfile` library (builtin)
+*** separately send the .xlsx
+** TODO ? email addresses with strange characters
+   Django does not accept them.
+   Are they important?
+* in Apache
+** ? In Docker image, customize further [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/apache-web-server.org#todo--pitfall-might-need-more-customization][for Apache]] and [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/wsgi.org][wsgi]]
+** DONE bug-2021-04-19-permission-denied-on-browser-serving-locally
+   Once that's solved, remember to uncomment the portion of ports.conf that allows serving online.
+*** ? Give up
+    Don't run locally.
+*** ? COMPARE: This branch works.
+    bug-2021-04-19-SOLVING-works-locally
+*** FALSE suspicion: sim.jefbrown.net is confusing it
+    In the branch that fails,
+    even when I delete sim.jefbrown.net in
+      ebdjango/settings.py
+    in the definition of
+      ALLOWED_HOSTS
+    it still doesn't work.
+** DONE cannot download models from myapp/run_make/ingest_full_spec
+* DONE things, very incomplete but maybe useful as a reference
+** DONE [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/fix_how_exemptions_are_applied_to_most_income.org][fix how exemptions are applied to "most income"]]
+** DONE dynamic forms
+*** the idea
+**** for the IVA
+     keep another column yet: "0" for exempt & 0 for excluded
+
+Rates          0        0.05      0.19   <add another column>
+Food           x
+Medicine       x
+Cars                              x
+Yachts                  x
+...
+**** for the income taxes
+Tasa          Min (COP)      Max (COP)
+0             0               4,000,000
+0.2           4,000,000      10,000,000
+0.3           10,000,000     Infinito
+<Agrega nueva fila>
+*** file:///home/jeff/of/tax.co.web/studies/dynamic-table.html
+    Bug: deleting an early one and then inserting gets the order wrong.
+*** file:///home/jeff/of/tax.co.web/studies/radio-table.html
+*** more things to track
+**** Deductions from income tax.
+** DONE What put user_email after user?
+   uniquify was doing it, because grouping and aggregating puts the grouping variables first.
+** DONE [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co_web.org#done-what-figures-out-which-one-to-run-next][What figures out which one to run next?]]
+** DONE why is user 1's getting deleted early?
+   I thought tax.co was deleting the data, but no, it was tax.co.web,
+   upon submitting the new request. Duh.
+** DONE [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co_web.org#test-taxco-by-hand][test the program (by hand)]]
+** DONE [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/give_appuser_apache_privileges.org][giving Apache privileges to a Docker user]]
+** DONE [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co_web.org#done-run-taxco-as-a-cron-job-1][run tax.co as a cron job]]
+** DONE [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co_web.org#done-email-results-to-user][email results to user]]
+** DONE [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/django_security_things_to_do_before_production.org][Django security, things to do before production]]
+** DONE [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/graph_changes_in_tax_burden_by_decile.org][graph changes in tax burden by decile]]
+** DONE hide my email credentials
+:PROPERTIES:
+:ID:       c04905da-d0fe-4eac-af96-c2a3bcc03649
+:END:
+   They're not in the repo, but they'll be on the server,
+   so they shouldn't be in tax_co, which is publicly readable.
+** DONE run tax.co as a cron job
+:PROPERTIES:
+:ID:       d002eec7-7fe7-4130-8423-88a6408c46ed
+:END:
+*** verify that the command in the script works when entered by hand
+*** Do I have to start tax.co.web as root to serve?
+    No.
+*** Bug, solved: The cron script is not executing.
+**** the python3 call: works
+:PROPERTIES:
+:ID:       7deaf598-7d46-4ffa-870e-f99832dd58c7
+:END:
+     PYTHONPATH=/mnt/tax_co:$PYTHONPATH python3 python/requests/main.py config/config.json try-to-advance-queue
+**** running tax_co_cron.sh by hand works
+:PROPERTIES:
+:ID:       d37c67b8-408e-404d-abf4-b8c9747561b2
+:END:
+**** tax.co / ownserhip is weird
+:PROPERTIES:
+:ID:       8ceffe3f-cc4d-48f8-87b9-ebe2a247c710
+:END:
+     Everything touched by either [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co_web.org#the-python3-call-works][the python3 call]] or [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co_web.org#running-tax_co_cronsh-by-hand-works][running tax_co_cron.sh by hand]] is owned on the native EC2 system by
+	user ubuntu, group systemd-coredump
+     and in the Docker container by
+	user appuser, group appuser
+     whereas for other things the group is
+	ubuntu in the native EC2 system
+	1000 in the Docker container
+**** whoami.sh leads cron to write "appuser"
+**** Never had to [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/python_script_works_unless_run_by_cron.org][ask the internets]].
+**** Verify the same happens on EC2
+** DONE choose a [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/web_server.org][web server]]
+** DONE [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co_person_level_analysis.org][tax.co person-level analysis]]
+** DONE asking Daniel : hog tax
+*** The hog tax is 8%, right?
+    See purchases_2_vat.py
+*** Answer: Yes.
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co_web_on_ec2.org][deploy tax.co.web over EC2]]
+* TODO ponder
+** Keep a db of requests?
+   It seems like the "right" thing to do,
+   but at the same time it's work for no obvious immediate gain.
+** Cache results: hard problem
+*** Hash each submitted configuration
+    Based on tax config spec but not email address,
+    so that if two people submit the same request,
+    it'll be obvious.
+*** Keep a db matching request hashes to (requests and) data products.
+*** The Makefile recipes are for simlinks.
+    Each request (a set greater than each hash-equivalent request)
+    lives in its own folder. The Makefile creates simlinks from that folder
+    to the "data products" folder.
+*** When a request is made,
+    the python code looks up whether
+** Ponder: idle user time, parallelism
+   Should the website pause while the model is computed?
+* meh
+** forward clicks to PUJ
+* solutions
+** DONE BUG: circular import with pandas
+*** the apparent solution
+   Rebuilding the Docker container seems to have solved it. Maybe because I used `conda install` rather than `pip install` for everything available as a conda package. Maybe just because things were old.
+*** the problem
+    Somoene online suggested that pandas might be corrupted, and to try reinstalling. I ran `conda update -y pandas` as root (otherwise it fails). The problem didn't stop.

@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       b63d22cf-7f00-43fc-b81d-4be8884d402f
+:END:
+#+title: OF and DIAN
+* BLOCKED [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/can_we_send_regressions_for_dian_run.org][Can we send regressions for DIAN run?]]

@@ -1,0 +1,198 @@
+:PROPERTIES:
+:ID:       dc3cf615-f76e-40ed-b20d-2ea09ba3f74b
+:ROAM_ALIASES: "tax.co.web on EC2"
+:END:
+#+title: deploy tax.co.web over AWS EC2
+* refs
+  [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/aws-frequently-used-commands.org][AWS, frequently used commands]]
+* TODO think about this diff
+** it's between the aws branch on EC2 and the master branch
+** I can't save it as AWS because there appears to already be something called AWS on Github.
+** the diff
+diff --git a/bash/run-makefile.py b/bash/run-makefile.py
+index 4b4a83a..ba6c140 100644
+--- a/bash/run-makefile.py
++++ b/bash/run-makefile.py
+@@ -44,8 +44,8 @@ with open( os.path.join( logs_path, "make.txt"),
+
+ targets = [ "show_config",
+             "show_params",
+-            "tests",
+-            "reports",
++            # "tests",
++            "report_households"
+           ]
+   # Makefile targets.
+   # For the full list of possible targets,
+diff --git a/docker/Dockerfile b/docker/Dockerfile
+index 98d6800..59826b0 100644
+--- a/docker/Dockerfile
++++ b/docker/Dockerfile
+@@ -100,7 +100,7 @@ RUN chmod +777 /usr/bin/python-from-here
+ # PITFALL: While the names "jeff" and "users" aren't important,
+ # the IDs are. This is designed to match my system,
+ # where "jeff" = 1000 and "users" = 100.
+-RUN groupmod -g 100 users            && \
++RUN groupmod -g 1000 users           && \
+     useradd -r -u 1000 -g users jeff && \
+     mkdir /home/jeff                 && \
+     chmod +777 /home/jeff            && \
+diff --git a/docker/commands.sh b/docker/commands.sh
+index ccf3f51..d4b3c7c 100644
+--- a/docker/commands.sh
++++ b/docker/commands.sh
+@@ -5,7 +5,7 @@
+ # A trick to quickly edit a Docker-locked file from the host system:
+ # https://stackoverflow.com/a/26915343
+
+-DOCKER_IMAGE_SUFFIX="2022-01-11.Conda-2021-11_user-jeff"
++DOCKER_IMAGE_SUFFIX="2022-01-11.for-aws.Conda-2021-11_user-jeff"
+
+ # Start a docker container based on the latest image.
+ docker run --name tax -itd                   \
+* TODO ? use [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/terraform_open_source_cli_for_cloud_computing.org][Terraform]]
+* TODO understand [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/hibernation_for_aws_ec2.org][hibernation for AWS EC2]]
+* to launch an EC2 instance for tax.co.web "from scratch"
+** PITFALL: *WAY EASIER* is to [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/aws_ami_amazon_machine_image.org#to-launch-an-ec2-instance-from-an-ami][use the existing AMI]] called "tax.co(.web)"
+** launch an EC2 instance
+*** PITFALL: Before configuring: Use US East 1 (N Virginia)
+    Sao Paolo is almost twice as expensive (as of Jan 2022).
+    If few machines appear, refresh the page. I found one today (2020 05 04)
+*** the launch setup menu
+**** Page 1, Choose AMI: Ubuntu
+     Ubuntu is at least 5, maybe 10 GB slimmer.
+     It doesn't come with zip, maybe other stuff I want.
+**** Page 2, Choose Instance Type: lookup the cheapest, elsewhere
+     Find the cheapest 16GB machine here:
+     https://aws.amazon.com/ec2/pricing/on-demand/
+***** some cheap ones that look good enough
+****** TODO r5a.large
+       Was the best in July 2021 and again inn Jan 2022.
+       2 processors, 16 GB, EBS, 10 gigabit, 10c/hr
+       Same specs.
+****** r6g.large -- never available
+       2 processors, 16 GB, EBS, 10 gigabit, 10c/hr
+       Currently unavailable. Previous generation, I suspect.
+**** Page 3, Configure Instance: enable hibernation
+     or if not, make backups (from EC2 console)
+**** storage: 60 GB
+     Using 45 with Ubuntu (which is slimmer than Amazon Linux) I ran into the ceiling when unpacking the docker images.
+     10 GB without anything fancy is $1/mo.
+**** Configure Security Group
+     All of these are accessible from anywhere
+       (not "My IP", and not "Custom", whatever that is).
+     SSH   (default), which (I think) means* port 22
+     HTTP  (added),   which (I think) means* port 80
+     HTTPS (added),   which (I think) means* port 443
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co_web_on_ec2.org#to-login-use-ofssh-ofsh][log into it]]
+** install docker, emacs, git, zip
+*** for AL 2:	sudo amazon-linux-extras install docker emacs git
+    If that doesn't work, `yum install` might.
+*** for AL:	sudo yum install -y docker emacs git
+*** for Ubuntu
+    sudo apt update # IMPORTANT. Without this nothing happens.
+    sudo apt upgrade -y
+    sudo apt install -y zip unzip jq git emacs docker.io
+** transfer my data into the EC2 instance
+*** PITFALL: Keep the S3 bucket with my data
+    Transferring from it to an EC2 instance (in the same region) is extremely fast. Transferring from here takes hours.
+*** package local (HP 2017) stuff
+**** .tar the docker images
+***** where I put it
+      ~/tax_co.docker.tar
+***** how
+      docker save -o tax_co.docker.tar ofiscal/tax.co:2021-04-27.Colombia-time ofiscal/tax.co:latest
+      In SmSn see :vOClYQimc3YjfZrx:
+      https://stackoverflow.com/a/28364045/916142
+***** why: speed
+      Uploading such a .tar file from my home machine to the server will be much faster than downloading it from DockerHub onto the server.
+**** .zip the repos
+*** upload to S3
+*** ingest into EC2 instance
+**** have made S3 buckets public, so can use wget
+***** download each individually
+      These are ordered by size.
+      wget https://tax-co-archives.s3.amazonaws.com/tax_co_web.zip
+      wget https://tax-co-archives.s3.amazonaws.com/tax_co_online.zip
+      wget https://tax-co-archives.s3.amazonaws.com/tax_co.docker.tar
+***** maybe I can download the whole bucket
+      but who cares, the above is really fast
+**** adjust that S3 bucket
+     Update the repos with git.
+     If necessary, rebuild the Docker image.
+       I think this is faster than transferring it.
+     Replace the data on S3.
+**** could use S3 CLI, but it's more work
+     aws s3 cp s3://my_bucket/my_folder/my_file.ext my_copied_file.ext
+*** uncompress
+    unzip tax_co_web.zip
+    unzip tax_co_online.zip
+    # for the docker images, see "configure Docker" below
+** Docker
+*** configure Docker not to need sudo
+    sudo dockerd &
+    sudo groupadd docker
+    sudo usermod -aG docker $JBB_AWS_USER
+      # probably "ubuntu" or "ec2-user"
+    << close ssh and ssh back in >>
+*** docker load -i tax_co.docker.tar
+*** PITFALL: Might need to reboot instance
+    Before doing this, the Ubuntu instance didn't recognize that my non-root "ubuntu" user had docker privileges. (Maybe I could have rebooted Docker but it wasn't easy -- systemctl didn't do it, nor dockerd.)
+*** in the Docker container, update pip packages
+:PROPERTIES:
+:ID:       b8ffb948-5c2e-425f-8d59-094225f0b615
+:END:
+**** alternatives
+***** this would work
+      pip install -U <pip-installed packages from the Dockerfile>
+      pip3 install --upgrade  csv-diff pydotplus graphviz \
+	weightedcalcs yfinance yahoofinancials            \
+	surbtc django icecream
+***** BLOCKED rebuilt, haven't tested Dockerfile
+      It's 1.5 GB bigger than the last one.
+**** If this isn't done, Django will tell me, thanks to requirements.txt
+** git
+   git config --global core.editor "emacs -nw"
+     (details [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/git_version_control_software.org#configure-git-so-emacs-is-the-default-editor][here]])
+   Copy ~/.ssh/id_rsa from my home system to the new system.
+   chmod 600 ~/.ssh/id_rsa
+   git repos: checkout the appropriate branches, update them
+     Add my user name and email (Git will say how when I try to push).
+** configure filepaths
+*** tax.co.web/paths.json
+    should be something like this:
+
+  { "base_system_tax_co"     : "/home/ubuntu/tax.co",
+    "base_system_tax_co_web" : "/home/ubuntu/tax.co.web",
+    "docker_tax_co"          : "/mnt/tax_co",
+    "docker_django"          : "/mnt/django",
+    "docker_apache"          : "/mnt/apache2"
+** transfer new data
+*** tax_co/secret
+* (re)start it, how to
+** UNNEEDED? update native ~/.ssh/config
+   Read the file and it becomes obvious what to do.
+** to login, use ~/of/ssh-of.sh
+:PROPERTIES:
+:ID:       171d9a6a-8fc5-4f22-97f3-5ea33366596e
+:END:
+   If it's not working, update the IP address,
+   which gets reset after each restart of the EC2 instance.
+** update native [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/aws-frequently-used-commands.org#define-my-aws-related-shell-variables][record of the]] IPv4 Public IP address for the EC2 instance
+   and login
+** in [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/aws_route53.org][AWS Route53]], associate a domain name with the EC2 instance
+** start the docker container
+** TODO add more steps -- start services in the docker container?
+** visit [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co_web.org#online][manual_ingest online]]
+* create an EC2 backup ("snapshot")
+** PITFALL why to do that
+   So I can stop the EC2 instance and not worry if it's deleted automatically, which it will be if not hibernated.
+** how
+   Find the hard drive /dev/sda1 in the EC2 instance info (in the WUI).
+   Click that -- it's a link.
+   Select "create snapshot".
+** where mine is
+   https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#Snapshots:visibility=owned-by-me;snapshotId=snap-07448d2690e517576;sort=snapshotId
+* dubious TODOs
+** set up automatic backups
+   https://aws.amazon.com/blogs/aws/aws-backup-ec2-instances-efs-single-file-restore-and-cross-region-backup/

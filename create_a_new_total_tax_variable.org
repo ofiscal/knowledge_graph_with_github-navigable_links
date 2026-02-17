@@ -1,0 +1,34 @@
+:PROPERTIES:
+:ID:       5c33d122-94ee-41fa-ba7e-b1ed1a539fc4
+:END:
+#+title: Create a new total tax variable.
+* some variables
+:PROPERTIES:
+:ID:       5ddcf6f3-75c6-4d0a-abea-00e612953ebb
+:END:
+** VAT paid
+** tax, income = the sum of
+   python/regime/r2019.py
+
+   "tax, income, most"
+   "tax, income, dividend"
+   "tax, income, ganancia ocasional"
+   "tax, income, gmf"
+** (asking Luis) about ss taxes
+*** raw
+    cesantias + primas             # PITFALL: nominally from the employer
+    tax, ss, cajas de compensacion # PITFALL: nominally from the employer
+    tax, ss, parafiscales	    # PITFALL: nominally from the employer
+    tax, ss, solidaridad
+    tax, ss, salud
+    tax, ss, salud, employer
+    tax, ss, pension
+    tax, ss, pension, employer
+*** a partial sum
+    ppl["tax, ss, total employee contribs"] = (
+      ppl["tax, ss, pension"] +
+      ppl["tax, ss, salud"] +
+      ppl["tax, ss, solidaridad"] )
+** peurchase_sums["value, tax, purchaselike non-VAT"] = (
+   purchase_sums["value, tax, predial"] +
+   purchase_sums["value, tax, purchaselike non-predial non-VAT"] )

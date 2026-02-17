@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       3103f0d7-d2aa-484e-bdc1-ce3726ce778d
+:END:
+#+title: Ley 80: Regimen de Contratacion Estatal
+* source : William Reyes, <2023-01-12 Thu>
+* applies to anyone who uses public money
+* applies to about half the money
+* "concesiones" are another type of contract it governs
+* APP = asociacion publica-privada

@@ -1,0 +1,45 @@
+:PROPERTIES:
+:ID:       200e0a81-01ca-4845-a803-519ef0021e00
+:END:
+#+title: 2022-10-31 read links for grant applications
+* TODO evaluate estimated value of applications
+  (That's a mix of probability and value.)
+* TODO evaluate cost of applications
+* TODO rank them by feasibility
+* the grants (links)
+** promising
+*** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/lift_grants_from_open_contracting.org][Lift grants from Open Contracting]]
+*** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/getting_a_grant_from_the_global_innovation_fund.org][getting a grant from the Global Innovation Fund]]
+*** DONE [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/getting_a_grant_from_the_fund_for_innovation_in_development.org][getting a grant from the Fund for Innovation in Development]]
+*** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/getting_a_grant_from_the_opec_fund.org][getting a grant from the OPEC Fund]]
+*** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/getting_a_grant_from_the_iadb_transparency_fond.org][getting a grant from the IADB Transparency Fond]]
+*** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/getting_a_grant_from_the_inter_american_foundation.org][getting a grant from the Inter American Foundation]]
+** BLOCKED for some reason
+*** BLOCKED (in French) Fundación S'AIDDES
+    http://www.saiddes.org/subventions-aux-ong_110.html
+*** BLOCKED (bad docs) UN Trust Fund for Human Security (UNTFHS)
+**** Buried in bureaucratic crap. No idea what they want.
+     [[/home/jeff/of/papers/UNTFHS-Guidelines.9th-Edition_2020.pdf]]
+     https://www.un.org/humansecurity/trustfund/faqs-2-2/
+*** BLOCKED (bad site) The Gef Small Grants Programme
+    https://sgp.undp.org/index.php?option=com_content&view=article&id=94:how-to-apply&catid=45:aboutus&Itemid=160#.VkNeYV7Vo_8
+**** Small grants -- 25K to 50K USD.
+**** broken webpage
+***** email I sent them about it
+      https://mail.google.com/mail/u/0/#sent/KtbxLrjNZJWdQcVDHdMqVlxNTPZQRkQgsq
+***** problem: the only area of work available is biodiversity
+     https://sgp.undp.org/areas-of-work-151/biodiversity-170.html
+**** email thread on whether their site is broken
+     https://mail.google.com/mail/u/0/#inbox/KtbxLrjNZJWdQcVDHdMqVlxNTPZQRkQgsq
+** bad fit, shaky eligibility, or otherwise unpromising
+*** CIVICUS
+    https://www.civicus.org/index.php/what-we-do/defend/crisis-response-fund
+**** Does not look well suited to us.
+     It's about crises of civic freedom.
+*** The Lantos Foundation for Human Rights and Justice
+    https://www.lantosfoundation.org/frontlinefundgrants
+**** currently closed so not an immediate priority
+* ideas
+** Compare us to the CBO, and then compare our budgets.
+* questions
+** How can we measure our outcomes?

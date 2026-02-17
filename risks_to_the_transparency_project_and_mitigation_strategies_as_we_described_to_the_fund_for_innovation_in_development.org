@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       6ff3c5a3-e5f3-40e3-86e9-8f61715da81c
+:END:
+#+title: risks to the transparency project, and mitigation strategies, as we described to the Fund for Innovation in Development
+* in their question
+  local context(s)
+  technical risks
+  institutional and regulatory risks
+  market risks
+  environmental and social risks
+  climate risks
+* our answer
+  The opportunities we plan to take advantage of, and how, are described above in our response to an earlier question. To repeat them in brief, the opportunities are the following: that speech is free; that democracy is clean; that bringing light to government activities generates vigorous public debate, to which the government is responsive; that public contract databases exist, but are currently opaque; and that automated analysis of the database permits oversight on a massive scale. Our response to those opportunities is the plan we have set forth already: to collect the public databases into a single meta-database; to automate the search for and publication of supicious contract activity in that meta-database; and to explain to the public at large, through a variety of channels, how to use those tools to oversee government actiities.
+
+  The most catastrophic risk would be a violent act of revenge by someone who does not appreciate our revelations. We consider this unlikely. While assasinations of rural community leaders remain common, political violence is extremely rare in Bogotá, where we are located.
+
+  Second, the conditions in Colombia favorable to a transparency project like ours could change. The public contract databases could be taken offline -- but we consider this unlikely because such a move would be highly visible and very politically damaging to anyone who might consider it. Similarly, the government could try to silence us in particular -- but given our own high visibility and outstanding reputation, such a move would be at least as politically damaging as taking down the databases.
+
+  The risk with the greatest probability -- though we consider it small -- of materializing is that integrating the public databases, analyzing the data, setting up an automatic publication mechanism, and making all of those things understood by the public proves to take longer than we initially estimate. This is not a risk to the project's viability, however; it would merely mean we would have to, say, seek funding for another year. But at that point we would already have useful initial results, and so could perhaps secure continued funding more easily.
+
+  Last, and most subtly, are potential obstacles in the contract data itself. While the databases we will draw from are enormous, they unlikely to be complete. Even if they cover all contracts, they may not record everything about those contracts that they should. Therefore, if we believe it is necessary, we will supplement the contract databases with other information scraped from the web. Transparencia por Colombia has already performed such scraping for news articles, and is open to sharing information with us. Another potential response would be to limit our reports of suspicious activity to cases in which the mismanagement is severe enough that it is obvious even from incomplete data. (This second response not really an either-or condition; rather, regardless of what we find, we will flag exactly those results we feel confident of, and their scope will depend on the quality of the information at hand.)
+
+  Those are all risks to launch. We foresee no risks to scaling or maintaining the project, as it will launch at full scale and maintaining it is cheap.

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       f483dbf9-24ed-4829-a3b0-397cad40add2
+:END:
+#+title: getting a grant from the IADB Transparency Fond
+https://www.iadb.org/es/transparencia/fondo-de-transparencia
+* their goals
+** la alineación con normas y estándares internacionales
+** la transparencia focalizada
+** el uso de la innovación y la tecnología
+** integridad y lucha contra la corrupción
+* Seems like a good fit.
+* They're small.
+  $25 million USD total (now? or cumulative since 2007?).

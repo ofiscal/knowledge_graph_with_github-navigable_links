@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       20e7e45b-1bba-4cc7-9d64-d9cc2ad0206c
+:END:
+#+title: some ofiscal code
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/cities-code-base-Observatorio-Fiscal.org][cities (code base, Observatorio Fiscal)]]
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co.org][tax.co]] (the microsimulation)
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co_web.org][tax.co.web]] (the web interface to the microsimulation)

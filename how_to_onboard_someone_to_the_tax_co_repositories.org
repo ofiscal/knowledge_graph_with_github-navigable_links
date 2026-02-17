@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       a4c4ce8d-fe87-4f66-91dc-b1cade8c1f08
+:END:
+#+title: how to onboard someone to the tax.co* repositories
+Where all our code is:
+  https://github.com/orgs/ofiscal/repositories
+
+The microsimulation is one of the repositories listed there:
+  https://github.com/ofiscal/tax.co
+In addition to the top-level README
+(which you'll see when you visit that page)
+this is the best place to start:
+  https://github.com/ofiscal/tax.co/blob/master/markdown/running-it.md
+
+There's a lot of documentation here:
+  https://github.com/ofiscal/tax.co/tree/master/markdown
+as well as README files in many other folders,
+which you should look at if you want to know what that folder does.
+
+There's a separate repository for the website:
+  https://github.com/ofiscal/tax.co.web
+You'll need both repositories even if you're not using the website.
+
+Here's where to find the website when running on your own computer:
+  http://localhost:8000/microsim/run_make/manual_ingest
+And here's where to find it when it's running on AWS:
+  http://ofiscal-puj.org/microsim/run_make/manual_ingest

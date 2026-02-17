@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       95d54d2b-6f6a-4810-90c1-e6b242a48632
+:END:
+#+title: ask whether codes are comparable from SISFUT to CUIPO \\ ofisca./cities
+* refs
+  Refer to everything in
+    ~/of/cities/Code/metadata/terms.py
+  defined after the line
+    if True: # our own aggregate categories
+* who to ask
+  First ask CGR <2023-07-27 Thu>.
+  If they can't answer, ask Dept. de Apoyo Fiscal (in Minhacienda).

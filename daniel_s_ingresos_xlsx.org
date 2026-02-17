@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       5eb93e07-675e-4801-b615-6f8ef6fc7f87
+:END:
+#+title: Daniel's "ingresos.xlsx"
+* "Equivalente Dian"
+  lists a lot of kinds of income. If row R contains "Equivalente Dian" category C, then C depends on R.
+* "Calculo tributo cedula general gravable" should be "last use".
+  It lists a lot of points in the source code.
+  If point P appears in that column for row R, it means the variable corresponding to R is last used at P.
+* "Categoría más amplia" is like "Equivalente Dian"
+  If category C appears in row R,
+  then the variable corresponding to R is used to compute C.
+* "subcategoría 1" and 2 and 3 are like "Equivalente Dian"
+  If category C appears in row R,
+  then the variable corresponding to R is used to compute C.

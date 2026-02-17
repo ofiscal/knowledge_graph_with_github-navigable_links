@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       eb5f0108-ac6f-4718-b89e-a40e31f13b84
+:ROAM_ALIASES:  ELCA
+:END:
+#+title: Encuesta Longitudinal Colombiana
+from Los Andes

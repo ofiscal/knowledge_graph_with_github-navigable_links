@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       6e740e9c-0406-46d0-b7c7-5e6dd92cd286
+:END:
+#+title: changing the sim 2022-10-07
+per the latest tax reform discussion in Congress
+* ref
+  Renta-y-Complementarios-PN.by-William.docx
+* DONE add a new CGG strategy
+** add another column, compute a "dependents to claim (up to 4)"
+** 1210 uvt -> l1340 uvt
+** deduct up to 72 uvt per dependent claimed
+   from the CGG
+* what Daniel will simulate
+** 1210 uvt -> 1340 uvt
+** dividends
+*** proposal, we think
+    there's the CGG: labor, nonlabor, pensions, capital
+    add to that: dividends
+    but there's a "descuento" of 19% of those dividends
+      which is a reduction in the taxes you pay,
+      rather than a reduction in the income you pay taxes on
+*** an approximation
+    Change the dividend tax from 10% to 20%
+*** the assumption it depends on
+    Dividends are a negligible fraction even of
+    the income of the moderately rich.
+*** what we'll do
+    is raise from 10 to 20%, leave the 300 UVT threshold in place
+** up to 72 uvt per dependent, up to 4 dependents per tax filer
+** the ganancia ocasionales rates change
+** two microsimulations
+*** one just for the personal income tax

@@ -1,0 +1,72 @@
+:PROPERTIES:
+:ID:       8775876f-9a10-4b3d-ac04-43cab48203d9
+:END:
+#+title: CUIPO data
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/oliver_explains_the_sisfut_cuipo_transition.org][Oliver explains the SISFUT-CUIPO transition]]
+* TODO
+** Ask MH about the sisfut-cuipo aggregates correspondence
+   FUT is entirely MinHacienda,
+   and they also know (and have some ownership of) CUIPO.
+   CGR doesn't know FUT.
+   Ask for the Direccion General de Apoyo Fiscal's help
+   (they're part of MH).
+** DONE how to process it
+*** Subset it using Juan Camilo's geo key.
+*** Generate dept and muni codes.
+*** Restrict columns.
+** verify column choices
+   Maybe also "*ambito*" (case-insensitive) and
+   "34_Conceptos_Cuipo_Agregacion".
+
+   Other options for 27_TOTAL_RECAUDO include
+   23_RECAUDO_VIGENCIA_ACTUAL_SIN_SITUACION_DE_FONDOS   float64
+   24_RECAUDO_VIGENCIA_ACTUAL_CON_SITUACION_DE_FONDOS   float64
+   25_RECAUDO_VIGENCIA_ANTERIOR_SIN_SITUACION_DE_FONDOS float64
+   26_RECAUDO_VIGENCIA_ANTERIOR_CON_SITUACION_DE_FONDOS float64
+   28_VALOR_DESTINACION_ESPECIFICA                      float64
+** questions about it
+*** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/areas_metropolitanas_cuipo.org][Áreas Metropolitanas \ CUIPO]]
+*** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/regalias_data_sufficient_cuipo.org][Regalias data:- sufficient? \ CUIPO]]
+*** Compare budget items and municipalities to SISFUT for 2020.
+    If 12-ish times smaller,
+    maybe it's month-level rather than year-level.
+*** Determine which columns to use.
+    Is the CHIP code an amalgamation of dept and muni codes?
+    If so, will probably have to read it as a string, then split the string.
+** asking people about it
+*** 4 - asked [[https://github.com/JeffreyBenjaminBrown/org_personal-most_with-github-navigable_links/blob/master/juan_camilo_santamaria_contaduria_data_guy.org][Juan Camilo]] where CUIPO 2021 is
+*** 3 - [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/asking_prodding_re_cuipo_s_obscurity.org][asking/prodding re. CUIPO's obscurity]]
+*** 2 - [[https://github.com/JeffreyBenjaminBrown/secret_org_with_github-navigable_links/blob/master/asking_the_contraloria_for_help_with_cuipo.org][asking the Contraloría for help with CUIPO]]
+*** 1 - asked Juan Camilo at Contaduría about [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/extracting_munis_and_depts_from_the_cuipo_data_i_m_stumped.org][extracting munis and depts from the CUIPO data]]
+* to know
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/a_description_of_the_cuipo_data_i_hope_for.org][a description of the CUIPO data I hope for]]
+** contact info
+*** Secretaria Técnica FUT
+    secretariatecnicafut@contaduria.gov.co
+*** [[https://github.com/JeffreyBenjaminBrown/org_personal-most_with-github-navigable_links/blob/master/claudia_helena_otalora.org][Claudia at Minhacienda]]
+*** [[https://github.com/JeffreyBenjaminBrown/org_personal-most_with-github-navigable_links/blob/master/jose_lenin_subdirector_de_desarrollo_territorial_del_dnp.org][Jose]] pointed us to this data.
+** for 2021, see [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/budget_data_from_the_contraloria.org][Budget data from the Contraloría]]
+** CUIPO download pages for 2022
+*** Ingresos CUIPO Diciembre 2022
+    https://app.powerbi.com/view?r=eyJrIjoiNDI1Y2UzYzItMDY0ZS00NGQxLWE5NTMtYmRhNjIwZDFkNjgyIiwidCI6IjYwYzMyNGFkLTIzMTItNDUwMy04NTA3LTE4OGVlNGZiNDk3YyIsImMiOjR9
+*** Gastos CUIPO Diciembre 2022
+    https://app.powerbi.com/view?r=eyJrIjoiM2E2ZGQ5N2YtZjFlOC00M2YzLTlmNzAtNTYwNGVhYjEyNTI5IiwidCI6IjYwYzMyNGFkLTIzMTItNDUwMy04NTA3LTE4OGVlNGZiNDk3YyIsImMiOjR9
+** CUIPO guides
+*** https://fedepapa.com/wp-content/uploads/2023/05/Instructivo-cuipo-presupuestal.pdf
+*** https://www.chip.gov.co/schip_rt/index.jsf
+    If that link dies, the way I got to it was to (in serial):
+
+    visit https://www.chip.gov.co,
+    click on "Categorías",
+    and select "Información de Apoyo CUIPO ..."
+*** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/budget_data_from_the_contraloria.org#contralorías-page-on-cuipo-2021][Contraloría's page on CUIPO 2021]]
+** columns
+*** Ejec gasto
+    29_COMPROMISOS
+    30_OBLIGACIONES
+    31_PAGOS
+*** Ejec ingreso
+    23_RECAUDO_VIGENCIA_ACTUAL_SIN_SITUACION_DE_FONDOS
+    24_RECAUDO_VIGENCIA_ACTUAL_CON_SITUACION_DE_FONDOS
+    26_RECAUDO_VIGENCIA_ANTERIOR_CON_SITUACION_DE_FONDOS
+    27_TOTAL_RECAUDO

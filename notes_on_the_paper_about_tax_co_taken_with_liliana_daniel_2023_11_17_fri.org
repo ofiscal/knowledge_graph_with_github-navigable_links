@@ -1,0 +1,47 @@
+:PROPERTIES:
+:ID:       630a57f2-5203-4272-98ec-44e9fad555a4
+:END:
+#+title: notes on the paper about tax.co taken with Liliana & Daniel, <2023-11-17 Fri>
+* to know
+** payroll taxes do not overlap with personal income taxes
+* to do
+** There's orphaned text at the end of section 6: "By deciles ... By gender and city ..."
+** (11) (the 4 per mil) is not an equation.
+** wealth tax: make explicit that we don't model it, because it isn't.
+** Explain in paper (the sim is fine): regarding exemptions (e.g. the child exemption), it's not 0.25 to 0.4 of gross income that can be exempted, but rather that fraction of income after removing payments to pension, health and solidaridad.
+    Actually it's even more complex but that's the approximation we use.
+
+  temp_columns["renta liquida"] = (
+    # This is taxable labor income before exemptions.
+    ( ( ppl["income, labor"]
+      - ppl["tax, ss, total employee contribs"] )
+    ) )
+
+def cgg_detail ( row: pd.Series ) -> float:
+  """
+  You can't deduct more than 5040 UVTs.
+  You can deduct somewhere between 25% and 40%,
+  and we don't know what you'll arrive at, so we assume the average, 32.5%.
+  After that you can deduct an additional 10% of what's left,
+  or 32 UVTs, whichever is smaller.
+  """
+  a1 = row ["renta liquida"] - 5040 * muvt
+  x  = row ["renta liquida"] * (1 - 0.325)
+  a2 = ( x
+         if   not row["claims dependent (labor income tax)"]
+         else x - min ( 0.1 * x,
+                        32 * muvt ) )
+  return max ( 0, a1, a2 )
+** eq. 10 says SS contribs are zero if w < min wage. No longer true.
+** Gas tax is weird (in Colombian law). Transport tax is complex (in the VAT spreadsheet).
+   Producer produces, distributor is 2nd in chain, and gas tax is only charged to the distributor.
+   Maybe I should trace the history of that spreadsheet, as not all of the "this good's tax rate is hard to know exactly" comments seemed to align with goods with hard-to-know tax rates.
+** should make it clear that we don't exactly compute IVA but rather a sum of consumption taxes
+** Lie: " (which can be specified in the simulation"
+** define h befure using it
+** Th, like Yh, should be a dobule-sum
+** a footnote explaining that we calculate rates before and not after transfers because we don't have enough transfer data
+** we should use either i or j for individuals in a household, not both
+** equation 7 is out of date now that SS contribs are positive for people who make less than the minimum
+** vehicle tax should not be part of consumption tax, or at least, is not levide the same way -- it's territorial, and similar to the predial. (Also, like the predial, it is reported in the ENPH directly, not imputed by the code. We do have "impuesto de vehiculos" in the VAT spreadsheet but the rate is 0 and I don't think that row is even used to compute a 0 tax; rather, items with that COICOP code are set aside into their own "vehicle tax" variable.)
+** The tax on tobacco is around 55%; we only have the 19% via IVA. Similarly, beer we have at 19%; we appear to be omitting the territorial consumption tax on it.

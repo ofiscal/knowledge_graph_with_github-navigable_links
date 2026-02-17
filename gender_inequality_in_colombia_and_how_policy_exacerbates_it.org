@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       bfa4ff53-54e7-4e25-b5b0-ab10f15280b6
+:END:
+#+title: gender inequality in Colombia, and how policy exacerbates it
+* how I used this file
+  This is the information that went into the "Context" passage that I wrote for the "concept note" we wrote for the Open Society Foundation.
+* the source of these facts
+  [[/home/jeff/of/papers/Las-Mujeres-en-la-Reforma-Tributaria-Aportes-desde-una-mirada-feminista.docx]]
+  and my head
+* inequalities
+** women are underrepresented in the labor force
+   En Colombia hay cerca de 22 millones de personas ocupadas, de las cuales 9 millones son mujeres, es decir, las mujeres son el 41% de la población ocupada a pesar de ser más del 50% de la población en edad de trabajar.
+** other bad labor stats for women
+   Además, la tasa de desempleo para las mujeres es del 14%, mayor en 5 puntos porcentuales que la de los hombres (9%). Hay 20 millones de mujeres en edad de trabajar en Colombia y cerca de 10 millones no trabaja de forma remunerada ni busca trabajo
+** women do almost 3 times as much domestic work
+   Las mujeres en promedio realizan casi 8 horas de trabajo doméstico y de cuidado no remunerado (TDCNR) diarios mientras que los hombres en promedio realizan tan solo 3 horas.
+*** domestic and care work are 20% of GDP
+    el trabajo doméstico y de cuidado no remunerado corresponde al 20% del PIB, si este fuera remunerado, sería el sector más importante de la economía.
+** care work leads to unfair paid work outcomes
+   Las mujeres sufren discriminación en el acceso y permanencia en los trabajos remunerados por las responsabilidades de cuidado que recaen mayoritariamente sobre ellas.
+** women work part time more
+   mujeres optan por trabajos a tiempo parcial, del total de mujeres ocupadas en 2019, una quinta parte (19,0%) trabaja de forma remunerada menos de 20 horas a la semana, y otra quinta parte (23,0%) entre 20 y 40 horas
+* policy problems
+** TODO female-headed households pay more IVA
+   en los hogares con mujeres como cabeza de hogar el IVA como porcentaje de los ingresos es del 6.3%, un valor superior al de los hogares encabezados por un hombre (5.8%).
+*** since female wages are lower, this is regressive
+     El IVA, un impuesto soportado por todos los consumidores finales, es por lo tanto particularmente regresivo para las mujeres dado que estas tienen ingresos inferiores a los hombres.
+** the pension system is hostile to part-time work
+** TODO film subsidies go disproportionately to men, because film jobs do
+   las mujeres representaban un 33% de las personas empleadas en la producción y distribución de filmes y videocintas y el 25% de las actividades teatrales y musicales. Por tanto, se debe evaluar la segregación sectorial por género de los sectores económicos que gozan de beneficios tributarios y condicionar dichos incentivos orientados a aumentar la participación de las mujeres en sectores masculinizados o de las poblaciones étnico- raciales.
+** sectoral subsidies ought to go to the (paid) care economy
+   Si se siguen estableciendo beneficios tributarios a sectores económicos se debería considerar incluir las actividades de cuidado remunerado.

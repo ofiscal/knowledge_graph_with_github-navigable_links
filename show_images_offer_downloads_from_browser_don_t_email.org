@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       cac03e9f-585d-48f6-9d05-c4e73d7b19bc
+:END:
+#+title: show images, offer downloads from browser, don't email (in tax.co.web)
+* why urgent
+** because sending from my own email is dangerous
+* Can I open a new tab with the image, without storing the image?
+* Know if someone closes the page
+  If so, stop the process and delete their folder.
+* offer a link they can visit later
+* Get someone's IP?
+** So they can't make more than one request
+   I need a way of ensuring one person doesn't flood the order queue.

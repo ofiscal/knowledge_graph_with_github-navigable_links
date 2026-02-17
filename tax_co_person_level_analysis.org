@@ -1,0 +1,105 @@
+:PROPERTIES:
+:ID:       2d8ca73e-da41-4876-9a8e-982164228839
+:END:
+#+title: tax.co person-level analysis
+* TODO what was this for?
+** this
+   summaryDict[unit] = pd.concat( groupSummaries, axis = 0 )
+
+   ret_tmi = pd.concat( list( summaryDict.values() ), axis = 0
+           ) . transpose()
+** Does the second pd.concat in it does nothing?
+* TODO record these changes in [[:id:f59167a2-3e74-4d37-a9ec-780c413789a4][the Overleaf doc -- broken link?]]
+* hopefully dead notes
+** on employment stats
+   Ingrid: Study, housework or incapacitated = "inactive"
+   Descopuado = could work but not looking for it.
+   Poblacion economicamente activa = of working age and working or looking for it.
+   That thing is split into ocupados & desocupados.
+   Ocupados includes everyone who works, whether paid or not.
+ o  Desocupados is everyone else. It includes "desempleo abierto" and "desempleo oculto". The first is not working & looking for it. The second is that they looked for work in the last 12 months and they have a valid reason to be discouraged and they're available to work. They (?) left out a category, people not working and not trying to do so.
+   Students are not in the poblacion economicamente activa.
+   Unemployment = # looking for work / # economicamente activa
+** the current situation
+   Most of the build code is devoted to creating a person-level data set. Once that's done there are two programs for building household-level data, and then one more to summarize them in a report.
+
+   The two household-building programs take a lot of means, mins and maxes -- "is there a child" is a max, "is it all women" is a min, etc. It also computes income taxes and a lot of VAT variables.
+** TODO For employed, remove people who make no money.
+** TODO Include children who work
+*** And if they are a big fraction, point that out.
+** DONE Households with no income are weird.
+*** a naive income share calculation divides by 0 sometimes
+    ph["income share"] = ph["income"] / ph["household income"]
+
+    for c in ho_columns:
+      ph[c] = ph[c] * ph["income share"]
+*** simple solution
+    Split VAT proportionally to income.
+    If income is zero for everyone,
+    divide it equally among people aged > 17.
+** TODO the plan
+   serial in the program
+*** DONE Make a new person-level data set that
+**** incorporates some of those househld-level variables
+***** Import and impute.
+      Import all the income tax, VAT, and spending from the households,
+      then impute it to indivudals based on earnings.
+      Preserve individual total income, to divide by household income.
+****** Compute an individual's income share once.
+       Rather than once per variable that uses it.
+****** the the household variables to include
+       "income" # total income
+	 # so that VAT can be allocated among household members
+	 # according to their share of the household's total income
+       'value, consumption',
+       'value, non-purchase',
+       'value, purchase',
+       'value, spending'
+       'value, tax, predial',
+       'value, tax, purchaselike non-predial non-VAT',
+       'value, tax, purchaselike non-VAT',
+       'vat paid',
+******* and not
+	"(rank, labor income) = *" # for * in [1,5]
+	'transactions',
+***** Thereafter, ignore "household" column => break families apart.
+      A household with two equal earners that spent 10e6 pesos and paid 2e6 in taxes will at the individual look like two adults who spent 5e6 and paid 1e6 in taxes, and mauybe some number of people (kids, etc.) with no money.
+**** computes the person-level equivalents of others
+***** The two general categories.
+****** vat-related fractions
+****** income percentiles
+       exclude people with no earnings and no unemployment status
+***** model code & specific variable names
+      households["income-decile"] = (
+	util.noisyQuantile( 10, 0, 1, households["income"] ) )
+      households["income-percentile"] = (
+	util.noisyQuantile( 100, 0, 1, households["income"] ) )
+      households["one"] = 1 # used in report/households.py to create the trivial partition.
+      merge["vat / purchase value" ] = (
+	merge["vat paid"]   / merge["value, purchase" ] )
+      merge["vat/income"] = (
+	merge["vat paid"]   / merge["income"] )
+      merge["purchase value / income"   ] = (
+	merge["value, purchase"] / merge["income"] )
+*** BLOCKED asking : get employment status
+**** tentative definition
+     P6240 : 1 means they spent most of last week working. I can't tell whether it means they necessarily got paid.
+     P6250 : 1 means they spent at least an hour last week working, and got paid.
+     P6280 : 1 means they are trying to work.
+     P6350 : "Si le hubiera resultado algún trabajo a ... ¿estaba disponible la semana pasada para empezar a trabajar?"
+
+   If either of the first is equal to 1, I'll call someone employed. If neither of the first two is 1 but the third and fourth both are, I'll call them unemployed. Otherwise I'll call them not in the labor force.
+**** maybe also relevant variables
+     P6260 : "Aunque ... no trabajó la semana pasada, por una hora o más en forma remunerada, ¿tenía durante esa semana algún trabajo o negocio por el que recibe ingresos?"
+     P6270 : "Trabajó la semana pasada en un negocio por UNA HORA O MÁS sin que le pagaran?"
+     P6300 : Want to work.
+     P6320 : "Durante los últimos 12 meses ... trabajó por lo menos 2 semanas consecutivas?"
+     P6330 : "Después de su último empleo, ... ha hecho alguna diligencia para conseguir trabajo o instalar un negocio?"
+     P6340  : "Durante los últimos 12 meses ... ha hecho alguna diligencia para conseguir trabajo o instalar un negocio?"
+     P6350  : "Si le hubiera resultado algún trabajo a ... ¿estaba disponible la semana pasada para empezar a trabajar?"
+*** TODO restrict analysis to union of people with income & adults in labor force
+    Divide household expenditures among those people.
+*** Make a new person-level report.
+    Analogous to the household-level report we've already got. Exactly the same variables, just with slightly different meanings as described above.
+*** Send users both kinds of spreadsheets.
+    If they don't understand household-level results they can ignore them.

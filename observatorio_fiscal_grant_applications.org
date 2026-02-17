@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       7027abec-f105-4286-b966-76e4b83d7fe2
+:ROAM_ALIASES: "grant applications \ ofiscal" "grants \ ofiscal" "ofiscal / grants"
+:END:
+#+title: Observatorio Fiscal grant applications
+* canned responses
+** DONE [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/risks_to_the_transparency_project_and_mitigation_strategies_as_we_described_to_the_fund_for_innovation_in_development.org][Risks (to launch, to sustain and to scale) and mitigation plans]]
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/lift_grants_from_open_contracting.org][Lift grants from Open Contracting]]
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/who_the_observatorio_is_essay_s.org][who the Observatorio is: essay(s)]]
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/getting_a_grant_from_the_global_partnership_for_social_accountability.org][getting a grant from the Global Partnership for Social Accountability]]
+* project descriptions
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/how_we_described_the_contract_transparency_project_to_the_fund_for_innovation_in_development.org][to the Fund for Innovation in Development]]
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/2022_10_31_read_links_for_grant_applications.org][links to grant opportunities]]
+* BLOCKED [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/getting_a_grant_from_the_inter_american_foundation.org][getting a grant from the Inter American Foundation]]
+* BLOCKED work the Ford Foundation concept note into [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/getting_a_grant_from_the_fund_for_innovation_in_development.org][getting a grant from the Fund for Innovation in Development]]
+* DONE work the Ford Foundation concept note into [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/getting_a_grant_from_the_global_innovation_fund.org][getting a grant from the Global Innovation Fund]]
+  [[/home/jeff/of/papers/Ford-Foundation-concept-note.docx]]
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/mtg_with_afd_french_development_bank_2022_10_19_ish.org][mtg with AFD ("French Development Bank"?), 2022-10-19-ish]]
+  file, act on
+* TODO learn about [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/ceq_method_for_evaluating_fiscal_incidence.org][CEQ (method for evaluating fiscal incidence)]]

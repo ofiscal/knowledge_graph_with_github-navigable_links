@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       5d9b07fe-e109-4eb0-8b43-48744d7f98c2
+:END:
+#+title: Oliver explains the SISFUT-CUIPO transition
+  These are notes taken during an online meeting, <2023-07-26 Wed>.
+* FUT is something the munis and depts have to fill.
+* DNP compiles them into the SISFUT db.
+* Parallel, they used to send other info to the Contraloría.
+* The FUT was not up to international standards.
+* They decided to standardize those systems into one.
+* That's the job of Dept Apoyo Fiscal -- they help munis and depts meet those reporting standards. It's part of Hacienda.
+* Nestor Urea: head of Dept of Apoyo Fiscal, branch of Minhacienda
+* FUT ended at/after 2021
+  because it did not meet int'l standards,
+  and because munis were sending different info to CGR, to min finance, and to DNP.
+* So the new info is to meet int'l standards. That's CUIPO.
+* Comparing inversion and funcionamiento works.

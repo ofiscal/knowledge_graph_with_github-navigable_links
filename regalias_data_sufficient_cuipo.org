@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       46c0219d-2ceb-4b69-bdd9-06d7acf56274
+:END:
+#+title: Regalias data:- sufficient? \ CUIPO
+* It has some regalias data:
+|       |         4_COD_CONCEPTO | 5_CONCEPTO                                        |
+|  1319 | 1.1.02.06.003.04.01    | PARTICIPACION EN REGALIAS DEL REGIMEN ANTERIOR    |
+|  1320 | 1.1.02.06.003.04.01.03 | REGALIAS POR HIDROCARBUROS, PETROLEO Y GAS        |
+| 74688 | 1.1.02.06.003.04.01.01 | REGALIAS POR CALIZAS, YESOS, ARCILLAS, GRAVAS ... |
+| 74894 | 1.1.02.06.003.04.01.05 | REGALIAS POR ORO, PLATA, PLATINO Y PIEDRAS PRE... |
+* but it's not clear to me whether that's enough.
+  I'd like a higher-level code indicating *all* regalias,
+  but maybe taht's all there is.

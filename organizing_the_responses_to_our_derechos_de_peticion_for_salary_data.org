@@ -1,0 +1,59 @@
+:PROPERTIES:
+:ID:       8231ac1d-f1d6-4988-af21-5d48f79b916e
+:ROAM_ALIASES: "unir-derechos-de-peticion-salariales (git repo)" "clean derechos de petición for salaries"
+:END:
+#+title: organizing the responses to our derechos de petición for salary data
+https://drive.google.com/drive/folders/1JlcRgcPDsjhJx7oP5g_A64wZkKYwH2rp?usp=sharing
+* these are actually derechos de petición
+  not tutelas
+* TODO include these subtotals
+  Salario
+  Remuneraciones no constitutivas de factor salarial
+  Contribuciones inherentes a la nómina
+  Prestaciones sociales relacionadas con el empleo
+* TODO understanding the code
+  tree | grep -v -e "\.pyc\|__.*__\|TAG"
+
+  ├── clean_one_file
+  │   ├── defs.py        # understood
+  │   └── test.py
+  ├── collect.py         # understood
+  ├── exceptions
+  │   ├── discoveries.py # understood
+  │   ├── explore.py
+  ├── find_files
+  │   ├── defs.py        # HARD
+  │   └── test.py
+  ├── main.py            # understood
+  ├── paths.py
+  ├── reconnaissance.py
+  ├── temp.py
+  └── types.py           # understood
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/u_meeting_notes_2023_09_12_tue.org][u, meeting notes <2023-09-12 Tue>: legal structure of the budget]]
+* TODO understand what Angelica sent
+  when I asked if responses were complete
+  https://mail.google.com/mail/u/0/#inbox/KtbxLvHHktvmmttNdMhLjQKGlNdNHvhPnB
+* what's in the data
+** Each entity's data is funcionamiento, inversion and deuda.
+** There is "una capa extra" para funcionamiento:
+   personal, transferencias, gastos corrientes, y mas.
+** Otra capa, dentro de personal, en funcionamiento
+   Salarios, contribuyentes _ nomina, ...
+* the master table
+** primary key: [Sector, Nombre Entidad, Tipo, Cuenta, Nombre del rubro]
+** the one remaining column: Apropriacion Vigente
+* the little tables
+** what they are
+*** One corresponds to each government entity that responded.
+*** They all (should) follow the same format.
+*** For each entity, read the Planta document and ignore Programacion.
+** How to transform them
+*** Some rows are not rows, but should be columns.
+    Each special row identifies some characteristic of the rows below it
+    and above the next special row.
+*** The header is complex.
+    But Pandas can read a hierarchical (multi-row) header, if told to.
+    http://blog.jjsantoso.com/pandas-excel/
+*** There are garbage rows.
+    Both above the header and below the main table.
+*** The second page is garbage.

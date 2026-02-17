@@ -1,0 +1,39 @@
+:PROPERTIES:
+:ID:       1bfc20ac-3e04-4eca-a82c-be3e04ad7b49
+:END:
+#+title: CEQ (method for evaluating fiscal incidence)
+* TODO see screenshots
+* notes from a presentation by Nora Lustig, <2022-10-21 Fri>
+** at the Commitment to Equity Institute
+** goal(s)
+*** comparability (across-country, I think)
+*** measuring equity (redistribution and poverty reduction) effects of fiscal (both sides) policy)
+** terms
+*** Y = income after taxes
+*** I = income before
+*** T = taxes (paid by household)
+*** B = benefits (received by household)
+*** S = share
+** need federal audit
+** somehow takes indirect effects of indirect taxes into account
+** is a stata package
+** generates "income concepts"
+*** TODO screenshot 1
+*** may need to impute, use secondary sources, etc. for missing information, or to check it
+** the "accounting approach", and some limitations to it
+*** TODO screenshot 2
+** assumptions (screenshot 3)
+*** tax evasion assumptions (screenshot 4)
+*** assumptions can be played around with if you know about the country
+** monetizing in-kind transfers is hard (screenshot 5)
+** pensions (screenshot 6)
+*** hard -- do you think about time?
+    If not, it's a pure transfer; if so, it's forced savings.
+    Implied effects on inequality are different.
+*** screenshot 7
+** There's a CEQ Data Center
+** interesting: indirect taxes and spending can be equalizing, as can tertiary education spending
+** weird: fiscal policy can be equalizing and simultaneously poverty-increasing
+*** example: a progressive tax that vanishes, benefitting nobody
+*** better: make the poor net beneficiaries
+* used by the [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/agence_francaise_de_developpement.org][Agence Française de Développement]]

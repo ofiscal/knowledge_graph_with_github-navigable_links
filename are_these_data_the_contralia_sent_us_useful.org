@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       23c15b94-66aa-4744-bef4-edf912c5ba45
+:END:
+#+title: Are these data the Contraloría sent us useful?
+  https://www.contraloria.gov.co/en/web/observatorio-de-control-y-vigilancia-de-las-finanzas/inicio
+* they write
+** where
+   in the first pdf attached in the email thread called
+     Respuesta a consulta cifras presupuestales entidades territoriale
+** what
+   ... en la sección estadísticas encuentra información del presupuesto de entidades no incluidas PGN y presupuesto del Sistema General de Regalías; en las visualizaciones de Power BI hay enlaces al portal datos.gov.co en donde están alojadas las cifras en bruto para descarga y uso, de las vigencias 2021, 2022 y segundo trimestre de 2023. En los próximos meses dispondremos en este sitio las estadísticas de años anteriores a 2021, así como las cifras del presupuesto general de la Nación.
+
+   La información de la categoría CUIPO y Sistema General de Regalías, según disposiciones de este ente de control (Resolución 0063 de 2023), las entidades transmiten la información de manera trimestral, la correspondiente al tercer trimestre de 2023 (enero a septiembre) tienen plazo de rendición hasta el 31 de octubre del año en curso.

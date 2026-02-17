@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       33758dec-e841-4965-af80-34f9a96cf894
+:END:
+#+title: DONE & not sure why I'm keeping \\ observatorio fiscal
+This list is very incomplete.
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/history_of_municipal_finance_in_colombia_meeting_2023_05_24_wed_with_jaime_from_banco_de_la_republica.org][history of municipal finance in Colombia : meeting <2023-05-24 Wed> with Jaime from Banco de la República]]
+* <2023-05-30> [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/modeling_a_drop_in_hours_required_for_women_to_pension.org][modeling a drop in hours required for women to pension]]
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/open_society_report_may_2023.org][Open Society report, May 2023]]
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/build_micro_data_from_sim_with_gender_and_independiente_2023_04_12.org][build micro data from sim with gender and independiente, 2023-04-12]]
+* [[https://github.com/JeffreyBenjaminBrown/secret_org_with_github-navigable_links/blob/master/renew_fix_billing_for_wix_and_or_bluehost.org][renew/fix billing for Wix and/or Bluehost]]
+* write about [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/gender_inequality_in_colombia_and_how_policy_exacerbates_it.org][gender inequality in Colombia, and how policy exacerbates it]], for OSF
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/framing_our_work_in_terms_of_the_un_sustainable_development_goals.org][frame our work in terms of UN SDGs]]
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/multidimensional_inequality_report_fedesarrollo_oct_2022.org][Multidimensional Inequality Report, Fedesarrollo, Oct 2022]]
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/changing_the_sim_2022_10_07.org][changing the sim 2022-10-07]]
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/look_over_section_three_of_our_report_2022_10_08.org][look over section three of our report <2022-10-08 Sat>]]
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/run_models_anticipating_tax_reform.org][run models anticipating tax reform]]
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_co_a_high_level_overview_of.org][tax.co, a high-level overview of]]
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/tax_hike_proposal_colombian_senate_2020.org][tax hike proposal, Colombian Senate, 2020]]
+* [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/how_tpc_distributes_the_corporate_income_tax_paper.org][How TPC Distributes the Corporate Income Tax (paper)]]
+* [[https://github.com/JeffreyBenjaminBrown/secret_org_with_github-navigable_links/blob/master/a_cs_skills_assessment.org][a CS skills assessment, with a moderate focus on Python]]

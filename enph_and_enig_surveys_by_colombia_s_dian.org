@@ -1,0 +1,65 @@
+:PROPERTIES:
+:ID:       d047ae6a-25c0-4ce4-8617-f3c17d29421a
+:ROAM_ALIASES: "Encuesta Nacional de Presupuestos de Hogares" ENIG ENPH
+:END:
+#+title: The ENPH and ENIG surveys of Colombian households, by DANE
+* references
+  https://microdatos.dane.gov.co/index.php/catalog/566/get_microdata
+  tax.co/hopefully-obsolete/enig-enph,email,david-suarez,2018-02-23.md
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/unit_of_observation_in_the_enph.org][unit of observation in the ENPH]]
+* TODO unmerged notes on the [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/enph.org][enph]]
+* TODO [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/what_are_the_aggregate_income_expenditure_variables_in_the_enph.org][What are the aggregate income, expenditure variables in the ENPH?]]
+* PITFALL: These notes files are redundant
+There's an enig.org file, an enph.org file, and this one which pertains to both.
+* PITFALL: These notes are stale, from 2018-ish
+But they might include some insights into the data due to David Suarez not recorded elsewhere.
+* about the variables in it
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/primary_keys_for_some_dane_data.org][primary keys (DIR, SEC and ORD) for some DANE data]]
+** some GEIH-ENPH variable correspondences
+:PROPERTIES:
+:ID:       84203014-dccc-4ca0-b57a-f83e52b4219b
+:END:
+   employment_variables_in_geih_and_enph = {
+     # GEIH  : ENPH
+     "p1125" : "P6240",
+     "p5953" : "P6250",
+     "p6260" : "P6260",
+     "p8340" : "P6270",
+     "p6280" : "P6280",
+     "p6310" : "P6310",
+     "p6340" : "P6340",
+     "p6351" : "P6350",
+   }
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/reported_labor_income_is_what_remains_after_some_contributions.org][Reported labor income is what remains after *some* contributions.]]
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/hours_worked_variables_enph.org][hours worked variables]]
+* to do
+** interpreting frequencies
+*** problem: 2.1 or 2?
+*** problem: 9 = how infrequent?
+**** As a frequency code, 9 usually means "sporadically". I thought that meant "less frequently than every year", assuming that the terms are ordered. But over here it interprets 9 as "Esporádica por semana".
+**** links
+** Match the covering vocabularies to the COICOP items.
+This can be done for all of 2017, and for 2007 goods, but for 2007 services the COICOP data uses an obsolete coding.
+** are these more expenditure data sets?
+*** sea_enc_gcar_csv
+**** NC2_CC_P2
+1 » 2. Diario
+2 » 2.1. Varias veces por semana
+3 » 3. Semanal
+4 » 4. Quincenal
+5 » 5. Mensual
+6 » 6. Bimestral
+7 » 7. Trimestral
+9 » 9. Esporádica"
+*** sea_enc_gcau_csv
+**** NC2_CC_P2
+1 » 1. Nunca
+2 » 2. Diario
+3 » 2.1 varias veces por semana
+4 » 3. Semanal
+5 » 4. Quincenal
+6 » 5. Mensual
+7 » 6. Bimestral
+8 » 7. Trimestral
+9 » 9. Esporádica"
+ss frequently than every year", assuming that the terms are ordered. But over here it interprets 9 as "Esporádica por semana".

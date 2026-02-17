@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       94e1f993-f2c8-4d0d-9100-ee96abe08f31
+:END:
+#+title: modeling a drop in hours required for women to pension
+* to Juan Miguel,
+* our back-of-the-envelope steady-state calculation
+** reduce yearly female pension contribs by 10/13
+** increase yearly female pension payouts by (?)
+   We'd like to know how many women currently end with between 1000 and 1300 hours of contributions.
+* under- or over-estimating?
+** TODO senses in which we are underestimating the cost of the mooted change
+*** TODO mention : Contrary to our SS assumption, in reality the ratio of old to young is increasing.
+** senses in which we are overestimating the cost of the mooted change
+*** People who attain 1000 hours early will likely continue to work, and hence to contribute.
+*** ? Not everyone will switch to the public regime.
+    If they're rational, they will, and the government ought to be ready to pay for that.
+* mysteries
+** How to know who contributes how much?
+** How to compute state transition probabilities?
+   e.g. [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/evaluacion_de_politicas_pensionales_para_reducir_la_brecha_de_genero_en_la_etapa_de_retiro_en_colombia_by_andrea_lizeth_lopez_rodriguez.org#estimates-how-probability-of-state-transitions][the way Andrea López does]]
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/evaluacion_de_politicas_pensionales_para_reducir_la_brecha_de_genero_en_la_etapa_de_retiro_en_colombia_by_andrea_lizeth_lopez_rodriguez.org]["Evaluación de políticas pensionales para reducir la brecha de género en la etapa de retiro en Colombia", by Andrea Lizeth López Rodríguez]]

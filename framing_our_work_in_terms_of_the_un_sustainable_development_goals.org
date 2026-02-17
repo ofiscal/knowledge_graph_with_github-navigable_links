@@ -1,0 +1,58 @@
+:PROPERTIES:
+:ID:       2dde7214-a6b2-4324-961c-5ce4926671eb
+:END:
+#+title: framing our work in terms of the UN Sustainable Development Goals
+* refs
+** the [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/framing_our_work_in_terms_of_the_un_sustainable_development_goals_writeup.org][writeup]] of this
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/what_ofiscal_does.org][our work]]
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/un_sustainable_development_goals.org][UN Sustainable Development Goals]]
+* a tiny blurb
+  The Observatorio monitors government spending in Colombia. By providing transparency and accountability, our work improves how funds are used. Since the federal government spends money fighting poverty, hunger and inequality, providing healthcare and promoting good health, building infrastructure, fostering industry, innovation and clean energy, and protecting the environment, our work furthers the SDGs in Colombia.
+  The Observatorio similarly monitors taxes, and by providing transparency and accountability, improves the business climate. This, in turn, improves economic growth and the availability of decent work.
+  Indeed each of the benefits I've mentioned so far reinforces a good number of the others. The network of cause and effect is complex. [If the paper exists, you can at this point refer to it, for those wishing for more detail.]
+  In these next five minutes I'm going to focus on three specific areas we impact: ...
+* how we further the SDGs
+**  1 no poverty
+*** State funds are intended for this. We help ensure they are well spent.
+*** Colombian taxes are regressive (too much VAT). By maintaining attention on that, we might reduce that problem, and probably at least keep it from worsening.
+*** Fiscal oversight also has poverty reduction as a secondary effect, because (as described below) it improves the effectiveness of programs addressing hunger, health, and education.
+*** Tax oversight too has poverty reduction as a secondary effect, because (as described below) it improves the business climate, thus increasing the number and quality of available jobs.
+**  2 no hunger
+*** State funds are intended for this. We help ensure they are well spent.
+*** To the extent we reduce poverty, this is a secondary effect.
+**  3 health and well-being
+*** State funds are intended for this. We help ensure they are well spent.
+*** To the extent we reduce poverty and hunger, this is a secondary effect.
+**  4 education
+*** State funds are intended for this. We help ensure they are well spent.
+*** To the extent we reduce poverty, parents can better afford to send their children to school.
+*** To the extent we reduce hunger and increase health, children are better able to study.
+**  5 gender equality
+*** State funds are intended for this. We help ensure they are well spent.
+*** Colombian taxes are biased biased against women. By maintaining attention on that, we might reduce that problem, and probably at least keep it from worsening.
+    [[OLIVER: Is that right?]]
+**  6 clean water and sanitation
+*** State funds are intended for this. We help ensure they are well spent.
+**  7 energy: affordable and clean
+*** State funds are intended for this. We help ensure they are well spent.
+**  8 decent work and economic growth
+*** We promote this by promoting less distortionary business taxes.
+**  9 industry, innovation and infrastructure
+*** State funds are intended for infrastructure. We help ensure they are well spent.
+*** We promote this by improving the business climate, which induces more investment in Colombia and hence greater innovation.
+** 10 reduced inequalities
+*** State funds are intended for this. We help ensure they are well spent.
+*** Many Colombian taxes exacerbate existing inequalities. By focusing attention on that problem, we might reduce it, and probably at least keep it from worsening.
+** less obvious
+*** 11 sustainable cities and communities
+*** 12 responsible consumption and production
+*** 13 climate action
+**** A better business climate and more responsible spending on education make it easier to start or expand businesses motivated by climate goals, such as solar power installers.
+*** 14 life below water
+*** 15 life on land
+*** 16 peace, justice, and strong institutions
+*** 17 partnerships for the goals
+* from Oliver
+** gender equality
+** reduce inequalities
+** peace, justice, and strong institutions

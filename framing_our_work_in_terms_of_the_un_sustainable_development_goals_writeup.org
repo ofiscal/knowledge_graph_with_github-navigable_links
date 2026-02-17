@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       8d54370e-12d7-44f8-8031-1c5aa8cdc243
+:END:
+#+title: framing our work in terms of the UN Sustainable Development Goals: writeup
+* DONE
+** I already emailed it to Oliver
+   https://mail.google.com/mail/u/0/#sent/KtbxLrjdvNlCvRKNHFkVtCvbZDhxrznCLB
+** the text
+ The Observatorio Fiscal was Colombia's first [[and is still its only?]] independent fiscal oversight body. We investigate where the government gets its money, where that money goes, and what effects those two sides of fiscal policy have on who. We share our results in diverse formats and venues: as technical policy papers, as informal illustrated guides, on popular television news and debate programs, in workshops, over many forms of social media, and more. Our work empowers both the public and lawmakers, and puts pressure on the latter.
+
+ All of the UN Sustainable Development Goals are goals of Colombia's federal government. (Indeed many of them are in the Constitution.) Thanks to this overlap, the transparency and accountability the Observatorio provides leads to improvements in all of these forms of spending, and hence directly contributes to the advancement of all of the UN SDGs. The government devotes substantial resources to fighting poverty, hunger and inequality; providing healthcare and promoting good health; building infrastructure; fostering industry, innovation and clean energy; protecting the environment; and fostering peace, justice, and strong institutions. We make that spending more effective.
+
+ In the same ways that we influence spending, we influence tax policy -- specifically, toward greater simplicity and progressivity, and away from loopholes and ad-hoc benefits to favored economic sectors. The pressure for tax progressivity reduces poverty and inequality. The pressure for simplicity and consistent treatment across sectors makes the business climate more predictable and favorable, thereby fostering industry and innovation, which in turn improves economic growth and the availability of decent work.
+
+ Our investigations, and hence our influence, do not stop there. In order to understand how fiscal policy affects who, we have to understand the present condition people are in. So far we have researched in particular detail the nature and causes of poverty, gender inequality and labor conditions. [[Here we could list some cool findings of ours, or even cool findings of others that we helped propagate.]] The resulting understanding has allowed us and others to generate policy proposals to ameliorate structural problems in Colombian society. [[If it's true, add this: Some of those proposals have already made it into law.]]
+
+ Last, the knowledge we share and the conversations they generate directly strengthen the institution of democracy in Colombia. The Colombian electorate is maturing rapidly. The elections of 2018 were the first in which vote buying was useless at the presidential level. [[More statistics about political participation could go here.]] The Observatorio helps to foster the inclusive, vibrant atmosphere of policy debate critical to a successful democratic state.

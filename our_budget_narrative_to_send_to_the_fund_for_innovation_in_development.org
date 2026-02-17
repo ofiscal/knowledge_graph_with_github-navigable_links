@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       a70fcf94-b976-40d2-864e-fefb3f736465
+:END:
+#+title: budget narrative to send to the Fund for Innovation in Development
+* their question
+** describe
+** provide a tentative schedule
+** explain how each investigates
+   Please describe how these activities will help you to determine the innovation’s technical or operational viability in a real-world setting.
+** amounts and justifications
+   Please indicate approximate amounts (in euros) to be spent on each activity and provide a brief justification for the total amounts to be spent.
+** indicate any amount of co-funding
+* our response
+We have as yet received no co-financing for the project.
+
+The activities in our budget are the following:
+
+(1)  (9,700.00 €) Study, parse and unify the online databases. This stage will be brief but fundamental: the other stages all rely on it.
+
+Stages (2), (3) and (4) are concurrent.
+
+(2) (87,000.00 €) Descriptive statistics, numerical analysis. In this stage we build our own understanding of the data.
+
+(3) (47,650.00 €) Build prediction models. These models will be used to identify suspicious contract activity.
+
+(4) (18,500.00 €) Build scraping and publishing software. The scraping software will automatically update our meta-database as the databases that it was generated from are themselves updated. The publishing software will update our online analyses, including any suspicious activity the algorithm identifies.
+
+(5) (18,500.00 €) Write and publish reports. These will explain how to use the databases provided by the government and our own meta-database, and will detail our research findings from stages (2) and (3).
+
+(6) (18,500.00 €) Public events and exposure efforts. This stage consists of outreach to news media, the government and the citizenry at large. The outreach will use all available media: online, via traditional broadcast media, in small in-person meetings, and in seminars and colloquia.

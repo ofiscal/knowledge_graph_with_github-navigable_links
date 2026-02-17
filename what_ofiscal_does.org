@@ -1,0 +1,114 @@
+:PROPERTIES:
+:ID:       4202cb00-b6a5-4ff3-8ec9-8327c15ba5c9
+:END:
+#+title: what the Observatorio Fiscal does
+* ofiscal.org
+* what we do
+** research
+*** govt spending
+*** govt revenue
+*** effects, historical and projected
+** promulgation
+*** to who
+**** everyone
+***** with internet connection
+***** with 8th grade reading level
+**** academics
+**** Congress
+***** sometimes they ask us
+***** sometimes we reach out to them
+*** through what media
+**** we talk to reporters
+***** tv, radio
+***** periodicals
+**** we appear in person in the media
+***** interviews
+***** Zona Franca-style debates
+**** we set up public events
+***** e.g. a discussion of the minimum income
+**** we publish online, and blog
+* why we do it
+** anti-goals
+*** corruption
+**** conscious and unconscious
+**** less common than you might think
+***** corruption draws more attention than other government actions
+***** honest, well-intentioned people are rife in government
+***** problems due to ignorance can look like corruption
+*** waste
+**** bridges to nowhere
+**** duplicate infrastructure
+** goal: better policy
+** what's a good policy?
+*** (why I studied economics!)
+*** everyone believes in
+**** Pareto improvements
+*** the vast majority believe in
+**** progressive taxes
+***** it's in the constitution
+**** free markets
+***** competition
+***** oligopoly? unions?
+**** safety and|versus freedom
+*** unintended consequences
+**** freedom of (mortgage) contract
+**** forced (retirement) savings
+***** are people irrational?
+**** (taxi) licenses
+***** high prices
+***** lousy service
+**** price controls
+***** minimum wage
+****** equal across the country
+****** 50% of Colombia must work informally
+***** maximum rent
+****** lousy service
+****** queueing
+****** housing shortages
+** sub-goals
+*** transparency
+**** for the people
+**** for the government itself
+**** details matter
+***** scanned PDFs : weak
+***** is it corruption?
+*** civic involvement
+**** vote!
+**** tell your legislators how you feel!
+**** talk to people about politics!
+** most countries lack
+* how we do it
+** all but one are Colombian
+** we read the laws
+** we use public data
+*** DANE
+**** Encuesta Nacional de Presupuestos de Hogares
+*** DIAN
+**** fuzzy tax data
+** we draw pictures
+*** taxes
+**** IVA + income tax = 2/3 of tax revenue
+**** but there are many other kinds
+*** regalias
+*** spending|benefits
+**** health care
+**** pensions
+**** military
+**** infrastructure
+**** education
+**** public safety -- police, fire departments
+*** who
+**** age
+**** income
+**** gender
+**** family size
+**** where
+**** student
+**** working
+**** pensioned
+**** literate
+**** ...
+**** race -- in Colombia, not really
+** independent funding
+*** economics @ Javeriana
+*** Open Society Foundation?

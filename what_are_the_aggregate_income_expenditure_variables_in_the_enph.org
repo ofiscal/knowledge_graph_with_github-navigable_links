@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       e79b5d00-01ea-44bb-90d9-3772db555875
+:END:
+#+title: What are the aggregate income, expenditure variables in the ENPH?
+They can't be monthly.
+They don't want to share the code.

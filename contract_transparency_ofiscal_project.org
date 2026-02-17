@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       9112e9d6-903f-4c9a-a6c3-d4dbbed20dd9
+:ROAM_ALIASES: "proyecto transparencia \ ofiscal"
+:END:
+#+title: contract transparency (ofiscal project)
+* refs
+** Google Docs repo
+   https://drive.google.com/drive/folders/1X2Fw13Yz6dHjYRWlK2l3JJ0Yv2D58v2t
+** a paper Oliver thinks could help
+   https://twitter.com/jorgeonrubia63/status/1612444295033651200?s=43&t=luNez5vaY-l3e6taY6h3dw
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/best_practices_in_poblic_contracting_by_the_instituto_anticorrupcion.org][best practices in poblic contracting]]
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/instituto_anticorrupcion.org#they-have-a-way-to-measure-heterogeneity-in-contracts-of-a-business][a way to measure heterogeneity in contracts of a business]]
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/secop.org][SECOP]]
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/ley_80_regimen_de_contratacion_estatal.org][Ley 80: Regimen de Contratacion Estatal]]
+* TODO see "recommendation algorithms"
+  There is an academic literature on them.
+  They are Spotify's competitive advantage.
+  The IRS uses them for people to audit.
+* TODO ? vulnerability: overpromise
+* TODO ? indexing (elasticsearch, etc.)
+* motivations
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/mismangaement_of_public_funds_in_colombia.org][mismangaement of public funds in Colombia]]
+* the UI we would like
+** filters
+   value, sector, municipality
+** output
+   a graph of value X risk
+   a list of filter-satisfying contracts
+   click in either for more info on that contract

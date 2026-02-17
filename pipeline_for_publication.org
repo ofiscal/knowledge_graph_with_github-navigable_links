@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       3478dbef-feca-4776-858a-63e59b8efe83
+:END:
+#+title: pipeline-for-publication
+* The steps to follow when writing an article for Observatorio Fiscal
+serial
+** write it
+** send to LC for peer review. check his output.
+** send to LG to translate. check his output.
+** send to Manu to design. check her output.
+** send it for publishing
+*** if it's a blog post, send to Alejo
+*** otherwise, send it to Manu

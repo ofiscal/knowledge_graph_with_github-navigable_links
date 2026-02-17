@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       39953142-6f56-41b2-a1ae-da7436764633
+:ROAM_ALIASES: "Contraloría, budget data hosted at"
+:END:
+#+title: budget data from the Contraloría
+* via [[https://github.com/JeffreyBenjaminBrown/org_personal-most_with-github-navigable_links/blob/master/jose_lenin_subdirector_de_desarrollo_territorial_del_dnp.org][Jose]]
+* Contraloría's page on CUIPO 2021
+:PROPERTIES:
+:ID:       0dbc6ab0-3338-4e80-b7b5-02800672388d
+:END:
+  https://www.contraloria.gov.co/web/finanzas-publicas/categoria-presupuestal
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/a_description_of_the_cuipo_data_i_hope_for.org][a description of the CUIPO data I hope for]]

@@ -1,0 +1,59 @@
+:PROPERTIES:
+:ID:       9e455949-ed3a-4690-a85a-1f75988fbd9a
+:END:
+#+title: extracting munis and depts from the CUIPO data (I'm stumped)
+* [[https://github.com/JeffreyBenjaminBrown/org_personal-most_with-github-navigable_links/blob/master/juan-camilos-response-re-isolating-munis-and-depts-in-cuipo.org][Juan Camilo's response]]
+* Daniel's translation of it into Spanish
+** the message, formatted for Whatsapp
+```
+======================================================
+Cómo he intentado eliminar otras entidades en el CUIPO
+y dejar solo los municipios y departamentos
+======================================================
+```
+
+Dos campos parecen ser útiles: los dos primeros dígitos del código CHIP y el "ámbito". Los códigos CHIP que comienzan con 11 parecen indicar departamentos, y los códigos CHIP que comienzan con 21 parecen indicar municipios. Sin embargo, también hay varias entidades con códigos CHIP que comienzan con 9232, algunas de las cuales parecen ser municipios (por ejemplo, Norosí) y la mayoría de las cuales parecen ser otra cosa (por ejemplo, Instituto Distrital de la Participación y Acción Comunal).
+
+En cuanto al Ámbito, hay cuatro valores que parecen corresponder en su mayoría a departamentos y municipios. Los códigos CHIP que comienzan con 11 corresponden completamente a estos dos valores de Ámbito:
+
+```
+  438 Administración Central - Municipios
+  441 Administración Central - Departamentos
+```
+
+Pero eso parece contradecir la idea de que 11 indica departamentos. Los códigos CHIP que comienzan con 21 corresponden completamente a estos dos valores de Ámbito:
+
+```
+  439 Administración Central - Bogotá D.C
+  440 Administración Central - San Andrés y Providencia
+```
+
+Pero 439 Administración Central - Bogotá D.C también es el ámbito de algunos lugares que están muy lejos de Bogotá. Aquí hay algunos ejemplos de los datos de gastos para 2022:
+
+```
+Índice |  COD_CHIP | ENTIDAD         | COD_AMBITO
+ 90770 |  89970221 | Coveñas         |        439
+647556 | 923270346 | Guachené        |        439
+647987 | 923271475 | San José de Uré |        439
+648371 | 923271489 | Norosí          |        439
+648461 | 923271490 | Tuchín          |        439
+649066 | 923272927 | Barrancominas   |        439
+```
+
+Y luego están los valores de Área Metropolitana, que ni el código CHIP ni el ámbito parecen identificar. Aquí hay ejemplos nuevamente de los gastos para 2022:
+
+```
+Índice |  COD_CHIP | ENTIDAD                                | COD_AMBITO |
+661629 | 220568999 | Área Metropolitana de Bucaramanga      |        442 |
+673757 | 220105999 | Área Metropolitana del Valle de Aburrá |        442 |
+677055 | 220208999 | Área Metropolitana de Barranquilla     |        442 |
+677903 | 220354999 | Área Metropolitana de Cúcuta           |        442 |
+678182 | 220466999 | Área Metropolitana Centro Occidente    |        442 |
+697784 | 923272548 | Área Metropolitana de Valledupar       |        442 |
+```
+** Oliver sent it to Juan Camilo
+   See Outlook, message entitled
+     Finanzas Públicas Territoriales
+   sent <2023-07-06 Thu>
+* my message describing the problem, in English
+  https://mail.google.com/mail/u/0/#search/understand+Colombia's+municipal+and+department/QgrcJHsBnjQHLmfCXDlgSGlcfGhKBZlvZRg

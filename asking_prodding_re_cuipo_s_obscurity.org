@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       8034ee58-77dc-4b27-9888-c3890b1f177d
+:END:
+#+title: asking/prodding re. CUIPO's obscurity
+Colombia's various levels of government devote substantial effort to recording how they use public money. The data is quite detailed, and fascinating, providing insights available nowhere else.
+
+That data is supposed to be public. That is, the public should be able to find them, to download them, and to have similar access to documentation that explains them.
+
+Through 2020, government budget data were indeed publicly discoverable and accessible. through a system called SISFUT. Those years are still available at SISFUT, but it is no longer being updated.
+
+Budget data after 2020 is being kept in a new system called CUIPO that is, we believe, insufficiently transparent. We had to bother a number [[right? we asked a number of people even before Juan Camilo responded, let alone before I wrote to the CGR, if I recall correctly.]] of contacts in government merely to find it. (At least one of them told us it did not exist [[right?]].) After some inquiry, Juan Camilo at the Contaduría mercifully provided links[1,2] to the CUIPO data for 2022, hosted at app.powerbi.com.
+
+Our initial explorations suggest that the data look good. But the URLs from which we accessed them are not part of the Colombian government, nor even hosted in this country. More importantly, they appear to be impossible to discover without help from someone within the government. Even after having been given the URLs for 2022, we remain unable (despite much creative use of various search engines) to find the equivalent data for 2021.
+
+Provided one knows the right URL, one can download the data without even signing in, so the data are technically publicly acessible -- but they are not publicly discoverable. Requiring any citizen interested in the budget data to reach out to a public official to find them wastes both peoples' time and unjustly discourages public oversight.
+
+A number of Colombian government websites[3,4,5] are dedicated to the CUIPO data, but none of them (to our knowledge) actually provides a way to access the data. Until they do, the data cannot be considered truly public.
+
+[1] Ingresos CUIPO Diciembre 2022: https://app.powerbi.com/view?r=eyJrIjoiNDI1Y2UzYzItMDY0ZS00NGQxLWE5NTMtYmRhNjIwZDFkNjgyIiwidCI6IjYwYzMyNGFkLTIzMTItNDUwMy04NTA3LTE4OGVlNGZiNDk3YyIsImMiOjR9
+
+[2] Gastos CUIPO Diciembre 2022: https://app.powerbi.com/view?r=eyJrIjoiM2E2ZGQ5N2YtZjFlOC00M2YzLTlmNzAtNTYwNGVhYjEyNTI5IiwidCI6IjYwYzMyNGFkLTIzMTItNDUwMy04NTA3LTE4OGVlNGZiNDk3YyIsImMiOjR9
+
+[3] CUIPO documentation at Fedepapa: https://fedepapa.com/wp-content/uploads/2023/05/Instructivo-cuipo-presupuestal.pdf
+
+[4] CUIPO documentation at CHIP: https://www.chip.gov.co/schip_rt/index.jsf
+
+[5] CUIPO documentation at the Contraloría: https://www.contraloria.gov.co/web/finanzas-publicas/categoria-presupuestal

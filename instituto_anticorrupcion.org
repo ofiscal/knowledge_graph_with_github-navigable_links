@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       41c235a2-3c26-4bfb-8f6c-4477bf9777c5
+:END:
+#+title: Instituto Anticorrupción
+* [[https://github.com/JeffreyBenjaminBrown/secret_org_with_github-navigable_links/blob/master/some_people_at_the_instituto_anticorrupcion.org][some people at the Instituto Anticorrupción]]
+* what they do
+** study causes, effects of corrupcion
+** suggest solutions
+** They have an Observatorio de Justicia e Impunidad.
+* publications
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/best_practices_in_poblic_contracting_by_the_instituto_anticorrupcion.org][best practices in poblic contracting]]
+* They have a way to measure heterogeneity in contracts of a business.
+:PROPERTIES:
+:ID:       f0dfd638-35b9-498c-8420-e239a1042d5c
+:END:

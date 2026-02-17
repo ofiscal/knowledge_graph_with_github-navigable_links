@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       fed9bfe0-7b29-4dce-9367-b78658a8f772
+:END:
+#+title: extending tax.co with quantile data from DIAN
+* TODO the regression uses *(natural) log of yearly* income
+  so to apply them to the microsimulation,
+  first divide by 12, then take the log,
+  then apply the coefficients,
+  then exponentiate (base e).
+* notes
+** imagine ganancias ocasionales taxed at 10%
+   since can't tell in DIAN data
+** maybe generate synthetic households
+   based on the ENPH data, from the DIAN data
+** need income individuals for income taxes
+** use a regression to predict DIAN quantile given an ENPH observation
+   income, no laboral
+   income, labor
+   income, capital
+   income, ganancias ocasionales (total)
+   income, pension
+   income, dividend
+* questions
+** DONE How do unequal income earners split wealth on their tax declarations?
+   like I thought -- hard.
+   Can change the divison each year, arbitrarily.
+** what's the PILA?
+   SS contrib data

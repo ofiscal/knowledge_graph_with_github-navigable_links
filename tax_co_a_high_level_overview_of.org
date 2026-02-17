@@ -1,0 +1,105 @@
+:PROPERTIES:
+:ID:       9019705d-fcda-422e-bc89-88442094ca66
+:END:
+#+title: tax.co, a high-level overview of
+* the law
+  We've had three people work on understanding the tax code -- David Suarez, then Juan Manrique, and lately Daniel and Juan.
+  It's a monster of a job.
+* the raw data
+  ENPH = Encuesta Nacional de Presupuestos de Hogares, por el DANE
+  It's rich, but cleaning it is hard. I've left out a lo of annoying details from this description.
+  Really we ought to be sharing the data, not just our results, as it's silly that others who use the same data have to duplicate so much of my work.
+** buildings (viviendas)
+   where, who's in it, estrato
+** goods consumed
+*** quantity, spending, what was bought, where (tienda, de un vecino, etc.), how (gift, purchase, etc.), frequency
+    COICOP codes
+    "Capitulo C" : menos detalle, para comida (?)
+** people
+*** families
+    We're able to distinguish families, to some extent.
+    Within them we distinguish dependents from independents ("earners").
+*** lots of variables
+**** weight
+     Each family has a "weight" indicating how common a family "like them" is.
+**** not money
+     gender, literate, education, currently a student, skipped 3 meals, disabled,.
+     not race -- it's useless
+**** money, not income
+     pensioned
+     seguro laboral
+     independiente or salaried
+**** income
+     There are 76 different kinds!
+     in-kind and cash
+     beca (private, public)
+     govt income (familias en accion, etc.)
+     sales -- stock, real estate, livestock, vehicles|equipment
+     rent -- land, vehicles|equipment
+     "ganancias ocasionales"
+       donaciones, herencias, gambling, jury awards (indemnizaciones) ...
+     pension
+* built from the data
+** extract taxes from purchases
+   Strangely, the purchase data includes some taxes. We have to track those as taxes, not purchases. The four categories used are predial, vehiculo, renta (de capital, creo), and "otros".
+** associate taxes (VAT, otros) with purchases
+   This relies mostly on the work mapping the VAT that David and Juan M did.
+   We also include a few minor taxes like the the sales tax for restaurant food (?) and the tax on big motorcycles.
+** aggregate purchases within person
+   At this stage we lose the detail about what was bought.
+   If we wanted to analyze purchases, we'd do the reverse -- sum for each type of good across people -- but so far our unit of analysis is the hogar, not the good or service.
+** compute tax-like things
+*** social security contribs
+**** pension, salud, solidaridad, parafiscales, cajas de comp., cesantias + primas
+**** by employer and by employee
+**** differs from independientes and asalariados
+*** income tax
+**** first, compute whether someone would claim a dependent
+     We assume they do it optimally (within what's legal) to save money.
+**** then compute income taxes
+     Most income classes fall into one bucket ("income taxes, main")
+     Dividends are treated differently.
+     Ganancias ocasionales are treated differently.
+     We estimate the GMF.
+** aggregate persons into families
+**** find the earning rank within family
+     actually that came earlier
+**** compute osme aggregate stats
+     min age
+       has >1 child
+     max age
+       has >1 elderly
+     has female
+     has male
+     has literate
+     has student
+     income decile and percentile (99 = richest)
+**** set VAT paid for families in San Andres to 0
+**** compute more stats
+     (total) purchase value
+     vat / purchase value
+     vat / income
+     purchase value / income
+** compute aggregate stats
+*** across groups bigger than families
+    todos
+    by whether the head of household is female or male
+    by income percentile (tambien decil)
+    by geography (dept)
+*** summarize tons of stuff
+    median and mean for most of the variables we've got
+* simulations
+  Are when we change things and see what would happen.
+  The microsim online will let anyone do this soon.
+** other groups we could easily have
+   all-elderly
+   all-female, all-male
+   has-child
+   has-elderly
+   has-female-child
+   has-student
+   nobody-literate
+   rural
+* we assume Cobb-Douglas preferences
+  shape of indifference curves
+  implies the share of spending on good X as a fraction of total spending stays the same

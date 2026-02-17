@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       57cca8b6-56cb-480c-89f4-d30c7990175d
+:END:
+#+title: find unemployment rates as function of gender & age
+* to know
+** if 3 years from retirement age, aforado
+*** labor reform makes it even harder to fire
+* to do
+** unemp rate for women 3 years before & 3 years after being within 3 years of retirement
+*** so age in [51,53] and [54,56] for women
+*** men: 56-58, 59-61
+** construct unemp, which is tricky

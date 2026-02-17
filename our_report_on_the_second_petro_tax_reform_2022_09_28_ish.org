@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       d000cb7c-3f7c-408c-acec-0e330519335a
+:END:
+#+title: our report on the second Petro tax reform, <2022-09-28>-ish
+* the report (Google Doc)
+  https://docs.google.com/document/d/144B-PG2jB8Uku22a6twkZCqY-sHV3cLdNwE8bnnK6Wo/edit
+* last time, we did all changes in one
+** sugar tax + ultraprocesados + income tax
+* this time, run it twice
+** one for healthy taxes
+** the other for income tax
+* government decided not to unite dividends, GO and most income
+** but the rates will change
+* exemption rules are the same as the last proposal
+* will have to incorporate data into the COICOP dict

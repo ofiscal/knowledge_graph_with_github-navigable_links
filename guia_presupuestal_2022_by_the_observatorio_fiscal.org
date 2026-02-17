@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       09717e0a-fb87-4a45-9685-270e6c13cd48
+:END:
+#+title: Guia Presupuestal 2022, by the Observatorio Fiscal
+* refs
+  https://www.ofiscal.org/_files/ugd/e33cdb_05ce91571e02412b8b976c51cacc8c82.pdf
+* RESUME at top of p. 8
+  according to visible page numbers, not the PDF reader's count
+* vocab questions
+** ingresos parafiscales
+* some facts
+** 80% of the budget is inflexible
+   fixed by the constitution or by virtue of being debt
+** important distinction between utilización and inversión
+** 20% goes to debt
+** [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/minhacienda.org][MHCP]] handles funcionamiento, [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/departamento_nacional_de_planeacion.org][DNP]] handles invesrión
+** MHCP proposes, then Congress approves, then President approves, done.

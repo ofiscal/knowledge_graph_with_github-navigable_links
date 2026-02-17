@@ -1,0 +1,46 @@
+:PROPERTIES:
+:ID:       b5b1e9a8-12ab-4f46-8d3a-59202df8a57a
+:END:
+#+title: ofiscal
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/seminar_isabella_weber_umass_2023_12_11_mon_on_seller_s_inflation.org][seminar, Isabella Weber (UMass), <2023-12-11 Mon>, on seller's inflation]]
+* address
+  Cra 7 #40b-36, Piso 7
+  Bogotá, Colombia 110231
+* teléfono
+  +57 601 320 8320
+* accomplishments
+** The Observatorio Fiscal appears to have substantially guided the government's pension reform proposal.
+*** the government's proposal
+    https://www.elespectador.com/economia/macroeconomia/reforma-pensional-los-puntos-concertados-y-sobre-los-que-no-hay-acuerdo/
+*** our suggestion, two weeks earlier
+    https://www.elespectador.com/economia/como-consensuar-la-reforma-pensional-y-que-elementos-debe-tener/
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/some_ofiscal_code.org][some ofiscal code]]
+* [[https://github.com/JeffreyBenjaminBrown/secret_org_with_github-navigable_links/blob/master/ofiscal_budget_history.org][budget history]]
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/ofiscal-todo.org][ofiscal, todo]]
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/some_of_relationships_with_other_entities.org][some OF relationships with other entities]]
+* internally shared content
+** We seem to prefer to use Teams.
+   Go there, and then to "files".
+   There are two teams, green and blue, the latter all-caps.
+   The new one, Oliver's, is blue and all-caps.
+** But there's also an [[https://github.com/JeffreyBenjaminBrown/secret_org_with_github-navigable_links/blob/master/ofiscal_sharepoint_folder.org][ofiscal sharepoint folder]].
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/ofiscal_website.org][ofiscal website]]
+* the ofiscal brand on Google Accounts
+  https://myaccount.google.com/brandaccounts/105238770854355867911/view
+** Alejandro made me an owner of it
+   https://mail.google.com/mail/u/0/?zx=xb759uhvwper#inbox/FMfcgzGpHHNfkJrrwTLxgsNznDdXwxGh
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/how_to_onboard_someone_to_the_tax_co_repositories.org][how to onboard someone to the tax.co* repositories]]
+* our virtual office
+  https://gather.town/preeaif0RiJXfiW6/Obsevatorio%20Fiscal
+* [[https://github.com/JeffreyBenjaminBrown/secret_org_with_github-navigable_links/blob/master/some_ofiscal_relevant_contacts.org][some ofiscal-relevant contacts: people and organizations]]
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/some_ofiscal_relevant_data_sources.org][some ofiscal-relevant data sources]]
+* ofiscal, processes
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/pipeline_for_publication.org][pipeline for publication]]
+* ofiscal, some of our output
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/guia_presupuestal_2022_by_the_observatorio_fiscal.org][Guia Presupuestal 2022, by the Observatorio Fiscal]]
+* some work I did, and an incomplete summary thereof
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/my_work_at_the_observatorio_formal_for_sigep_and_or_the_dian.org][my work at the Observatorio, formal, for SIGEP and/or the DIAN]]
+** [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/my_work_at_the_observatorio_informal_for_the_new_boss.org][my work at the Observatorio: informal, for the new boss]]
+** [[https://github.com/JeffreyBenjaminBrown/public_notes_with_github-navigable_links/blob/master/colombia_2021_tax_expenditures_report_by_the_tax_experts_comission.org][Colombia 2021 Tax Expenditures Report, by the Tax Experts Comission]]
+   I summarized section 4, on the CIT.
+* [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/what_ofiscal_does.org][what we do, and how, and why]]

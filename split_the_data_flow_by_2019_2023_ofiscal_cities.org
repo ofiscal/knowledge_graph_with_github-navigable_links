@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       30310432-6fe1-48ce-8bba-a5c77daf8b74
+:END:
+#+title: Split the data flow by 2019 | 2023 \\ ofiscal / cities
+* requirements
+  That data flow should be a CL parameter.
+  The source data should be similarly bifurcated in the folders,
+  and correspond as closely as possible.
+  Any differences between them can be handled in a separate Makefile
+  that makes the new data look like the old data.
+* DONE serial
+** Make a new branch, "parameterize-by-vintage-of-source-data".
+** Introduce a new command line argument "vintage" to the Makefile.
+** organize the data
+*** Push all source data from data/ to data/2019/.
+*** Define `indata` and `outdata` in Code.common
+    This way, if I ever introduce more structure (e.g. not just vintage)
+    that depends on CL arguments to the paths I'm using,
+    I won't have to change a million paths.
+*** Push all output data from output/ to output/2019/.
+*** Make all paths to that data contingent on the vintage.

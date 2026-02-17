@@ -1,0 +1,39 @@
+:PROPERTIES:
+:ID:       f7022bc3-f91e-402b-b3a1-d1777c9ee366
+:END:
+#+title: a description of the CUIPO data I hope for
+* intent
+  I'm sending this to at least one public official.
+  Saving it here in case I needd to send it to someone else.
+* PITFALL: format problem
+  The text-formatted table in it is pretty wide.
+  Copying the text into most applications will render it unreadable.
+* the description
+Los datos que busco son simples de describir con un ejemplo. Así son los datos de ingreso que tengo del SISFUT para 2020 y cada año anterior (hasta 2013):
+
+| cód dept | dept         | cód muni | muni        |  año | total ingresos | concepto                                |
+|       27 | CHOCÓ        |      0.0 | dept        | 2013 |   1.180129e+11 | Dinero sobrante de\naños anteriores ... |
+|       27 | CHOCÓ        |      0.0 | dept        | 2013 |   6.116390e+10 | Impuestos y otros recursos propios*     |
+|       27 | CHOCÓ        |      0.0 | dept        | 2013 |   2.888300e+11 | Transferencias del Gobierno Nacional    |
+|       25 | CUNDINAMARCA |  25873.0 | VILLAPINZÓN | 2013 |   3.502209e+09 | Dinero sobrante de\naños anteriores ... |
+|       25 | CUNDINAMARCA |  25873.0 | VILLAPINZÓN | 2013 |   3.594864e+09 | Impuestos y otros recursos propios*     |
+|       25 | CUNDINAMARCA |  25873.0 | VILLAPINZÓN | 2013 |   1.249013e+10 | Transferencias del Gobierno Nacional    |
+|       25 | CUNDINAMARCA |  25873.0 | VILLAPINZÓN | 2013 |   1.074284e+09 | Regalías                                |
+
+Y así son los datos de gasto:
+
+| cód dept | dept         | cód muni | muni        |  año | Obligaciones | concepto                                |
+|       27 | CHOCÓ        |      0.0 | dept        | 2013 | 1.675587e+09 | Agropecuario                            |
+|       27 | CHOCÓ        |      0.0 | dept        | 2013 | 8.923996e+07 | Ambiental                               |
+|       27 | CHOCÓ        |      0.0 | dept        | 2013 | 5.322654e+09 | Deporte, recreación, cultura            |
+|       27 | CHOCÓ        |      0.0 | dept        | 2013 | 0.000000e+00 | Dinero sobrante de\naños anteriores ... |
+|       27 | CHOCÓ        |      0.0 | dept        | 2013 | 2.226546e+11 | Educación                               |
+|       25 | CUNDINAMARCA |  25873.0 | VILLAPINZÓN | 2018 | 2.279140e+09 | Salarios de funcionarios                |
+|       25 | CUNDINAMARCA |  25873.0 | VILLAPINZÓN | 2018 | 7.984310e+09 | Salud                                   |
+|       25 | CUNDINAMARCA |  25873.0 | VILLAPINZÓN | 2018 | 3.922161e+08 | Seguridad y justicia                    |
+|       25 | CUNDINAMARCA |  25873.0 | VILLAPINZÓN | 2018 | 1.659943e+09 | Servicios públicos                      |
+|       25 | CUNDINAMARCA |  25873.0 | VILLAPINZÓN | 2018 | 0.000000e+00 | Transferencias del Gobierno Nacional    |
+
+Por falta de espacio, en ambos casos he omitido una columna llamada "Código Concepto", que corresponde a la columna "Concepto".
+
+Para cada municipio y cada departamento, tengo una fila para cada tipo de gasto y cada tipo de ingresos. Busco obtener lo mismo para 2021 y, si la Contraloría los tiene en el mismo formato, para 2022 también.

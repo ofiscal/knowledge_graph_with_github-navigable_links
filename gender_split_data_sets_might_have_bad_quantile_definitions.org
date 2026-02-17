@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       390f47d2-bc82-4509-893d-f7e816f2b624
+:END:
+#+title: gender-split data sets might have bad quantile definitions
+* I define quantiles in the full data set, then divide by gender.
+** Is this what the team wants?
+** Do they know it's what they've got?

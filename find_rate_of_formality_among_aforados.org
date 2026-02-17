@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       b07fd99b-d814-4e43-a6ab-5f5e98af0838
+:END:
+#+title: find rate of formality among aforados
+* first: (2) single parents
+  2. Madres o padres cabeza de familia sin otra alternativa económica, es decir, mujer u hombre con hijos menores de edad, biológicos o adoptivos; hijos inválidos; hijos mayores entre 18 y 25 años que sean estudiantes, o que tengan que atender a otras personas incapacitadas que dependan económicamente y de manera permanente y exclusiva de la madre o el padre, siempre y cuando la pareja se sustraiga del cumplimiento de sus obligaciones y cuyo ingreso familiar corresponda únicamente al salario que devenga. Para ser titular de este beneficio se debe demostrar que se dio aviso previo al empleador.
+* 3. Personas con discapacidad.
+* 4. Mujer en estado de embarazo y hasta los 6 meses después del parto, o su cónyuge, pareja o compañero/a permanente si ella no tiene un empleo formal, y es su beneficiaria en el Sistema de Seguridad Social en Salud.
+* 5. Pre pensionados, es decir, a quienes les falten tres (3) años o menos para cumplir los requisitos para obtener la pensión de vejez.
+* 1. Sindicalistas

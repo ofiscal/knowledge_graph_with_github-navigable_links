@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       76d3185e-bfc4-43c9-ad3b-8560822f9948
+:END:
+#+title: ADACOP
+* refs
+** from Rafael Andres Gonzalez Rivera, <2023-02-03 Fri>. in Outlook
+   Hablé con Luis Gabriel Moreno quien a pesar de que ya no está con CAOBA sigue trabajando con ellos para hacer hacer empalme y me dice que el lunes tiene reunión con CAOBA y tocará el tema a ver si 1) es posible volver a subir el dashboard, 2) ver si es posible colaborar con ustedes en versión 2 de ADACOP. Como te decía, yo tengo acceso al código, pero voy a esperar a que se reúnan, pues es posible que la versión que yo tengo no sea la definitiva. Entre tanto, aquí los trabajos completos de ADACOP:
+  https://repository.javeriana.edu.co/handle/10554/43716
+  https://repository.javeriana.edu.co/handle/10554/43922

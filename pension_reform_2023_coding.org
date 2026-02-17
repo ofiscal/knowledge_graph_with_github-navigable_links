@@ -1,0 +1,66 @@
+:PROPERTIES:
+:ID:       aad4ddf1-a750-4686-b3fc-4f17c48f0f7c
+:ROAM_ALIASES: "coding \ pension reform 2023"
+:END:
+#+title: pension reform 2023 coding
+* TODO
+** make a submodule with cdf code
+** cdf of wages
+*** cdf and pdf really
+*** informal and formal
+    do you contribute to pensions
+** cdf of pension receipts
+* refs
+** the code on Github
+   git@github.com:ofiscal/pension-flows.git
+* to know
+** what percent goes to pensions
+:PROPERTIES:
+:ID:       34187465-0cf4-46d9-bcce-9cb59c40fac6
+:END:
+   see microsim / python/build/ss/schedules.py
+** [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/reported_labor_income_is_what_remains_after_some_contributions.org][Reported labor income is what remains after *some* contributions.]]
+* variables
+** income variables (in the GEIH)
+*** ingresos
+    V1538 = INGLABO in Area_ocupados
+    V1765 = INGLABO in Cabecera_ocupados
+    V2374 = INGLABO in Resto_ocupados
+*** pension contributions
+    V1474 = P6920 in Area_ocupados
+    V1700 = P6920 in Cabecera_ocupados
+    V2309 = P6920 in Resto_ocupados
+**** DONE There are more "are you contributing to a pension" variables.
+     But we will not use them.
+     They are for people who aren't earning labor income,
+     and no variable records how much they contribute.
+*** weight = V345 = fex_c_2011
+*** employee or contractor
+    We'll call values 1, 2 and 5
+    (for some reason that's "a", "b" and "e" in the docs)
+    formal, and the others informal.
+    V1536 = P6430 in Area_ocupados
+    V1763 = P6430 in Cabecera_ocupados
+    V2372 = P6430 in Resto_ocupados
+    V1498 = P7050 in Area_ocupados     -- segundo trabajo
+    V1724 = P7050 in Cabecera_ocupados -- segundo trabajo
+    V2333 = P7050 in Resto_ocupados    -- segundo trabajo
+** weight (statistical) is called "fex_c"
+* pseudocode
+** Make the threshold at which income goes to the private system a CL arg.
+** Compute "income below private pension threshold".
+   = min ( formal labor income
+         , threshold )
+** Compute "income above private pension threshold".
+   = formal labor income - income below private pension threshold
+** Compute "public pension contribution".
+** Compute "private pension contribution".
+** Compute weighted sums for public and private contributions.
+* nah
+** justify dropping the duplicate weights
+   I checked, I just didn't formalize the check.
+   But also this should be obvious --
+   it would make no sense for one individual to have
+   more than one statistical weight.
+   (df["weight_otros"] - df["weight_ocup"]) . describe()
+   (df["weight_cg"] - df["weight_ocup"]) . describe()

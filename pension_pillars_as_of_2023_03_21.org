@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       bbcba762-5b4a-462b-9ada-267482bb3a3e
+:END:
+#+title: pension pillars as of 2023-03-21
+= per the government's proposal as of 2023-03-21
+* pilar solidario = 223k to poor pensionless old people
+* pilar semicontributivo = for people who
+  earn less than 1 min wage (hence don't contribute)
+  or
+  contributed but didn't accumulate enough weeks
+* pilar contributivo : all formal workers contribute, only people who get enough weeks enjoy
+  two components
+** componente de prima media : money under 3 sm
+*** 1% -> admin
+*** 2% -> seguro
+*** 13% -> Colpensiones
+**** 80% -> payouts
+**** 20% -> fondo de ahorro del pilar contributivo
+     which also gets oney from the ther component
+** componente de ahorro individual : money above 3 sm
+*** 0.5% -> admin
+*** 2% -> seguro
+*** 12.5% -> cuenta de ahorro individual
+*** 1% -> fondo de ahorro del pilar contributivo
+     which also gets oney from the ther component
+* pilar de ahorro voluntario

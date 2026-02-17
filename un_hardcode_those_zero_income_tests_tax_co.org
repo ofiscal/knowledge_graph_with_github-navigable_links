@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       6cfbd409-c45a-46f9-b25a-9d33f8f2971b
+:END:
+#+title: un-hardcode those zero-income tests \ tax.co
+* There are more!
+** python/build/people_4_post_households.py
+   earners["share"] = np.where (
+     earners["income, household"] <= 200,
+     ...
+** python/build/people_4_post_households_test.py
+   ptemp = ( # To make sure none of the ratios is infinite.
+     ptemp [ ( ptemp [ "income" ] > 2 ) &
+	     ( ptemp [ "value, purchase" ] > 0 ) ] )

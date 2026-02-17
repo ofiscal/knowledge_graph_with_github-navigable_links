@@ -1,0 +1,93 @@
+:PROPERTIES:
+:ID:       7971c41c-a733-4e13-8207-8664b75b39b7
+:END:
+#+title: graph changes in tax burden by decile in tax.co.web
+* How to draw.
+:PROPERTIES:
+:ID:       be19a110-46de-46aa-9a1e-87e2f54c48a6
+:END:
+** draw arrows, red for up, green for down
+:PROPERTIES:
+:ID:       bf27d9d3-3dc0-418f-8a32-322d65c0dc93
+:END:
+   See
+     arrows_on_bars()
+   in
+     python/draw/examples.py
+** to draw paired bar charts, like
+   we did in the `cities` repo
+   ~/of/_old/cities/Code/draw/chart/pairs.py
+* DONE [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/create_a_new_total_tax_variable.org][Create a new total tax variable.]]
+* DONE Make a baseline every time.
+:PROPERTIES:
+:ID:       b8f2e47c-a378-439b-8836-769065fb41be
+:END:
+** Bear in mind that because [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/document_the_microsimulation.org#the-iva-buckets-are-approximate][the IVA buckets are approximate]], the baseline is approximate.
+** DONE Don't modify the Makefile, but create a new user.
+   Call the user "baseline" (no ampersand needed).
+   Check user/baseline/ into git.
+   In run-makefile.py, first run on baseline,
+   then on the current user.
+** NOPE functionalize `run-makefile.py`
+*** purpose
+    so that it can [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/graph_changes_in_tax_burden_by_decile.org#done-every-time-in-run-makefile-build-two-users][build multiple users]]
+    without a lot of redundant code.
+*** why I decided not to
+    It's easier to just run run-makefile twice,
+    first passing it the baseline user config.
+    That means I'll have to make the
+    [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/graph_changes_in_tax_burden_by_decile.org#run-makefile-should-only-make-the-compare-target-if][targets in run-makefile depend on whether the email is "baseline"]],
+    but that's worth it --
+    the alternative is for one common.py file to refer to another,
+    and I have no idea how to do that.
+** DONE "Every time" in run-makefile, build two "users".
+:PROPERTIES:
+:ID:       a0b67b1d-225a-4174-ba68-9c4d2727b927
+:END:
+   i.e. the baseline "user" and the actual user.
+   The baseline user's config should use the full sample.
+   That's affordable because it won't actually run every time --
+   it will only build the baseline user when the code changes.
+* DONE [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/graph_changes_in_tax_burden_by_decile.org#how-to-draw][Draw]] something that compares to the baseline.
+** This should be a separate makefile target. "compare".
+   That way I can avoid running it for the baseline user.
+   (It wouldn't be terrible if it did,
+   but it might be confusing for later coders.)
+** run-makefile should only make the "compare" target if
+:PROPERTIES:
+:ID:       43b09662-09e3-463e-814e-581d168681f5
+:END:
+   the user_email is not "baseline".
+** Compare the full-sample baseline results to the current user's.
+   Do that even if the current user is using another subsample.
+   It can only help.
+* DONE BUG: Comparison comes up empty.
+  Look at high-tax-user, low-tax-user and baseline.
+** DONE compare final data sets
+   from which the pictures are drawn
+*** they do in fact appear to be equal on the "tax" row
+** DONE people_3 seems good
+   Only income tax, not VAT, is defined there,
+   but it differs across the three users as expected.
+** DONE people_4 and households_2
+*** "tax, income, most" seems good
+    differs across the three users as expected.
+*** "vat paid" seems good
+    differs across the three users as expected.
+** DONE report/compare_test.py
+   Testing compare() with fake data,
+   it works.
+** DONE test the summary data tables created in report.var_summaries_by_group
+   Even for this data (!),
+   the means for "one" and "income-decile: 0" look good.
+** AHA !! getBaselineData is buggy
+*** these should not fetch the same data (unless the user is baseline), but they do
+    user      = oio.readUserData (
+      com.subsample,
+      "report_" + unit + "." + com.strategy_year_suffix )
+
+    baseline  = oio.readBaselineData (
+      com.subsample,
+      "report_" + unit + "." + com.strategy_year_suffix )
+** test tabulate_stats_by_group()
+   It's used in python.report.var_summaries_by_group

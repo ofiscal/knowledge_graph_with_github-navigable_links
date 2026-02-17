@@ -1,0 +1,48 @@
+:PROPERTIES:
+:ID:       da9fe607-708e-4d46-ac95-a2d9fb7a18ce
+:END:
+#+title: inferring formal labor income from the MPDM
+* asking : how to use [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/aborted_inferring_formal_labor_income_from_the_mpdm.org#the-qualitative-variables][the qualitative variables]] to get formal income
+  https://mail.google.com/mail/u/0/#sent/KtbxLrjdwlxKNLrJDRTMKtbtrzjbbtjhXV
+* choosing income variables in the [[https://github.com/JeffreyBenjaminBrown/knowledge_graph_with_github-navigable_links/blob/master/medicion_de_pobreza_monetaria_colombian_economic_survey.org][MPMD]]
+** RESUME in documentation if needed
+   After V480 (see below)
+  -- but hopefully not;
+  it was Daniel's idea nad looks good to me.
+** candidates
+*** TODO Personas V479 and V480: primary and secondary activity income
+**** filtered by V391 and V440: what those activities are
+**** the COP-valued variables
+***** V479 : Ingreso monetario de la primera actividad antes de imputación
+***** V480 : Ingreso monetario de la segunda actividad antes de imputación
+**** the qualitative variables
+:PROPERTIES:
+:ID:       e2501d6b-3f28-4633-b2db-f55c6fd61315
+:END:
+***** V391 : En este trabajo.....es:
+      a. Obrero o empleado de empresa particular
+      b. Obrero o empleado del gobierno
+      c. Empleado doméstico
+      d. Trabajador por cuenta propia
+      e. Patrón o empleador
+      f. Trabajador familiar sin remuneración
+      g. Trabajador sin remuneración en empresas o negocios de otros hogares
+      h. Jornalero o peón
+      i. Otro,
+***** V440 : En ese segundo trabajo.....es:
+      a. Obrero o empleado de empresa particular
+      b. Obrero o empleado del gobierno
+      c. Empleado doméstico
+      d. Trabajador por cuenta propia
+      e. Patrón o empleador
+      f. Trabajador familiar sin remuneración
+      g. Trabajador sin remuneración en empresas o negocios de otros hogares
+      h. Jornalero o peón
+      i. Otro,
+*** V362: income before rent
+    Ingreso total de la unidad de
+gasto antes de imputación de
+arriendo a propietarios y
+usufructuarios
+*** V452: work income ("desocupados"?)
+*** V454: same as V452?

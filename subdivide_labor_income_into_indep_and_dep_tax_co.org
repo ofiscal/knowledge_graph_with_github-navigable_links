@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       3560284a-36d4-465d-836a-4d47d44c21ec
+:END:
+#+title: subdivide "labor income" into "indep" and "dep" \ tax.co
+Report all three.
+* verbose instructions
+  Report P6750 ("labor income, independent",
+  "labor income" (which includes it),
+  and their difference (called "labor income, dependent").
